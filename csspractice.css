@@ -1,0 +1,62 @@
+body {
+    text-align: left;
+    background-color: goldenrod;
+}
+
+#minyeonImage {
+    text-align: center;
+    float: center;
+    align-self: center;
+    border-style: dotted solid double dashed;
+}
+
+#textlist {
+    font-size: 20px;
+    font-family: STXingkai;
+    font-style: italic;
+}
+
+#minyeonVideo {
+    margin: 5px;
+    text-align: left;
+    float: center;
+    align-self: center;
+    background-color: white;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.pictureMinyeon {
+    float: center;
+    width: 400px;
+    height: 380px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+#chenbin {
+    text-align: center;
+}
+
+video {
+    width: 600px;
+    height: 400px;
+}
+
+img {
+    width: 250px;
+    height: 400px;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
