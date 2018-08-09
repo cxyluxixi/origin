@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>JS</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<style> 
+		</style> 
+	</head> 
+	<body> 
+		<p>
+	        <b>习题集</b>
+	    </p>
+		<script>
+			//JS L11.2
+			//操作题：动手试一试建立一个日期对象，并将当前日期输出出来
+			var nowDate=new Date();
+			nowDate.setFullYear(2018);//此处根据当日日期修改
+			document.write(nowDate);
+
+            //JS L11.6 阶段测试
+            function airplane(model,producing_area,shipping_meter){
+            	this.model=model;
+            	this.producing_area=producing_area;
+            	this.shipping_meter=shipping_meter;
+            
+                this.shippingTip=shippingTip;
+                function shippingTip(nowshipping_meter){
+                	this.shipping_meter=nowshipping_meter;
+                	if(this.shipping_meter<3000){
+                		alert("低航程");
+                	}
+                	if(this.shipping_meter>=3000&&this.shipping_meter<=8000){
+                		alert("中航程");
+                	}
+                	if(this.shipping_meter>8000){
+                		alert("超长航程");
+                	}
+                }
+            	}
+            var myAirplane=new airplane("Boeing747","America",8000);//数字有改动
+            alert(myAirplane.model+"的产地是"+myAirplane.producing_area);
+            myAirplane.shippingTip(400);//数字有改动
+
+
+		</script>
+	</body> 
+</html>
