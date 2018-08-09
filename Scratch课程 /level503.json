@@ -1,0 +1,2218 @@
+{
+    "1": [
+        {
+            "img": "https://static1.bcjiaoyu.com/cdad9ba3ff71111d226982c2c0a5559c_q.png-240x240"
+        },
+        {
+            "action": "哈哈，快开始吧",
+            "chapter": 1,
+            "grow_number": 4,
+            "message": "打开这一节，只想给热爱学习的你点赞",
+            "zuan_number": 0
+        },
+        {
+            "action": "坐火车我知道",
+            "chapter": 2,
+            "grow_number": 7,
+            "message": "先来看看，我们去火车时，是先做什么，后做什么",
+            "zuan_number": 1
+        },
+        {
+            "action": [
+                {
+                    "content": "1",
+                    "type": "text"
+                },
+                {
+                    "content": "2",
+                    "type": "text"
+                },
+                {
+                    "content": "3",
+                    "type": "text"
+                },
+                {
+                    "content": "4",
+                    "type": "text"
+                }
+            ],
+            "answer": [
+                2,
+                1,
+                3,
+                4
+            ],
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 4,
+                    "grow_number": 6,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/75e6513c78d488eff4a2a54b61e43a58_t.jpeg-490x331"
+            ],
+            "message": "请你排列一下坐火车的正确顺序",
+            "options": [
+                {
+                    "content": "1",
+                    "imgs": [],
+                    "message": "买票进站"
+                },
+                {
+                    "content": "2",
+                    "imgs": [],
+                    "message": "搞清楚自己要去哪，坐哪趟车"
+                },
+                {
+                    "content": "3",
+                    "imgs": [],
+                    "message": "进站之后，走到候车的地方等候"
+                },
+                {
+                    "content": "4",
+                    "imgs": [],
+                    "message": "排队上车，到站下车"
+                }
+            ],
+            "tag": "1-1",
+            "type": "sequenceProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 3,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": "说的我都饿了",
+            "chapter": 5,
+            "grow_number": 7,
+            "message": "再比如，我们去餐厅吃饭",
+            "zuan_number": 0
+        },
+        {
+            "action": [
+                {
+                    "content": "1",
+                    "type": "text"
+                },
+                {
+                    "content": "2",
+                    "type": "text"
+                },
+                {
+                    "content": "3",
+                    "type": "text"
+                },
+                {
+                    "content": "4",
+                    "type": "text"
+                }
+            ],
+            "answer": [
+                4,
+                2,
+                1,
+                3
+            ],
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 7,
+                    "grow_number": 8,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/bc5ebb26620c76804ecb104d3678d7ab_s.png-519x343"
+            ],
+            "message": "请你排列一下去餐厅吃饭的正确顺序",
+            "options": [
+                {
+                    "content": "1",
+                    "imgs": [],
+                    "message": "等待上菜"
+                },
+                {
+                    "content": "2",
+                    "imgs": [],
+                    "message": "点餐"
+                },
+                {
+                    "content": "3",
+                    "imgs": [],
+                    "message": "开吃"
+                },
+                {
+                    "content": "4",
+                    "imgs": [],
+                    "message": "去餐厅"
+                }
+            ],
+            "tag": "1-2",
+            "type": "sequenceProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 6,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": "是啊，都有顺序",
+            "chapter": 8,
+            "grow_number": 7,
+            "message": "上面这些事情，我们都需要按照一定的顺序，先做什么后做什么",
+            "zuan_number": 0
+        },
+        {
+            "action": "哈哈，要有先后顺序",
+            "chapter": 9,
+            "grow_number": 6,
+            "message": "如果顺序错了，就无法完成它，你不可能不买票就进站，也不能不点餐就开始吃。",
+            "zuan_number": 1
+        },
+        {
+            "message": "程序里也有先后顺序。举个例子"
+        },
+        {
+            "action": "举个例子。。。",
+            "chapter": 10,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/11b310c12555bd673c42de1230063e86_d.png-304x295",
+            "zuan_number": 1
+        },
+        {
+            "action": "嗯嗯",
+            "chapter": 11,
+            "grow_number": 4,
+            "message": "Scratch中我们的程序是从上往下运行的，也就是说放在上面的功能块会先运行。",
+            "zuan_number": 0
+        },
+        {
+            "message": "比较一下，下面两个脚本的程序"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/a29e68de2e42d44ea1025f30ccbf5abe_i.png-284x380"
+        },
+        {
+            "action": "好长啊，慢慢来",
+            "chapter": 12,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/2f3019645ffb6a5db33b208ff12ddd90_b.gif-601x492",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/3f83a6b70c2101a6a24c2fb459bef953_z.png-306x393"
+        },
+        {
+            "action": "紫色块发生了变化",
+            "chapter": 13,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/4b4da91ebe854204a33f43db7bd0f3d7_y.gif-601x492",
+            "zuan_number": 0
+        },
+        {
+            "action": "嗯嗯，是这样的",
+            "chapter": 14,
+            "grow_number": 4,
+            "message": "是的。紫色块在第一个程序里最后才会执行，在第二个里会最先执行。",
+            "zuan_number": 0
+        },
+        {
+            "action": "好的，记住了",
+            "chapter": 15,
+            "grow_number": 8,
+            "message": "因为程序总是从上往下运行，所以在安排功能块时，一定要思考清楚哪个先放，哪个后放。",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/ac4724144ab99defd98e94cab321a83f_p.jpg-240x240"
+        },
+        {
+            "action": "好的OK",
+            "chapter": 16,
+            "grow_number": 6,
+            "message": "那我们就来做一个“小猫漫步”吧，让小猫按照一定的路线移动。",
+            "zuan_number": 1
+        },
+        {
+            "message": "首先，我们使用一个雪地的主题背景。"
+        },
+        {
+            "action": "OK",
+            "chapter": 17,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/5a7a87381ce747657de0bc5137bbb94f_z.png-737x661",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后按照图中，创建脚本程序。功能块有点多喔，慢慢来啊"
+        },
+        {
+            "action": "好复杂的样子。。",
+            "chapter": 18,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/9cc031b805123708435f714a9e42a5be_t.png-687x538",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后运行一下"
+        },
+        {
+            "action": "好复杂的样子。。",
+            "chapter": 19,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/4ac8a26baf67633fdc3f2f81b0c291f0_n.gif-601x492",
+            "zuan_number": 1
+        },
+        {
+            "action": "好长，不过完成啦",
+            "chapter": 20,
+            "grow_number": 4,
+            "message": "很多都是重复的，只是数值不同，仔细点就好啦",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/d15e2a7247ff89bdd532547c7e3037fa_r.png-255x255"
+        },
+        {
+            "action": "运行瞧瞧看～",
+            "chapter": 21,
+            "grow_number": 6,
+            "message": "真诚的为你鼓掌。让我们点击小绿旗运行看看吧",
+            "zuan_number": 1
+        },
+        {
+            "action": "耶，完美",
+            "chapter": 22,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/d8340c38708b8e49d1464a2f4d43026d_s.png-441x477",
+            "zuan_number": 0
+        },
+        {
+            "message": "好的，再来一个，多加练习"
+        },
+        {
+            "action": "好的，明白了",
+            "chapter": 23,
+            "grow_number": 6,
+            "message": "让小猫不断移动到随机位置，每次都切换造型，并说Hello",
+            "zuan_number": 1
+        },
+        {
+            "action": "哈哈，又见神器",
+            "chapter": 24,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/4498bdc489aef1f1942929af8e1e0530_x.png-304x413",
+            "zuan_number": 1
+        },
+        {
+            "message": "再来一个，潜水员抓螃蟹。请选择背景图"
+        },
+        {
+            "action": "背景选好了",
+            "chapter": 25,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/13f88e88c77cb6fb46bc29a8e364b3f8_y.png-907x573",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后分别是潜水员和螃蟹的脚本"
+        },
+        {
+            "action": "潜水员的程序完成！",
+            "chapter": 26,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/5f29ea774472a74e07de6373f9e81710_i.png-500x528",
+            "zuan_number": 1
+        },
+        {
+            "action": "也完成了！！",
+            "chapter": 27,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/8d4864663cf37ccbacbe3ebd4effce83_m.png-498x548",
+            "zuan_number": 1
+        },
+        {
+            "message": "点击小绿旗运行后，潜水员就会一直追着螃蟹， 而且螃蟹每次都马上跑走，哈哈"
+        },
+        {
+            "action": "是的",
+            "chapter": 28,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/a8adda91a3dedfb320e91137c8beff40_m.gif-601x492",
+            "zuan_number": 1
+        },
+        {
+            "action": "哈哈，狡猾的螃蟹。",
+            "chapter": 29,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/278dff03fa697853f9b9d0f7b2c6d714_o.jpg-300x300",
+            "zuan_number": 0
+        },
+        {
+            "action": "好的",
+            "chapter": 30,
+            "grow_number": 6,
+            "message": "嗯嗯，你可以自己编故事，比如小狗回家，朋友见面打招呼，等等。",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c3cc0791748f9a8ed36c5f8afa7c74c4_a.png-240x240"
+        },
+        {
+            "message": "轻轻松松结束一节"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 31,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "2": [
+        {
+            "message": "你好，上午下午晚上好，这一节我们来学习让程序重复运行。"
+        },
+        {
+            "action": "之前学过",
+            "chapter": 1,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/58dc4af70a8dab37ed511c536488d5bc_n.png-240x240",
+            "zuan_number": 2
+        },
+        {
+            "action": "好啊好啊",
+            "chapter": 2,
+            "grow_number": 7,
+            "message": "是的， 之前我们使用过“重复执行”，这一节我们将了解其他的“重复执行”",
+            "zuan_number": 1
+        },
+        {
+            "action": "哇！",
+            "chapter": 3,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/191ec48c12b25f2240a894008c9bdf09_r.png-397x710",
+            "zuan_number": 2
+        },
+        {
+            "action": "OK，好的",
+            "chapter": 4,
+            "grow_number": 8,
+            "message": "这一节，我们主要了解第一个红色方框里面的两个",
+            "zuan_number": 2
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/ec0f991c37538b6cc72f6fc56b29d09e_t.jpg-240x240"
+        },
+        {
+            "action": "仿佛停不下来，哈哈",
+            "chapter": 5,
+            "grow_number": 8,
+            "message": "“重复执行”就是让程序一直重复。除非我们点击小绿旗旁边的红色按钮，才会停止",
+            "zuan_number": 2
+        },
+        {
+            "action": "原来如此。。。",
+            "chapter": 6,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/5c86d488fc97971ba2be7273a862b408_z.png-641x626",
+            "zuan_number": 2
+        },
+        {
+            "message": "使用“重复执行多少次”，程序会在循环执行一定次数之后，自动停止。"
+        },
+        {
+            "action": "嗯嗯，是的呢",
+            "chapter": 7,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/ca1703352df29e9f50d109dcbb406f27_n.png-661x628",
+            "zuan_number": 1
+        },
+        {
+            "action": "了解。。。",
+            "chapter": 8,
+            "grow_number": 9,
+            "message": "所以我们可以根据需要，使用不同的”重复执行“功能块。",
+            "zuan_number": 2
+        },
+        {
+            "message": "一定要注意，把要重复执行的功能块要放在“重复执行”模块的里面包住。"
+        },
+        {
+            "action": "知道了知道了",
+            "chapter": 9,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/ccdd74e300769e0229daeab675d3dcb5_g.png-424x406",
+            "zuan_number": 2
+        },
+        {
+            "action": "好的，开始吧",
+            "chapter": 10,
+            "grow_number": 10,
+            "message": "好的，我们来使用它们编写程序吧。",
+            "zuan_number": 2
+        },
+        {
+            "action": "哈哈",
+            "chapter": 11,
+            "grow_number": 9,
+            "message": "第一步永远是添加角色和背景",
+            "zuan_number": 2
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b02a76bf4a4450edaa11e741555dcf2f_l.png-913x509"
+        },
+        {
+            "action": "OK，顺利找到",
+            "chapter": 12,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/1976833682236c025c676dbffb380f11_m.png-830x568",
+            "zuan_number": 2
+        },
+        {
+            "message": "然后我们让小刺猬在舞台不停的走动。"
+        },
+        {
+            "action": "请开始你的表演。",
+            "chapter": 13,
+            "grow_number": 9,
+            "message": "但是这次我们使用动作模块的“碰到边缘就反弹”。",
+            "zuan_number": 1
+        },
+        {
+            "message": "请编写图中的脚本程序"
+        },
+        {
+            "action": "已完成",
+            "chapter": 14,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/1536345f227e1fb25ddeb9bb02b7fcce_r.png-451x536",
+            "zuan_number": 2
+        },
+        {
+            "message": "运行，看看会发生什么"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/a13f189ee01684c7c3157e5b7665daad_m.gif-601x492"
+        },
+        {
+            "action": "永不停止的走来走去",
+            "chapter": 15,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/825ecae44f6086f4241db5aa036f8669_u.jpg-240x231",
+            "zuan_number": 1
+        },
+        {
+            "message": "我们的小刺猬在下面绿色的区域一直走来走去。"
+        },
+        {
+            "action": "哈哈，懂了。",
+            "chapter": 16,
+            "grow_number": 7,
+            "message": "刺猬朝一个方向走，直到碰到舞台边缘，它就会掉头，朝反方向走。",
+            "zuan_number": 1
+        },
+        {
+            "action": "没问题！",
+            "chapter": 17,
+            "grow_number": 8,
+            "message": "这就是“碰到边缘就反弹”功能。然后我们来练习一下吧。",
+            "zuan_number": 2
+        },
+        {
+            "message": "请按照图中添加角色和背景"
+        },
+        {
+            "action": "OK",
+            "chapter": 18,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/3b3ed62e7ae5af7d443625d4a268c172_f.png-429x641",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后给角色添加脚本。"
+        },
+        {
+            "action": "添加完成，嘿嘿",
+            "chapter": 19,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/b8ed1d5d3bf9c0d6c5ea8e1b8b653d2c_i.png-543x614",
+            "zuan_number": 2
+        },
+        {
+            "action": "哇，比之前的难啊",
+            "chapter": 20,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/78413d7745634f9cc07a743e6430537e_e.png-546x560",
+            "zuan_number": 1
+        },
+        {
+            "message": "那肯定啊，谁让你这么厉害呢"
+        },
+        {
+            "message": "运行之后，刺猬就会边移动边换造型了，而且碰到边缘会掉头喔"
+        },
+        {
+            "action": "嗯嗯，是的",
+            "chapter": 21,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/d5a3f2c0913fee0d01ff5802c8e179ee_v.gif-601x492",
+            "zuan_number": 2
+        },
+        {
+            "action": "是的是的～～",
+            "chapter": 22,
+            "grow_number": 5,
+            "message": "我们蝙蝠则会一直追逐小刺猬。",
+            "zuan_number": 1
+        },
+        {
+            "message": "明白就好，这一节我们就学到这里啦。"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 23,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "3": [
+        {
+            "message": "鼓掌，欢迎你继续学习。"
+        },
+        {
+            "action": "我最可爱",
+            "chapter": 1,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/b751efd0aee4105709eed38bfd1675b5_x.jpg-240x240",
+            "zuan_number": 0
+        },
+        {
+            "action": "什么鬼？",
+            "chapter": 2,
+            "grow_number": 5,
+            "message": "所以这一节我们要给可爱的你讲的是”如果，，，那么，，，“功能块。",
+            "zuan_number": 0
+        },
+        {
+            "message": "就是如果怎么怎么样，那么就怎么怎么样。。。。"
+        },
+        {
+            "action": "能不能演示一下",
+            "chapter": 3,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/f5e9d1752e2f740e08095571f4bba1c8_v.png-240x240",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/7fd6121781221c1974584afee1caafc7_d.png-313x625"
+        },
+        {
+            "action": "找到了",
+            "chapter": 4,
+            "grow_number": 3,
+            "message": "你找到它们了吗？",
+            "zuan_number": 1
+        },
+        {
+            "action": "what？",
+            "chapter": 5,
+            "grow_number": 6,
+            "message": "你应该发现了“如果”后面有个空，这就需要了解一下侦测模块。",
+            "zuan_number": 1
+        },
+        {
+            "action": "我发现了",
+            "chapter": 6,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/297ddf8718a17645a8987df1235fc642_a.png-314x378",
+            "zuan_number": 0
+        },
+        {
+            "action": "原来是这个意思",
+            "chapter": 7,
+            "grow_number": 3,
+            "message": "侦测也就是用来判断是不是发生什么。比如是不是按下了空格键，是不是碰到了什么",
+            "zuan_number": 1
+        },
+        {
+            "message": "侦测模块在这儿！"
+        },
+        {
+            "action": "找到了",
+            "chapter": 8,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/37882d9a383b96ce6112f54a3aa0fe9a_i.png-372x593",
+            "zuan_number": 0
+        },
+        {
+            "message": "那个六边形的空儿里，就是要放这些侦测模块的。"
+        },
+        {
+            "action": "没懂你在说什么",
+            "chapter": 9,
+            "grow_number": 5,
+            "message": "这样就可以根据是否发生了什么，来判断应该执行什么",
+            "zuan_number": 0
+        },
+        {
+            "message": "下面就来给你好好解释一下，它们是如何一起运行的"
+        },
+        {
+            "action": "似懂非懂",
+            "chapter": 10,
+            "grow_number": 3,
+            "link": "https://static1.bcjiaoyu.com/831157b03509629fe8c1876435cec344_y.html",
+            "message": "点击阅读大段文本",
+            "zuan_number": 1
+        },
+        {
+            "message": "举个例子你就知道了"
+        },
+        {
+            "action": "好的，编写编写",
+            "chapter": 11,
+            "grow_number": 4,
+            "message": "请看图，先给小猫添加图中的程序",
+            "zuan_number": 1
+        },
+        {
+            "message": "先编写第一个脚本程序，如图"
+        },
+        {
+            "action": "这个简单，完成啦",
+            "chapter": 12,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/645458ffc1716195465639636874dfbe_j.png-437x328",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后是第二个脚本。"
+        },
+        {
+            "action": "好复杂的样子。。。",
+            "chapter": 13,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/7a47b7ee2c5b8f2c7c4ca68ecd30aa94_x.png-765x616",
+            "zuan_number": 0
+        },
+        {
+            "message": "哈哈，分解开来，我们可以先创建好“如果那么”板块。看图"
+        },
+        {
+            "action": "嗯嗯，这个我会",
+            "chapter": 14,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/bd365daa8357296672f1b3e2364ce1be_s.png-651x361",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后把“如果那么”板块放进“重复执行”里"
+        },
+        {
+            "action": "哇，分解就不难了",
+            "chapter": 15,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/8732b2efc7dc4279e077ce24d5ac90a6_i.png-487x383",
+            "zuan_number": 0
+        },
+        {
+            "message": "嗯嗯，然后我们点击小绿旗，这两个脚本都会被启动。"
+        },
+        {
+            "action": "嗯嗯，这个我懂。",
+            "chapter": 16,
+            "grow_number": 3,
+            "message": "其中脚本1 会一直运行，也就是说小猫会不断的滑动到舞台的随机位置。",
+            "zuan_number": 1
+        },
+        {
+            "action": "",
+            "chapter": 17,
+            "grow_number": 3,
+            "message": "脚本2也会一直进行运行，也就是说它会一直判断“空格键是否按下”。",
+            "zuan_number": 0
+        },
+        {
+            "action": "紫色块会执行吗",
+            "chapter": 18,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/f47744aec297140f8c8bda4855b5e0f9_w.png-325x320",
+            "zuan_number": 1
+        },
+        {
+            "message": "只有当按下空格键是，“那么”下面的紫色块才会执行。"
+        },
+        {
+            "action": "原来如此。",
+            "chapter": 19,
+            "grow_number": 5,
+            "message": "只要没有按下空格键，紫色块就不会执行，会直接跳过它。",
+            "zuan_number": 1
+        },
+        {
+            "message": "嗯嗯，我再给你一个例子，加深一下理解。"
+        },
+        {
+            "action": "我来试试看",
+            "chapter": 20,
+            "grow_number": 3,
+            "message": "按照图中的程序，什么时候会执行“在1秒内滑动到随机位置”？",
+            "zuan_number": 1
+        },
+        {
+            "action": "当碰到鼠标指针时",
+            "chapter": 21,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/4440dc43dd1621e9edd9515fe45384cc_e.png-305x255",
+            "zuan_number": 0
+        },
+        {
+            "action": "名字好长。。。",
+            "chapter": 22,
+            "grow_number": 4,
+            "message": "非常好，我们接下来学习“如果，那么，否则，“",
+            "zuan_number": 1
+        },
+        {
+            "message": "哈哈哈，的确，不过它特别好用喔，快来了解一下吧"
+        },
+        {
+            "action": "找到了找到了",
+            "chapter": 23,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/aa806c1da20924a38f6ea762d52594f6_p.png-377x693",
+            "zuan_number": 0
+        },
+        {
+            "action": "它们的功能一样吗",
+            "chapter": 24,
+            "grow_number": 6,
+            "message": "这个新的功能就是多加了一个”否则“",
+            "zuan_number": 1
+        },
+        {
+            "message": "它们的功能很相似，但是也有不同。"
+        },
+        {
+            "action": "嗯嗯",
+            "chapter": 25,
+            "grow_number": 6,
+            "message": "前面我们刚学的是当”如果“后面的事件发生了，就会执行”那么“后面的程序。",
+            "zuan_number": 1
+        },
+        {
+            "action": "这是“如果，那么”。",
+            "chapter": 26,
+            "grow_number": 5,
+            "message": "当“如果”后面的事件没有发生的时候，就不执行“那么”后面的程序，直接跳过它。",
+            "zuan_number": 0
+        },
+        {
+            "action": "这个我知道啊",
+            "chapter": 27,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/0d018a186aac5e771480e0a3b4fab653_f.png-240x240",
+            "zuan_number": 1
+        },
+        {
+            "message": "多了“否则”部分后，当“如果”后面的事件没有发生时，程序就会跳过“那么”，直接执行“否则”后面的部分"
+        },
+        {
+            "action": "原来如此",
+            "chapter": 28,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/729edbe4866f72979e50414642ccd710_i.png-469x629",
+            "zuan_number": 1
+        },
+        {
+            "message": "我们编写脚本，运用一下就知道了"
+        },
+        {
+            "action": "编写好了",
+            "chapter": 29,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/bbdeaa6cafc3f852970d05d09326e529_f.png-400x437",
+            "zuan_number": 1
+        },
+        {
+            "message": "点击小绿旗运行程序，我们会发现角色一直走来走去"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/83afc909506e0998e048a22659a440bf_w.gif-601x492"
+        },
+        {
+            "action": "嗯嗯，是这样的",
+            "chapter": 30,
+            "codeQuestion": true,
+            "grow_number": 5,
+            "message": "当我们按下空格键时，角色会停止移动，并说Hello两秒，然后又开始不断的移动。",
+            "udid": "8a6818f6-7223-4f4a-9cf1-8044ef8372e8",
+            "zuan_number": 0
+        },
+        {
+            "action": "嗯。。。",
+            "chapter": 31,
+            "grow_number": 4,
+            "message": "这就是说，如果没有按下空格键，程序就会直接跳过“说Hello 2秒”。",
+            "zuan_number": 1
+        },
+        {
+            "action": "这个我明白了",
+            "chapter": 32,
+            "grow_number": 5,
+            "message": "直接运行“否则”后面部分，并不断地重新判断是否按下空格键",
+            "zuan_number": 1
+        },
+        {
+            "action": "终于看懂了",
+            "chapter": 33,
+            "grow_number": 3,
+            "message": "一旦判断按下了空格键，程序就会执行“那么”后面的“说Hello 2秒”，然后跳过“否则”后面的部分。",
+            "zuan_number": 0
+        },
+        {
+            "action": "这下我都明白了",
+            "chapter": 34,
+            "grow_number": 5,
+            "message": "就这样根据“如果”后面的事件是否发生，来选择执行“那么”部分，还是执行“否则”部分",
+            "zuan_number": 1
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "C",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 36,
+                    "grow_number": 3,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/cbd8eb28561d7bc71d67e9a64b05b6cb_o.png-402x390"
+            ],
+            "message": "当我们按下空格键时，图中的程序会执行什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "什么都不执行"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "说Hello！2秒"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "在1秒内滑动到随机位置"
+                }
+            ],
+            "tag": "3-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 35,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "A",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 38,
+                    "grow_number": 6,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/b16bfaef7f0c12c69b50186ae9b82d23_o.png-374x379"
+            ],
+            "message": "当碰到绿色时，图中的程序会执行什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "在1秒内滑动到随机位置"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "说Hello！2秒\n"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "什么都不执行\n"
+                }
+            ],
+            "tag": "3-2",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 37,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "message": "这一节到这里终于结束啦，恭喜恭喜。"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 39,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "4": [
+        {
+            "message": "又见面啦，这一节我们将了解并使用“等待”功能。"
+        },
+        {
+            "action": "大神，等等我！！",
+            "chapter": 1,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/6e2883ecbb7405a24e8ad52e9de3cf43_t.png-300x300",
+            "zuan_number": 0
+        },
+        {
+            "message": "我一直都在橙旭园等着你呢"
+        },
+        {
+            "action": "应该记得吧",
+            "chapter": 2,
+            "grow_number": 5,
+            "message": "还记得上一节我们使用的“如果。。那么。。否则。。”吗？",
+            "zuan_number": 1
+        },
+        {
+            "message": "做两个题，马上就想起来了"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 4,
+                    "grow_number": 6,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/310d1611668f6a2e5f40b2b0ebbef4d0_v.png-377x400"
+            ],
+            "message": "什么情况下，程序不会执行“在1秒内滑动到随机位置“，而直接执行“说Hello！2秒”",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "点击小绿旗，并按下空格键"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "点击小绿旗"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "点击小绿旗，按下鼠标"
+                }
+            ],
+            "tag": "4-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 3,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 6,
+                    "grow_number": 4,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/0886025f4f0c695d6ddce77bf38856b9_g.png-390x414"
+            ],
+            "message": "点击小绿旗后，当我们按下“a“键时，程序会执行什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "思考Hmm...2秒"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "移动10步"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "什么都不执行"
+                }
+            ],
+            "tag": "4-2",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 5,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": "OK，没问题",
+            "chapter": 7,
+            "grow_number": 7,
+            "message": "复习完毕。现在我们来了解一下“等待”功能吧",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b70730840cc2ce55ddde57f63b3626b3_f.png-488x646"
+        },
+        {
+            "action": "找到了～",
+            "chapter": 8,
+            "grow_number": 4,
+            "message": "你找到它们了吗",
+            "zuan_number": 1
+        },
+        {
+            "action": "有点意思",
+            "chapter": 9,
+            "grow_number": 4,
+            "message": "“等待”功能，就和它的名字一样，是用来让程序等待一段时间或者等待一个信号",
+            "zuan_number": 0
+        },
+        {
+            "action": "哇，还可以暂停",
+            "chapter": 10,
+            "grow_number": 8,
+            "message": "比如等待一段时间，意思是我们可以让程序暂停一段时间，然后接着运行。",
+            "zuan_number": 0
+        },
+        {
+            "message": "等待信号，意识是让程序一直等待，直到收到特定的信号再接着运行。"
+        },
+        {
+            "action": "嗯嗯",
+            "chapter": 11,
+            "grow_number": 8,
+            "message": "等待信号就好像运动会起跑前的准备一样，等待起跑枪声，枪声一响就开始跑。",
+            "zuan_number": 0
+        },
+        {
+            "action": "让我来看看程序",
+            "chapter": 12,
+            "grow_number": 6,
+            "message": "我们来比较一下这两个程序，看看加入“等待”会是什么效果。",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/4c2356c831eeea401505aba4277f7e4c_i.png-369x388"
+        },
+        {
+            "action": "完成啦",
+            "chapter": 13,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/1d3f6e23f4cf0f621cc818ee0b3711d4_d.png-388x380",
+            "zuan_number": 0
+        },
+        {
+            "message": "运行第一个图中程序，我们发现角色会从出现在一个随机的位置，"
+        },
+        {
+            "action": "嗯嗯，一样一样",
+            "chapter": 14,
+            "grow_number": 4,
+            "message": "然后在这个位置停止2秒，接着马上移动到另一个随机位置。",
+            "zuan_number": 1
+        },
+        {
+            "action": "对啊，明明写的两次",
+            "chapter": 15,
+            "grow_number": 5,
+            "message": "可是当我们运行第二个图中的程序时，小猫好像只移动了一次，就停止了。",
+            "zuan_number": 0
+        },
+        {
+            "action": "嗯。。。",
+            "chapter": 16,
+            "grow_number": 4,
+            "message": "虽然我们的程序里写的是移动两次，但是根本看不出来它移动了两次。",
+            "zuan_number": 1
+        },
+        {
+            "action": "嗯嗯，原来是这样",
+            "chapter": 17,
+            "grow_number": 8,
+            "message": "所以啊，对于一些本身没有时间规定的功能块（比如“移动10步”，“移动到随机位置”），我们要用到等待。",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/976e904f059ca4a95451fe21edef5734_k.png-312x408"
+        },
+        {
+            "action": "嗯嗯，我明白了",
+            "chapter": 18,
+            "grow_number": 7,
+            "message": "像这样加入了“等待”，我们就能清楚的观察到角色的动作变化。",
+            "zuan_number": 0
+        },
+        {
+            "message": "接着，我们继续学习另一个“等待”功能块。"
+        },
+        {
+            "action": "嗯嗯，看到了",
+            "chapter": 19,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/ee27e9f544ce45f168733724e2934d59_j.png-336x656",
+            "zuan_number": 0
+        },
+        {
+            "action": "一直等待着。。",
+            "chapter": 20,
+            "grow_number": 8,
+            "message": "从字面上看，“在（空）之前一直等待”意识就是只要（空）处的事情没有发生，程序就会一直暂停等待着。",
+            "zuan_number": 0
+        },
+        {
+            "action": "哈哈，我懂了",
+            "chapter": 21,
+            "grow_number": 5,
+            "message": "是的，就好像妈妈告诉小朋友，直到妈妈来学校接你之前，一直在学校里面等着，是一样的道理",
+            "zuan_number": 0
+        },
+        {
+            "message": "嗯嗯，我们赶紧来使用一下它吧"
+        },
+        {
+            "action": "编写完成！",
+            "chapter": 22,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/32e6308d5fa82d255a9b50561cebcc38_v.png-502x609",
+            "zuan_number": 0
+        },
+        {
+            "message": "我们点击小绿旗，程序就开始运行了"
+        },
+        {
+            "action": "要按键才会移动",
+            "chapter": 23,
+            "grow_number": 8,
+            "message": "但是我们只看到了小猫思考Hmm...,它并没有移动。",
+            "zuan_number": 0
+        },
+        {
+            "message": "对，执行完“思考Hmm...\"之后，程序就会开始等待，看有没有按下空格键"
+        },
+        {
+            "action": "嗯嗯，完全明白了",
+            "chapter": 24,
+            "grow_number": 4,
+            "message": "只要发现空格键被按下，它就会继续往下执行“在1秒内滑动到随机位置”。",
+            "zuan_number": 0
+        },
+        {
+            "message": "嗯嗯，这一节就是这些内容啦。下面赶紧来刷题，加深一下印象"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                },
+                {
+                    "content": "D",
+                    "type": "text"
+                }
+            ],
+            "answer": "A,C",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 26,
+                    "grow_number": 8,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "请选择下列所有的“等待”功能块",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "在“...”之前一直等待"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "当小绿旗被点击"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "等待10秒"
+                },
+                {
+                    "content": "D",
+                    "imgs": [],
+                    "message": "重复执行"
+                }
+            ],
+            "tag": "4-3",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 25,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 28,
+                    "grow_number": 4,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/e45777c4ecaed2840da1996d787b6e93_a.png-407x468"
+            ],
+            "message": "点击小绿旗运行程序，当我们按下空格键后，程序会做什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "什么都不执行"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "思考Hmm...2秒"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "在1秒内滑动到随机位置"
+                }
+            ],
+            "tag": "4-4",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 27,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "message": "鼓掌鼓掌，这一节也学完啦～～"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 29,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "5": [
+        {
+            "message": "前面学习了那么新的功能块，这一节我们来使用已经学过的功能块制作一个像样的游戏吧"
+        },
+        {
+            "action": "哈哈哈哈哈哈哈～～",
+            "chapter": 1,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/9f503fa4ea7c68f3bc4e9390dc7390b4_o.jpg-300x300",
+            "zuan_number": 0
+        },
+        {
+            "action": "听到游戏我就来了",
+            "chapter": 2,
+            "grow_number": 9,
+            "message": "这一次我们来编写一个游戏，我们可以控制小猫移动（上下左右）。",
+            "zuan_number": 1
+        },
+        {
+            "message": "我们要实现让小狗追逐棒球，而棒球的位置是随机变化的。"
+        },
+        {
+            "action": "哈哈，迫不及待",
+            "chapter": 3,
+            "grow_number": 6,
+            "message": "最后如果小猫碰到了棒球，就说“啊，打到我了！”，小狗碰到小猫，小狗会打招呼",
+            "zuan_number": 1
+        },
+        {
+            "message": "老规矩，首先是角色和背景！"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/09501bd392d909150b4dab7b990b259c_q.png-1104x557"
+        },
+        {
+            "action": "都找到了",
+            "chapter": 4,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/6fe32ef90246a8cc872a01caedac6842_a.png-988x497",
+            "zuan_number": 1
+        },
+        {
+            "message": "嗯嗯，现在我们的角色列表里还有原本就有的小猫，所以总共是三个角色。"
+        },
+        {
+            "action": "是的",
+            "chapter": 5,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/6fbe80a8a1ac56ccc60a0ae3d84bb2a3_m.png-437x253",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后我们使用篮球场的背景"
+        },
+        {
+            "action": "OK～",
+            "chapter": 6,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/deebfe1c0ea108e694aece319c723918_l.png-508x395",
+            "zuan_number": 1
+        },
+        {
+            "message": "下面开始脚本编写。"
+        },
+        {
+            "message": "我们从棒球开始"
+        },
+        {
+            "action": "简单简单",
+            "chapter": 7,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/c0b6e623e3d05512a5879f291833c6f3_a.png-660x468",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后是小猫，我们要实现用键盘控制小猫的移动。"
+        },
+        {
+            "action": "你猜我记不记得？",
+            "chapter": 8,
+            "grow_number": 9,
+            "message": "还记得我们的神器吗？",
+            "zuan_number": 1
+        },
+        {
+            "message": "怕不是已经忘了吧。。。看图！"
+        },
+        {
+            "action": "知道了知道了",
+            "chapter": 9,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/1872faa5bc269a7d40aa7769008d515b_h.png-688x591",
+            "zuan_number": 1
+        },
+        {
+            "action": "好的，会仔细点的",
+            "chapter": 10,
+            "grow_number": 5,
+            "message": "注意，我们按上下左右键的时候，移动的方向要和键盘是一致的，不要填错了啊",
+            "zuan_number": 0
+        },
+        {
+            "message": "如果担心填错数值，可以使用圆盘直接拖动指针方向。像下面这样。"
+        },
+        {
+            "action": "亲测有效，很方便",
+            "chapter": 11,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/9b684c35c8e93453ca28c31e33a71349_x.png-422x483",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/7458df536cf675ddf4acc5914a5c8c33_f.png-240x240"
+        },
+        {
+            "action": "喔？是的呢！",
+            "chapter": 12,
+            "grow_number": 7,
+            "message": "还没完，我们的小猫还有一个功能，碰到球要说“啊，打到我了！”",
+            "zuan_number": 0
+        },
+        {
+            "action": "如果。。那么。。",
+            "chapter": 13,
+            "grow_number": 8,
+            "message": "要实现这个功能， 我们需要用到什么呢？",
+            "zuan_number": 0
+        },
+        {
+            "message": "对！我们需要用到控制模块，特别是“如果。。那么。。”"
+        },
+        {
+            "action": "哈哈，又见神器",
+            "chapter": 14,
+            "grow_number": 8,
+            "message": "而且我们还需要使用另一个神器——“重复执行”",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/bdb891235e4fc2c346a516c41312c398_a.png-240x240"
+        },
+        {
+            "message": "那么我们开始吧，首先添加点击小绿旗启动和重复执行。"
+        },
+        {
+            "action": "So easy！",
+            "chapter": 15,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/4cf00b7c0eaa2f8327c03464dcc12dc9_h.png-278x290",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后添加“如果。。那么。。”，放到“重复执行”里面"
+        },
+        {
+            "action": "也完成了",
+            "chapter": 16,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/eedf800ae9fdca1c1038ba29d13a9832_s.png-338x311",
+            "zuan_number": 0
+        },
+        {
+            "message": "最后是添加侦测，这里我们使用“碰到Baseball？”，请看图"
+        },
+        {
+            "action": "嗯，看懂了",
+            "chapter": 17,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/ba3afe7c423ac0827de1b557818356cf_g.png-769x630",
+            "zuan_number": 1
+        },
+        {
+            "message": "现在这个部分看起来是这样的。"
+        },
+        {
+            "action": "嗯嗯，一样的",
+            "chapter": 18,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/c301471c83f67c63da36aebc14749077_t.png-344x264",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后我们添加“说啊，打到我了”"
+        },
+        {
+            "action": "顺利完成",
+            "chapter": 19,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/326e6335dae800dec19eb798e35bcb28_e.png-325x312",
+            "zuan_number": 0
+        },
+        {
+            "message": "Very good！"
+        },
+        {
+            "message": "现在小猫的脚本就完成了， 小猫的整个程序是这样的。"
+        },
+        {
+            "action": "嗯嗯，是的是的",
+            "chapter": 20,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/2aebc37d3596584dcf8f78aaa4b8fb11_i.png-629x622",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/d4bd2b7084563a5d8847725c676274a6_v.png-255x255"
+        },
+        {
+            "action": "是最后一部分吗？",
+            "chapter": 21,
+            "grow_number": 5,
+            "message": "最后是小狗的脚本。",
+            "zuan_number": 1
+        },
+        {
+            "message": "额。。。是的。。小狗的部分不难，坚持。游戏马上就要做好啦"
+        },
+        {
+            "message": "首先，我们要给小狗实现的是追逐棒球。"
+        },
+        {
+            "action": "这个我会做",
+            "chapter": 22,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/bff90bda464fa08da4f8a485296304e8_j.png-713x568",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后是碰到小猫打招呼的功能"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/e759a7d1e7b4c9a7dc01f0362e225a91_b.png-706x619"
+        },
+        {
+            "action": "嗯嗯，完美完成",
+            "chapter": 23,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/77f0dac506da122b912af87510c358d7_q.png-697x590",
+            "zuan_number": 1
+        },
+        {
+            "message": "OK，全部脚本都编写完成！！现在点击小绿旗，我们开始游戏吧"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/e24c28477494899dfacb4c6f57b0aac3_p.gif-601x492"
+        },
+        {
+            "action": "嗯嗯，可以控制！",
+            "chapter": 24,
+            "grow_number": 6,
+            "message": "试试看，你是不是能通过上下左右键控制小猫移动？",
+            "zuan_number": 1
+        },
+        {
+            "action": "嗯，这些功能都实现了",
+            "chapter": 25,
+            "grow_number": 5,
+            "message": "小狗碰到小猫会打招呼，小猫碰到球，会说“啊，打到我了！”。",
+            "zuan_number": 1
+        },
+        {
+            "message": "超棒的～～这样我们的游戏就制作成功啦，这一节就到这里啦"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/86c3d6f8b2f94339c400bb8900794b74_z.jpg-240x240"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 26,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "6": [
+        {
+            "img": "https://static1.bcjiaoyu.com/a9445433d184137973b22e6941aa7c1d_k.jpg-240x240"
+        },
+        {
+            "message": "这是本课程的最后一节啦～～～"
+        },
+        {
+            "action": "哦。。。",
+            "chapter": 1,
+            "grow_number": 5,
+            "message": "又到啦复习和考核的时候啦",
+            "zuan_number": 1
+        },
+        {
+            "action": "嗯嗯",
+            "chapter": 2,
+            "grow_number": 9,
+            "message": "不用担心，如果有忘记了的或者还不懂的，赶紧先来一起复习一下吧。",
+            "zuan_number": 0
+        },
+        {
+            "action": "这个我知道，嘿嘿",
+            "chapter": 3,
+            "grow_number": 4,
+            "message": "1.程序是按照从上往下的顺序执行的。所以我们要合理安排程序的顺序。",
+            "zuan_number": 1
+        },
+        {
+            "action": "我记得顺序和循环",
+            "chapter": 4,
+            "grow_number": 6,
+            "message": "2.除了顺序结构的程序，我们还可以循环执行程序。也就是让一段程序重复执行",
+            "zuan_number": 1
+        },
+        {
+            "action": "我不嫌你啰嗦",
+            "chapter": 5,
+            "grow_number": 9,
+            "message": "很好，但我还是啰嗦一下。我们的循环有好几种。",
+            "zuan_number": 1
+        },
+        {
+            "message": "一种是不限次数的“重复执行”，程序会一直重复执行"
+        },
+        {
+            "action": "好的，我知道了",
+            "chapter": 6,
+            "grow_number": 7,
+            "message": "另一种是有次数限制的“重复执行”，也就是让程序重复执行一定的次数就停止。",
+            "zuan_number": 0
+        },
+        {
+            "action": "嗯嗯，知道了",
+            "chapter": 7,
+            "grow_number": 7,
+            "message": "虽然还有其他的重复执行功能，但是常用的就是这两个啦",
+            "zuan_number": 0
+        },
+        {
+            "action": "额，这个最难了",
+            "chapter": 8,
+            "grow_number": 4,
+            "message": "3.然后是“如果。。那么。。”和“如果。。那么。。否则”",
+            "zuan_number": 0
+        },
+        {
+            "message": "看图就明白了！"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/8bdad34ba5afbd74435ed1cbf0edb5ea_n.png-412x221"
+        },
+        {
+            "action": "嗯嗯，是的是的",
+            "chapter": 9,
+            "grow_number": 6,
+            "message": "如果按下空格键，那么就执行“移动10步”。",
+            "zuan_number": 1
+        },
+        {
+            "action": "完全明白了",
+            "chapter": 10,
+            "grow_number": 7,
+            "message": "如果空格键没有被按下，就不会执行“说Hello！”和“移动10步”，会直接跳过“那么”后所有的程序。",
+            "zuan_number": 0
+        },
+        {
+            "message": "“如果。。那么。。否则。。”也是一样的道理"
+        },
+        {
+            "action": "解释一下咯",
+            "chapter": 11,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/6597adf2007223a12a45c71753e45a80_l.png-425x501",
+            "zuan_number": 1
+        },
+        {
+            "message": "如果按下空格键，就执行“移动10步”和“说Hello！”。"
+        },
+        {
+            "action": "彻底明白了",
+            "chapter": 12,
+            "grow_number": 4,
+            "message": "如果没有按下空格键，就跳过“那么”，直接“移到随机位置和思考Hmm...2秒",
+            "zuan_number": 1
+        },
+        {
+            "message": "4.最后就是我们的“等待”功能。也就是让程序“等待”一会再接着运行。"
+        },
+        {
+            "action": "我记得，上一节刚学",
+            "chapter": 13,
+            "grow_number": 6,
+            "message": "我们学习了两种等待，“等待？秒”和“在？？之前一直等待”。",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/7e7c199ccd925cef6c774e93b9d4845e_g.jpg-240x240"
+        },
+        {
+            "action": "嗯嗯",
+            "chapter": 14,
+            "grow_number": 4,
+            "message": "嗯嗯，我们设置需要等待的时间，程序就会在运行到“等待“功能块时，暂停同样的时间。",
+            "zuan_number": 1
+        },
+        {
+            "message": "而“在？？之前一直等待”是当？？处的事件发生之前，程序都会一直等待。"
+        },
+        {
+            "action": "全都记住啦～",
+            "chapter": 15,
+            "grow_number": 4,
+            "message": "直到该事件发生，程序就会开始运行。",
+            "zuan_number": 0
+        },
+        {
+            "action": "我会加油的！",
+            "chapter": 16,
+            "grow_number": 6,
+            "message": "好的，下面就是考核的题目啦。祝你通关顺利～",
+            "zuan_number": 1
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                },
+                {
+                    "content": "D",
+                    "type": "text"
+                }
+            ],
+            "answer": "A,B",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 18,
+                    "grow_number": 7,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/dfb85dab5bd7634009e8b45b326004fe_t.png-394x474"
+            ],
+            "message": "运行图中的程序，当我们按下空格键时，程序会执行什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "移到随机位置"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "说Hello！"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "移动10步"
+                },
+                {
+                    "content": "D",
+                    "imgs": [],
+                    "message": "思考Hmm...2秒"
+                }
+            ],
+            "tag": "6-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 17,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "C",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 20,
+                    "grow_number": 7,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/458a555aac95633bfa152ac4cf5c7ab3_z.png-631x546"
+            ],
+            "message": "运行图中的程序后，小猫会停在什么坐标位置？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "x：15，y：15"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "x：10，y：120"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "x：90，y：120"
+                }
+            ],
+            "tag": "6-2",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 19,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "C",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 22,
+                    "grow_number": 7,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/cbd8eb28561d7bc71d67e9a64b05b6cb_o.png-402x390"
+            ],
+            "message": "当我们按下空格键时，图中的程序会执行什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "什么都不执行"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "说Hello！2秒"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "在1秒内滑动到随机位置"
+                }
+            ],
+            "tag": "6-3",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 21,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "A",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 24,
+                    "grow_number": 9,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/b16bfaef7f0c12c69b50186ae9b82d23_o.png-374x379"
+            ],
+            "message": "当碰到绿色时，图中的程序会执行什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "在1秒内滑动到随机位置"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "说Hello！2秒\n"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "什么都不执行\n"
+                }
+            ],
+            "tag": "6-4",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 23,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 26,
+                    "grow_number": 8,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [
+                "https://static1.bcjiaoyu.com/e45777c4ecaed2840da1996d787b6e93_a.png-407x468"
+            ],
+            "message": "点击小绿旗运行程序，当我们按下空格键后，程序会做什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "什么都不执行"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "思考Hmm...2秒"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "在1秒内滑动到随机位置"
+                }
+            ],
+            "tag": "6-5",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 25,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "message": "啦啦啦，热烈祝贺你通关啦～～"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 27,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "catalogs": [
+        {
+            "title": "顺序—小狗回家"
+        },
+        {
+            "title": "循环——小猫漫步"
+        },
+        {
+            "title": "选择（如果那么否则）"
+        },
+        {
+            "title": "使用等待"
+        },
+        {
+            "title": "制作小游戏（猫狗球大战）"
+        },
+        {
+            "title": "综合练习&考核"
+        }
+    ]
+}

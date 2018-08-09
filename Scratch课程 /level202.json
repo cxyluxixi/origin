@@ -1,0 +1,1148 @@
+{
+    "1": [
+        {
+            "message": "好久不见，欢迎你开始Level 2的学习。 "
+        },
+        {
+            "action": "嘿嘿～",
+            "chapter": 1,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/d361bfb3645e6f802665eb7036b95ca9_y.jpg-240x240",
+            "zuan_number": 0
+        },
+        {
+            "message": "为了更好的学习效果和体验，请使用电脑打开Scratch。请在电脑上打开下面的网址。"
+        },
+        {
+            "action": "好的",
+            "chapter": 2,
+            "grow_number": 5,
+            "link": "https://www.cxy61.com/scratch3/build/index.html",
+            "message": "",
+            "zuan_number": 0
+        },
+        {
+            "message": "如果出现登陆页面，请注册登陆，再点击该网址。"
+        },
+        {
+            "action": "好的，注册登陆",
+            "chapter": 3,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/628eb2e88ad67e0c5d6a4d15385597f5_r.png-1248x685",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后就打开了，现在你的电脑上能看到下面的图片了吗？"
+        },
+        {
+            "action": "看到了",
+            "chapter": 4,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/0539209c1ad0b4b7e533b9faf7cfc364_f.png-1248x659",
+            "zuan_number": 0
+        },
+        {
+            "message": "好的，我们之前了解了添加角色可以直接使用角色库里已经有的角色。"
+        },
+        {
+            "action": "所以要怎么画呢",
+            "chapter": 5,
+            "grow_number": 5,
+            "message": "我们也可以在空白的画板上自己画出想要的角色。",
+            "zuan_number": 1
+        },
+        {
+            "message": "这就需要使用绘制工具。"
+        },
+        {
+            "action": "好呀好呀",
+            "chapter": 6,
+            "grow_number": 7,
+            "message": "今天，我们就来详细了解一下绘制工具。",
+            "zuan_number": 0
+        },
+        {
+            "action": "嗯，这个我知道",
+            "chapter": 7,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/cf11ee2f8cedc5b3bb4142944dba4500_a.png-1008x662",
+            "zuan_number": 0
+        },
+        {
+            "action": "我来试试",
+            "chapter": 8,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/f97272a189d16451b6639a5741301e2d_f.png-442x212",
+            "zuan_number": 0
+        },
+        {
+            "action": "我看明白了",
+            "chapter": 9,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/477a162ea8690d4c70cd25f0816b9895_b.gif-1047x500",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/577683efe98a24c95f11dbb413d59006_j.png-1167x592"
+        },
+        {
+            "action": "新建空白画板成功～",
+            "chapter": 10,
+            "grow_number": 7,
+            "message": "图中红色框里就是我们新建的空白的角色画板。empty是空白的意思",
+            "zuan_number": 1
+        },
+        {
+            "action": "画个什么好呢？",
+            "chapter": 11,
+            "grow_number": 8,
+            "message": "不使用角色库里现成的角色，这次我们将完全使用绘制工具画一个角色出来。",
+            "zuan_number": 1
+        },
+        {
+            "action": "轮子和车厢",
+            "chapter": 12,
+            "grow_number": 5,
+            "message": "来尝试画个小汽车吧，让我们想一想汽车长什么样子",
+            "zuan_number": 1
+        },
+        {
+            "action": "好呀好呀",
+            "chapter": 13,
+            "grow_number": 6,
+            "message": "对，那么首先我们来画方方的车厢",
+            "zuan_number": 0
+        },
+        {
+            "message": "请看图，点击图中红色方框的工具——直线工具。"
+        },
+        {
+            "action": "这条线好像太细了",
+            "chapter": 14,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/d20cf314b755dc78fd93f31c84730944_g.png-675x647",
+            "zuan_number": 0
+        },
+        {
+            "message": "是的，那么我们先撤销这条细线，然后加粗之后重新画"
+        },
+        {
+            "action": "画板又变成空白了",
+            "chapter": 15,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/0f6cfd0bf297f66b3f7b7b1178b5ea2c_o.png-666x651",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/f45eca4fb42223d92f0204647f927428_b.png-667x649"
+        },
+        {
+            "action": "真的加粗了",
+            "chapter": 16,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/db47d8e704fee0d47728596b425db52c_r.png-669x668",
+            "zuan_number": 0
+        },
+        {
+            "message": "好的，现在我们就可以画出车厢了，赶紧开始吧"
+        },
+        {
+            "action": "我画好了",
+            "chapter": 17,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/72636ca86e4619e75f451574b6150a90_x.png-735x568",
+            "zuan_number": 1
+        },
+        {
+            "message": "但是看到我们有些线条画的不好，画多了，这时可以使用橡皮擦。"
+        },
+        {
+            "action": "我看到了",
+            "chapter": 18,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/1c5051a9df488801be5a3f63742f6653_b.png-744x642",
+            "zuan_number": 1
+        },
+        {
+            "action": "擦掉了，完美。",
+            "chapter": 19,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/67c99488301a665288c4ee291f1afac7_p.png-729x619",
+            "zuan_number": 1
+        },
+        {
+            "message": "接着画轮子，轮子是圆的，可以使用圆形工具画圆"
+        },
+        {
+            "action": "画出圆形了",
+            "chapter": 20,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/e2543fce842d7d8a6bdd9e2bc0f48355_v.png-741x636",
+            "zuan_number": 0
+        },
+        {
+            "action": "对啊，画的不好看",
+            "chapter": 21,
+            "grow_number": 6,
+            "message": "第一次随手画的圆可能并不是很圆，大小也不合适。",
+            "zuan_number": 0
+        },
+        {
+            "action": "看到了",
+            "chapter": 22,
+            "grow_number": 4,
+            "message": "看到画的圆圈周围有蓝色的线和点了吗",
+            "zuan_number": 0
+        },
+        {
+            "message": "还记得前面我们对角色造型的调整吗，这里也可以使用这些线和点进行调整。"
+        },
+        {
+            "action": "选好啦，啦啦啦",
+            "chapter": 23,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/53f60637868a7b92813ba0c154173d5d_a.png-745x621",
+            "zuan_number": 0
+        },
+        {
+            "action": "程序员永远在调整",
+            "chapter": 24,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/ed34ca720537a41dfcfd430c3c5ab8c4_x.png-721x605",
+            "zuan_number": 1
+        },
+        {
+            "message": "调整好了之后，我们可以直接复制这个轮子，这样我们就有两个轮子。 "
+        },
+        {
+            "action": "好的，复制粘贴",
+            "chapter": 25,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/dcd0b34223363b286f1d728aafe47471_m.png-721x622",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c90c4ab8c5b7a7f222b1d4a5945f5d1e_f.png-735x580"
+        },
+        {
+            "message": "调整，拖动轮子到合适的位置"
+        },
+        {
+            "action": "调整完毕",
+            "chapter": 26,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/4a807dd1f254d0fbcfad1b4f93d54739_a.png-444x256",
+            "zuan_number": 1
+        },
+        {
+            "message": "可是轮子中间有一条线，这是之前画车厢留下的，这里我们不需要它们了"
+        },
+        {
+            "action": "使用橡皮！",
+            "chapter": 27,
+            "grow_number": 4,
+            "message": "所以我们要擦掉它。",
+            "zuan_number": 1
+        },
+        {
+            "message": "对，非常好，使用橡皮擦掉它"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/a0b2384c122feb10257b130f5302ef27_w.png-698x615"
+        },
+        {
+            "action": "完美，小汽车画好了",
+            "chapter": 28,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/01a871386181d51fe37baedbb0fd1350_c.png-473x305",
+            "zuan_number": 0
+        },
+        {
+            "message": "现在我们把小汽车缩小一点。"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/3905a43334a650ab3743d285a7323cf0_v.png-728x636"
+        },
+        {
+            "action": "这个简单，我完成了",
+            "chapter": 29,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/69a7f9f1cf869bce5289383afa771c0f_i.png-704x640",
+            "zuan_number": 0
+        },
+        {
+            "message": "这样第一节就结束啦～"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 30,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "2": [
+        {
+            "img": "https://static1.bcjiaoyu.com/0673fbce75f70ee67a210a645b102266_u.jpg-250x250"
+        },
+        {
+            "message": "你来了～上次我们画了小汽车，今天我们要给小汽车创建新的造型。"
+        },
+        {
+            "action": "哈哈，好的～",
+            "chapter": 1,
+            "grow_number": 8,
+            "message": "就好像拍照时摆个新的pose",
+            "zuan_number": 2
+        },
+        {
+            "message": "我们先复制一下我们画的小汽车的造型，如下图，duplicapte的意思是复制"
+        },
+        {
+            "action": "复制好了",
+            "chapter": 2,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/11f8b03e883c6b1a1b202fd6f28e639e_e.png-456x453",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后我们对这个复制的造型进行调整。"
+        },
+        {
+            "action": "要怎么做呢？",
+            "chapter": 3,
+            "grow_number": 16,
+            "message": "首先，我们要将我们画的各个部分组成一个组，这样轮子和车厢才能成为一个整体。",
+            "zuan_number": 3
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/d49a67f04d326565ed825a3cf1791cbc_c.png-714x648"
+        },
+        {
+            "message": "Group的意思是聚合成组。"
+        },
+        {
+            "action": "好的，完成啦",
+            "chapter": 4,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/e7611aaf8d9ebc13bb0ba6fe74c8850e_m.png-531x331",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后我们旋转小汽车，做一个上坡的造型。"
+        },
+        {
+            "action": "完成啦～",
+            "chapter": 5,
+            "grow_number": 15,
+            "img": "https://static1.bcjiaoyu.com/bff3d9de81168430a39fe2f247aad470_q.png-637x544",
+            "zuan_number": 2
+        },
+        {
+            "action": "哇，撞车！",
+            "chapter": 6,
+            "grow_number": 9,
+            "message": "接下来我们做一下撞车的造型。",
+            "zuan_number": 1
+        },
+        {
+            "message": "选中造型3，然后使用画笔，画一些红色线，表示碰撞💥"
+        },
+        {
+            "action": "画好了。",
+            "chapter": 7,
+            "grow_number": 13,
+            "img": "https://static1.bcjiaoyu.com/0e88103a90ddd2d5d002f14fdef86cf5_o.png-563x438",
+            "zuan_number": 2
+        },
+        {
+            "action": "好啊好啊",
+            "chapter": 8,
+            "grow_number": 13,
+            "message": "可是我们的小汽车一直都没有名字，现在我们来给角色和造型起名字",
+            "zuan_number": 1
+        },
+        {
+            "action": "原来在这里修改",
+            "chapter": 9,
+            "grow_number": 16,
+            "img": "https://static1.bcjiaoyu.com/6d2353a265d00db58a5b31463344cdf2_t.png-981x516",
+            "zuan_number": 2
+        },
+        {
+            "action": "名字有了",
+            "chapter": 10,
+            "grow_number": 15,
+            "img": "https://static1.bcjiaoyu.com/0e39e7ea0fce690a3c5da89d8fba9fdc_h.png-412x201",
+            "zuan_number": 3
+        },
+        {
+            "message": "接下来是造型名称"
+        },
+        {
+            "action": "很简单啊。",
+            "chapter": 11,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/28a0911441f24ab92613731dbf5e86a4_s.png-795x620",
+            "zuan_number": 2
+        },
+        {
+            "message": "那就好，接下来请你把造型2 和造型3改成下图的名称"
+        },
+        {
+            "action": "我完成啦！",
+            "chapter": 12,
+            "grow_number": 13,
+            "img": "https://static1.bcjiaoyu.com/e974ce64e2d40e205081b2152247989b_f.png-761x530",
+            "zuan_number": 2
+        },
+        {
+            "message": "如果我们想要舞台上有好几辆小汽车，我们可以直接复制角色。"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/2175a573aaa5265a2c0e03191b444e72_p.png-1113x625"
+        },
+        {
+            "action": "克隆小汽车，哈哈哈",
+            "chapter": 13,
+            "grow_number": 16,
+            "img": "https://static1.bcjiaoyu.com/876dbe8b9401a7a13bc19d6dc7f76ec2_a.png-418x201",
+            "zuan_number": 1
+        },
+        {
+            "action": "是的是的！",
+            "chapter": 14,
+            "grow_number": 16,
+            "message": "而且连造型也一起复制了，不信你点击每个小汽车的角色查看一下，它们是不是都有三个造型。",
+            "zuan_number": 2
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/24828a8de496f1f6f1a35e2b3a1dbcb5_f.jpg-200x200"
+        },
+        {
+            "message": "鼓掌，这一节我们就学完了"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 15,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "3": [
+        {
+            "action": "并没有",
+            "chapter": 1,
+            "grow_number": 7,
+            "message": "当当当～～～有没有人想我～",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/dcbf39a1d7495b7e0102993f12ed80d0_w.png-300x300"
+        },
+        {
+            "message": "好吧，不啰嗦了。今天我们学习声音模块。"
+        },
+        {
+            "message": "找找看，声音模块在哪？"
+        },
+        {
+            "action": "我找到了",
+            "chapter": 2,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/856a088fa9a149dd514c914c3a19dcc1_s.png-611x384",
+            "zuan_number": 1
+        },
+        {
+            "action": "好嘞，哈哈",
+            "chapter": 3,
+            "grow_number": 9,
+            "message": "可以看到有什么按钮，你可以自由尝试一下，看看都是什么效果",
+            "zuan_number": 1
+        },
+        {
+            "message": "点击下方的按钮之后，再点击播放，听一下效果。"
+        },
+        {
+            "action": "嗯嗯，收到",
+            "chapter": 4,
+            "grow_number": 5,
+            "message": "Faster是变快，Slower是变慢，Echo是回声效果，Robot是机器人效果，Louder是音量变大，Softer是音量变小，Reverse是倒放。",
+            "zuan_number": 1
+        },
+        {
+            "action": "有这么多效果！",
+            "chapter": 5,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/063f72ea31c8fb7ba1a1e3171894bb0a_n.png-801x438",
+            "zuan_number": 0
+        },
+        {
+            "action": "真的啊，太好了",
+            "chapter": 6,
+            "grow_number": 6,
+            "message": "对啊，而且和角色库，背景库一样，我们也有声音库。",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/2be1adbbeb3cabf3c474e2d1e775ca45_d.png-813x593"
+        },
+        {
+            "action": "哇，好多种声音啊",
+            "chapter": 7,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/4654441bc4733b7a7d3880bea358234a_w.png-1086x539",
+            "zuan_number": 0
+        },
+        {
+            "message": "你可以选择相应的声音，然后对它们进行效果编辑。"
+        },
+        {
+            "message": "比如，往下翻，找到名为Cave的声音，点击它"
+        },
+        {
+            "action": "找到了",
+            "chapter": 8,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/62a07e9fe190d364722ca1477cef3c77_u.png-1100x581",
+            "zuan_number": 0
+        },
+        {
+            "action": "保证改得面目全非",
+            "chapter": 9,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/faa4854d1107f8ed042732d8479c4fe6_j.png-800x588",
+            "zuan_number": 1
+        },
+        {
+            "message": "如果觉得一段声音太长了， 我们可以使用剪辑，剪掉不需要的部分。"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/8a40488d782f7345e4b0735505f5dc13_c.png-764x513"
+        },
+        {
+            "action": "两个竖线之间的保留",
+            "chapter": 10,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/89537e2a9e8cb83481aea30fd9aee846_n.png-794x552",
+            "zuan_number": 1
+        },
+        {
+            "action": "嗯嗯，我看到了",
+            "chapter": 11,
+            "grow_number": 6,
+            "message": "选择好要保留的区域后，点击播放，看看是不是留下了想要的部分。",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后再次点击小剪刀，保存剪辑后的声音。"
+        },
+        {
+            "action": "OK～",
+            "chapter": 12,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/cbc6a7b1b1da2770b41c8338cd566945_m.png-793x400",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后音轨上就只剩下剪辑后的部分了。"
+        },
+        {
+            "action": "嗯，是的",
+            "chapter": 13,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/1196ecf44f9a0691049908b99c2063bc_s.png-607x368",
+            "zuan_number": 0
+        },
+        {
+            "message": "也就是说声音模块是我们编辑各种声音效果，剪辑声音的。"
+        },
+        {
+            "action": "知道了",
+            "chapter": 14,
+            "grow_number": 6,
+            "message": "接下来是声音脚本，声音脚本是我们编写脚本实现播放声音的。",
+            "zuan_number": 0
+        },
+        {
+            "message": "声音脚本在哪里呢？你找到了吗？"
+        },
+        {
+            "action": "第三个就是声音脚本",
+            "chapter": 15,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/173c6e739ed44367e33b450dafd410bd_z.png-424x609",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/848028fa56215eb12d271272c16e2367_t.png-561x557"
+        },
+        {
+            "action": "嗯嗯",
+            "chapter": 16,
+            "grow_number": 6,
+            "message": "这些就是各种声音模块的功能了",
+            "zuan_number": 0
+        },
+        {
+            "action": "小绿旗我知道",
+            "chapter": 17,
+            "grow_number": 5,
+            "message": "和前面一样，我们首先需要一个启动的模块，也就是小绿旗。",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后我们使用声音脚本模块，播放声音。"
+        },
+        {
+            "action": "完成",
+            "chapter": 18,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/3fc5f76550eada8cfdb4a25a084d46f3_s.png-735x514",
+            "zuan_number": 1
+        },
+        {
+            "action": "听到声音了！",
+            "chapter": 19,
+            "grow_number": 9,
+            "message": "点击小绿旗，运行一下",
+            "zuan_number": 1
+        },
+        {
+            "message": "Very good！我们再来做一个复杂点的。"
+        },
+        {
+            "message": "删掉不需要的角色，只留下小汽车。"
+        },
+        {
+            "action": "只剩下一个汽车了。",
+            "chapter": 20,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/5ae2656c2990f868b2626d3ac0188bda_e.png-410x255",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后添加声音"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/d6abe5a1557104e2465ec5d029ad02d5_u.png-1067x610"
+        },
+        {
+            "action": "添加完毕。",
+            "chapter": 21,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/0b458ff42944d8d1ed298a332d85d365_n.png-1074x614",
+            "zuan_number": 0
+        },
+        {
+            "message": "然后创建图中的程序脚本，注意不同的功能块的顺序。"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b3d3960cc6ab0e85c601ca733c0be3f4_z.png-1054x599"
+        },
+        {
+            "action": "这个简单",
+            "chapter": 22,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/b420bcf2acccfc86365eb6d07960f81b_e.png-1050x595",
+            "zuan_number": 0
+        },
+        {
+            "action": "嗯嗯",
+            "chapter": 23,
+            "grow_number": 6,
+            "message": "运行起来，小汽车移动了一段距离，然后听到了汽车喇叭声和汽车开过去的声音。",
+            "zuan_number": 1
+        },
+        {
+            "action": [
+                {
+                    "content": "1",
+                    "type": "text"
+                },
+                {
+                    "content": "2",
+                    "type": "text"
+                },
+                {
+                    "content": "3",
+                    "type": "text"
+                },
+                {
+                    "content": "4",
+                    "type": "text"
+                }
+            ],
+            "answer": [
+                3,
+                1,
+                2,
+                4
+            ],
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 25,
+                    "grow_number": 8,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "请将下面的功能块按顺序放置，使它能让小汽车先发出喇叭声（Car Horn），然后移动到（x：150  y：50），然后切换撞车造型。",
+            "options": [
+                {
+                    "content": "1",
+                    "imgs": [
+                        "https://static1.bcjiaoyu.com/a971773c08d158e5f66d3f049981c4d7_s.png-152x67"
+                    ],
+                    "message": ""
+                },
+                {
+                    "content": "2",
+                    "imgs": [
+                        "https://static1.bcjiaoyu.com/495c9fb2030339ba6ecf5dedb2bf82f7_t.png-151x63"
+                    ],
+                    "message": ""
+                },
+                {
+                    "content": "3",
+                    "imgs": [
+                        "https://static1.bcjiaoyu.com/9cec7f901cd847a8243aa810a1a578fa_y.png-118x66"
+                    ],
+                    "message": ""
+                },
+                {
+                    "content": "4",
+                    "imgs": [
+                        "https://static1.bcjiaoyu.com/e9bbd9041a96c2457d0d02c080dc5b0b_x.png-147x63"
+                    ],
+                    "message": ""
+                }
+            ],
+            "tag": "3-1",
+            "type": "sequenceProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 24,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "message": "本节结束，恭喜通过。"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 26,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "4": [
+        {
+            "action": "好的",
+            "chapter": 1,
+            "grow_number": 18,
+            "message": "上一节，我们了解了声音脚本的几个功能，这一节我们来看看其他的功能。",
+            "zuan_number": 3
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/3b97709818f46c81411491244eb793c6_i.png-619x555"
+        },
+        {
+            "action": "OK，马上完成",
+            "chapter": 2,
+            "grow_number": 14,
+            "message": "按图中创建程序脚本，然后点击小绿旗，听听看声音如何变化",
+            "zuan_number": 2
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "C",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 4,
+                    "grow_number": 10,
+                    "message": "答对了",
+                    "zuan_number": 2
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "上面图中的程序，声音如何变化？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "没有变化"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "声音先变大，后变小。"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "声音先变小，后变大。"
+                }
+            ],
+            "tag": "4-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 3,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "message": "除了音量变化，我们还可以切换声音，声音库里有很多乐器的声音噢"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/61e64977a242302780978297cd6e837c_y.png-1092x632"
+        },
+        {
+            "action": "都找到了",
+            "chapter": 5,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/7b25f051c72c7ef6578b1647d02dbf54_k.png-628x540",
+            "zuan_number": 3
+        },
+        {
+            "message": "然后我们来使用脚本切换它们。"
+        },
+        {
+            "message": "我们使用小猫角色，给它写上图中的脚本。"
+        },
+        {
+            "action": "有点复杂啊",
+            "chapter": 6,
+            "grow_number": 16,
+            "img": "https://static1.bcjiaoyu.com/65c069a39053d4cbff2d2cafe5798a4c_l.png-831x660",
+            "zuan_number": 3
+        },
+        {
+            "message": "是的，两个蓝色块的x： y：里的数字要修改"
+        },
+        {
+            "action": "嗯嗯，我看到了",
+            "chapter": 7,
+            "grow_number": 12,
+            "message": "还有“将音高效果设定为   ”也有数字要修改。",
+            "zuan_number": 2
+        },
+        {
+            "action": "终于修改好了。。。",
+            "chapter": 8,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/88a56ecf63f7ab905ae9fc7e5f810d00_m.png-288x413",
+            "zuan_number": 1
+        },
+        {
+            "message": "嗯嗯，运行之后听听看吧"
+        },
+        {
+            "action": "好的，赶紧玩玩",
+            "chapter": 9,
+            "grow_number": 11,
+            "message": "你可以自由尝试，使用这些功能块，调节声音播放的音量和音高。",
+            "zuan_number": 3
+        },
+        {
+            "message": "最后，除了从声音库里选择已有的声音，我们还可以自己录制。"
+        },
+        {
+            "action": "这就非常棒了",
+            "chapter": 10,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/9ba247eed07669d36379bf1cb65b30cb_z.png-641x458",
+            "zuan_number": 3
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/cde32e9dfaaec7f193bcbd2e8718a2e9_j.png-646x453"
+        },
+        {
+            "action": "用起来很简单啊",
+            "chapter": 11,
+            "grow_number": 11,
+            "img": "https://static1.bcjiaoyu.com/f9d0d46fb870844f7fcba1cf6ce7d563_p.png-627x481",
+            "zuan_number": 3
+        },
+        {
+            "message": "是啊，特别方便。"
+        },
+        {
+            "action": "嗯嗯，学了好多啊",
+            "chapter": 12,
+            "grow_number": 12,
+            "message": "那么这一节我们学习了各种声音脚本功能，还有录制新的声音。",
+            "zuan_number": 2
+        },
+        {
+            "message": "对啊，然后这一节就结束啦"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 13,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "5": [
+        {
+            "action": "好像记得，好像不记得",
+            "chapter": 1,
+            "grow_number": 6,
+            "message": "前面我们学习了创建造型和使用声音，还记得吗",
+            "zuan_number": 2
+        },
+        {
+            "message": "那我们一起来巩固一下前面几节学习的内容。"
+        },
+        {
+            "action": "听起来好难",
+            "chapter": 2,
+            "grow_number": 8,
+            "message": "这一节，我们来一起创建一个角色——螃蟹，并给它绘制一个造型（被打倒地），并添加声音和台词\n",
+            "zuan_number": 2
+        },
+        {
+            "action": "说话算数啊",
+            "chapter": 3,
+            "grow_number": 8,
+            "message": "哈哈，并没有，跟着我一起来做，保证简单。",
+            "zuan_number": 1
+        },
+        {
+            "message": "首先，我们在角色库里找到螃蟹，然后将它加到角色列表。"
+        },
+        {
+            "action": "添加好了",
+            "chapter": 4,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/c2a0b70b9c23b3573ce148316a06a0df_t.png-1091x554",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/9f56c5afa59069c68f9ad0e7cb7c856b_n.png-421x645"
+        },
+        {
+            "action": "这确实很简单",
+            "chapter": 5,
+            "grow_number": 10,
+            "message": "delete是删除的意思",
+            "zuan_number": 1
+        },
+        {
+            "message": "接下来是造型，还记得吗？duplicate是复制，delete是删除"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/68f51e16eab2164b1a9e8313c5cfd6e8_y.png-882x637"
+        },
+        {
+            "action": "完成啦",
+            "chapter": 6,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/e9f62f5b2a3c209cacc3c0fcdf895888_u.png-603x489",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后复制第一个造型，duplicate是复制，delete是删除"
+        },
+        {
+            "action": "OK",
+            "chapter": 7,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/7ecd45d2f63662c3c1faf5d32aa06a8e_j.png-608x509",
+            "zuan_number": 2
+        },
+        {
+            "message": "一定要给造型命名，不然在编写脚本的时候，我们就不认识第几个造型是做什么用的了。"
+        },
+        {
+            "action": "好的，命名完成。",
+            "chapter": 8,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/2996009435b2e1e01d0fccdc3deaad55_x.png-623x483",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后我们对“螃蟹倒地”这个造型进行调整，首先旋转，把它倒过来"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/a99dc900b5269d3be0c961056cdde6d9_e.png-621x573"
+        },
+        {
+            "action": "看起来像被打扁了",
+            "chapter": 9,
+            "grow_number": 11,
+            "img": "https://static1.bcjiaoyu.com/ff01881208c5ca0f3dc727d989854a9a_i.png-631x641",
+            "zuan_number": 1
+        },
+        {
+            "message": "哈哈哈，我们再用画笔加上被打的效果，看图！"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c3362d705f534a28e8eb685bb349948c_p.png-616x556"
+        },
+        {
+            "action": "哈哈，很形象很形象",
+            "chapter": 10,
+            "grow_number": 6,
+            "img": "https://static1.bcjiaoyu.com/5046697cecfe1d641853e34632767e12_v.png-534x408",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后给螃蟹角色添加音效，在声音库找到Big Boing，并添加。"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/649ef821819a3d91e3634782e0a00b1c_k.png-1059x610"
+        },
+        {
+            "action": "这个声音真搞笑",
+            "chapter": 11,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/5846dc0a473dfdcbb29db4805f9d206c_t.png-306x318",
+            "zuan_number": 1
+        },
+        {
+            "action": "嗯，目前感觉还不错。",
+            "chapter": 12,
+            "grow_number": 11,
+            "message": "哈哈，这样我们的螃蟹角色就做好了，不难的。",
+            "zuan_number": 2
+        },
+        {
+            "action": "哈哈，这个也不难",
+            "chapter": 13,
+            "grow_number": 7,
+            "message": "好的，我们接着创建舞台背景图。",
+            "zuan_number": 1
+        },
+        {
+            "message": "是的，和创建角色有很多相似的地方，看来你已经有自信了啊，很棒"
+        },
+        {
+            "action": "哈哈哈，被你发现了",
+            "chapter": 14,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/db078afda25aaa4feccb8ab995318ced_g.jpg-240x240",
+            "zuan_number": 2
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/160bb2b6bfb6af9d50742e85bfda710a_j.png-481x216"
+        },
+        {
+            "action": "好的，找背景",
+            "chapter": 15,
+            "grow_number": 11,
+            "message": "找到背景库，选择相应的背景图",
+            "zuan_number": 1
+        },
+        {
+            "action": "添加背景成功。",
+            "chapter": 16,
+            "grow_number": 9,
+            "img": "https://static1.bcjiaoyu.com/813d4c929f820c3b1cb3575e5700b15a_x.png-1021x522",
+            "zuan_number": 2
+        },
+        {
+            "message": "现在我们的舞台看起来是这样的。"
+        },
+        {
+            "action": "一模一样",
+            "chapter": 17,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/b0c533e2b1b4dd325edbb52e408476e2_h.png-1111x660",
+            "zuan_number": 2
+        },
+        {
+            "message": "现在，我们在沙子上画几个洞。先给要画的洞选择颜色，然后再画。"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/6abc190d32988e51033ede9c6fb5e779_g.png-242x369"
+        },
+        {
+            "action": "画好了。",
+            "chapter": 18,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/782d8d641cc0935a359859e18b4a49f3_q.png-572x566",
+            "zuan_number": 1
+        },
+        {
+            "message": "然后我们选中洞，Copy是复制，Paste是粘贴。"
+        },
+        {
+            "action": "现在有四个洞了。",
+            "chapter": 19,
+            "grow_number": 8,
+            "img": "https://static1.bcjiaoyu.com/b69da924c4d6b55e1c72ea71459a91cd_l.png-599x572",
+            "zuan_number": 2
+        },
+        {
+            "action": "好的， 顺手保存",
+            "chapter": 20,
+            "grow_number": 9,
+            "message": "哈哈，非常好，这样我们的角色和背景就都创建好了，记得保存哦",
+            "zuan_number": 2
+        },
+        {
+            "message": "最后鼓掌恭喜你学完了这一节。"
+        },
+        {
+            "action": "打卡炫耀下",
+            "chapter": 21,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "zuan_number": 0
+        }
+    ],
+    "catalogs": [
+        {
+            "title": "绘制角色"
+        },
+        {
+            "title": "创建造型"
+        },
+        {
+            "title": "声音模块"
+        },
+        {
+            "title": "声音脚本应用"
+        },
+        {
+            "title": "造型&声音应用"
+        }
+    ]
+}

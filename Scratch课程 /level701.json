@@ -1,0 +1,2788 @@
+{
+    "1": [
+        {
+            "img": "https://static1.bcjiaoyu.com/9e1b2b6372fde94a9f2d93811d82d9ee_h.jpg-560x395"
+        },
+        {
+            "action": "老师好~",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ec/3bc232bf5cc14d1e2132b6233727285405af8d.mp3",
+            "chapter": 1,
+            "grow_number": 4,
+            "message": "上课啦，欢迎来到Level7的课堂。",
+            "sha1Code": "ec3bc232bf5cc14d1e2132b6233727285405af8d",
+            "zuan_number": 1
+        },
+        {
+            "action": "准备好啦",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/dc/8e7d3ce62066b1f15df8b2fe1e66763f39243b.mp3",
+            "chapter": 2,
+            "grow_number": 3,
+            "message": "这节课我们将要学习更厉害的知识，做好准备了没~",
+            "sha1Code": "dc8e7d3ce62066b1f15df8b2fe1e66763f39243b",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1f/f530b2010e117ddfb47e8c2427a5e9d7d6e63f.mp3",
+            "message": "棒棒哒！想知道自己掌握的怎么样？做个题吧~",
+            "sha1Code": "1ff530b2010e117ddfb47e8c2427a5e9d7d6e63f"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e5/3e0f8b40f076dd5015d438260be0e4a4e13fc4.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 4,
+                    "grow_number": 5,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "让角色碰到红色就切换造型会用到哪两个模块？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "运算、数据"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "侦测、外观"
+                }
+            ],
+            "sha1Code": "e53e0f8b40f076dd5015d438260be0e4a4e13fc4",
+            "tag": "1-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 3,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/34/538a43022f15dd0d94933455d49698908d316b.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 6,
+                    "grow_number": 3,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "使用”询问并等待“模块，让用户输入的内容去了哪里？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "直接输出在舞台上"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "保存在回答模块中"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "输入就消失了"
+                }
+            ],
+            "sha1Code": "34538a43022f15dd0d94933455d49698908d316b",
+            "tag": "1-2",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 5,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b161a7b54b10f892d038a5b4ea079331_h.gif-180x180"
+        },
+        {
+            "action": "必须的！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/13/c8127109e86c50ab3724569d9e3e69650c9313.mp3",
+            "chapter": 7,
+            "grow_number": 5,
+            "message": "小朋友有没有觉得其实不难呢？",
+            "sha1Code": "13c8127109e86c50ab3724569d9e3e69650c9313",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1e/e40169ac4e064c3a595fbdf38f658533c75d2f.mp3",
+            "message": "我们今天学习的是“数据”模块，看看这个模块跟其他比起来是不是要少很多呀。",
+            "sha1Code": "1ee40169ac4e064c3a595fbdf38f658533c75d2f"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/9e343f50540ebd31ab2dc9d32ab66093_x.png-268x361"
+        },
+        {
+            "action": "这.......",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/98/c6858a941b0441669bea224bde836509e957ae.mp3",
+            "chapter": 8,
+            "grow_number": 4,
+            "message": "但是你知道这个“变量”是什么吗？",
+            "sha1Code": "98c6858a941b0441669bea224bde836509e957ae",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ba/06c392a6b52b27262240ecfbe07ac822bb1027.mp3",
+            "message": "哈哈没关系，老师会带你一起学习",
+            "sha1Code": "ba06c392a6b52b27262240ecfbe07ac822bb1027"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/16/b68e113d00e12c10f392fb6b08bc1e1058f126.mp3",
+            "message": "这里面“变量”模块就相当一个容器，里面可以存储不同的内容。",
+            "sha1Code": "16b68e113d00e12c10f392fb6b08bc1e1058f126"
+        },
+        {
+            "action": "这个怎么使用呢？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/35/27eff0b9f165275cfc794bb1616f9e8ba33f45.mp3",
+            "chapter": 9,
+            "grow_number": 3,
+            "message": "别看这个模块看起来少，你可别小瞧它~",
+            "sha1Code": "3527eff0b9f165275cfc794bb1616f9e8ba33f45",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/69/7b461c3a4086571881673b5588790355f5319e.mp3",
+            "message": "我们可以新建一个变量试试。",
+            "sha1Code": "697b461c3a4086571881673b5588790355f5319e"
+        },
+        {
+            "action": "打开了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/25/a7267f7e2a72d221bd6740cb50e044a4659b9e.mp3",
+            "chapter": 10,
+            "grow_number": 4,
+            "link": "https://www.cxy61.com/scratch3/build/index.html",
+            "message": "打开 Scratch 3.0",
+            "sha1Code": "25a7267f7e2a72d221bd6740cb50e044a4659b9e",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/71ac285828108ec210c1ae15e5f0b06c_u.jpg-454x658"
+        },
+        {
+            "action": "这是什么？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/29/4997fd35b9c148247034da1986f47fa5fe4048.mp3",
+            "chapter": 11,
+            "grow_number": 3,
+            "message": "我们点击”创建变量“，会弹出一个对话框。",
+            "sha1Code": "294997fd35b9c148247034da1986f47fa5fe4048",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c5/a2a18bf7bf03d047f986426f753463e59b1ac4.mp3",
+            "message": "在这里可以根据需要输入任何“变量”的名字。",
+            "sha1Code": "c5a2a18bf7bf03d047f986426f753463e59b1ac4"
+        },
+        {
+            "action": "建好了！",
+            "chapter": 12,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/4798fdd2ca74353783f583d2a84d548b_x.gif-1532x824",
+            "zuan_number": 1
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                }
+            ],
+            "answer": "A",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/76/3cf5fdd5fa936c44706cb20302ccda2587e37e.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 14,
+                    "grow_number": 4,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "变量可以取任意名字吗？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "可以"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "不可以"
+                }
+            ],
+            "sha1Code": "763cf5fdd5fa936c44706cb20302ccda2587e37e",
+            "tag": "1-3",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 13,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e2/74408bb12f86e43b9f878625dc5fc2012012cf.mp3",
+            "message": "如果我们想要删除某个变量，右键点击变量，可以选择删除或者修改变量名字，你试试吧~",
+            "sha1Code": "e274408bb12f86e43b9f878625dc5fc2012012cf"
+        },
+        {
+            "action": "我的也删除了",
+            "chapter": 15,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/ac77210bb87b9dbb0c7e1d9cefd43cba_w.gif-378x589",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/1ae1d287bae0d60c2dd4ec1a332680fe_q.gif-253x238"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/84/934bb1ff20e8ca913423b2abdd332e51777456.mp3",
+            "message": "小朋友继续努力，跟着老师学习。\n",
+            "sha1Code": "84934bb1ff20e8ca913423b2abdd332e51777456"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/b0/c2e3463633ba69faac79264837c70a4b5f24ac.mp3",
+            "chapter": 16,
+            "grow_number": 3,
+            "message": "当我们点击确定后，会出现很多新的模块，新的模块就是用来服务我们刚才新建的变量。",
+            "sha1Code": "b0c2e3463633ba69faac79264837c70a4b5f24ac",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/61/8f839dc8ae57d58ef9194f08daf1fa029c5433.mp3",
+            "message": "如果在新建的那个模块前面打勾，他就会显示在舞台上。去掉勾就不会显示。",
+            "sha1Code": "618f839dc8ae57d58ef9194f08daf1fa029c5433"
+        },
+        {
+            "action": "我试试",
+            "chapter": 17,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/c640d79768cf31968c8a861b9a396417_v.png-320x289",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/df/93a542fcdea353dfc8aab44af775a1eaae431f.mp3",
+            "message": "变量可以用来储存数据，今天我们要讲的是用来计数 。",
+            "sha1Code": "df93a542fcdea353dfc8aab44af775a1eaae431f"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/08/a5b1b0a72170bc5eeea1e6ace4ac9264974a9d.mp3",
+            "message": "现在让小猫不断走路，每走一步就使用“将总数增加1”模块，小朋友你动手试一试吧~",
+            "sha1Code": "08a5b1b0a72170bc5eeea1e6ace4ac9264974a9d"
+        },
+        {
+            "action": "我得想一下怎么做",
+            "chapter": 18,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/fc11714205452adaa6ae037b64020ce2_e.png-364x232",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/16/9b62a9d2db22c3d76d072410d8429fb68fd517.mp3",
+            "message": "看看和老师的一样吗？",
+            "sha1Code": "169b62a9d2db22c3d76d072410d8429fb68fd517"
+        },
+        {
+            "action": "一样一样",
+            "chapter": 19,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/4f4a9cbdbfe57f5bd31814337e90a198_f.png-200x272",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/60/aeb25cd77f8e6b5ec341301538df624f0ea56e.mp3",
+            "message": "每运行一次，舞台区的变量“总数”都会增加1。",
+            "sha1Code": "60aeb25cd77f8e6b5ec341301538df624f0ea56e"
+        },
+        {
+            "action": "我输入3，走一步就增加3了。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/45/062ab7db59212e1f50769e4a9d82443f2e4166.mp3",
+            "chapter": 20,
+            "grow_number": 4,
+            "message": "当然你也可以更改数字，增加3或者5等等，你试试看会产生什么变化吗？",
+            "sha1Code": "45062ab7db59212e1f50769e4a9d82443f2e4166",
+            "zuan_number": 0
+        },
+        {
+            "action": "是的，数字越来越大",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e6/858b182bd96b32a6370e33ba90bb0934d0cc0a.mp3",
+            "chapter": 21,
+            "grow_number": 5,
+            "message": "对的呢，你有没有发现，我们每次重新点击小绿旗，变量保存的总数还是之前累加起来的。",
+            "sha1Code": "e6858b182bd96b32a6370e33ba90bb0934d0cc0a",
+            "zuan_number": 0
+        },
+        {
+            "action": "那怎么做呢？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/aa/059d696fb259a1629135e75f703ae9d96c4b99.mp3",
+            "chapter": 22,
+            "grow_number": 5,
+            "message": "这个时候就需要用到第二个模块，“将总数设定为0”，数量就会清零。",
+            "sha1Code": "aa059d696fb259a1629135e75f703ae9d96c4b99",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a0/e70edbd0d5f3cf6cb293ef97816804cbbd814d.mp3",
+            "message": "把之前的模块移开，然后放“将总数设定为0”这个模块，再点击一下小绿旗。",
+            "sha1Code": "a0e70edbd0d5f3cf6cb293ef97816804cbbd814d"
+        },
+        {
+            "action": "我的清零了！",
+            "chapter": 23,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/b93f7e29c93d652ed309db241a4c53eb_h.png-339x209",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d2/628cf2b9d71a343b007f619f565b0dbf172298.mp3",
+            "message": "如果我们想让“总数”第一次运行的时候不是0，比如从100开始计算，就可以直接修改下面这个数字。",
+            "sha1Code": "d2628cf2b9d71a343b007f619f565b0dbf172298"
+        },
+        {
+            "action": "学会了！",
+            "chapter": 24,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/073f7b0bd8f0b04690b13796e4cd6053_l.png-358x213",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/4993d4386c8f8773d900bf621b164109_c.jpg-431x270"
+        },
+        {
+            "action": "嘻嘻....",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/74/357b882c5bdcbddf254b2246670e2c9b80cd76.mp3",
+            "chapter": 25,
+            "grow_number": 3,
+            "message": "太棒啦~~继续努力。",
+            "sha1Code": "74357b882c5bdcbddf254b2246670e2c9b80cd76",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/9e/40b76fe8679d8e904c04c0153fbb2e0dd8fa7b.mp3",
+            "message": "再来看下面这两个模块。",
+            "sha1Code": "9e40b76fe8679d8e904c04c0153fbb2e0dd8fa7b"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c71fa93adfbae78fe9fa458676f7aa23_p.png-325x177"
+        },
+        {
+            "action": "嗯嗯",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/15/f6d1add6072be1ba79a4d5db49e10bcb71489b.mp3",
+            "chapter": 26,
+            "grow_number": 4,
+            "message": "第一个执行就可以在舞台左上角显示变量，第二个是相反隐藏起来。",
+            "sha1Code": "15f6d1add6072be1ba79a4d5db49e10bcb71489b",
+            "zuan_number": 1
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/b3/e5617e6c1520dbd488bbf9a165a9d096cee05b.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 28,
+                    "grow_number": 3,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "变量的改变可以增加数值，那可以减少吗？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "不可以"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "可以，用负数，比如-1。"
+                }
+            ],
+            "sha1Code": "b3e5617e6c1520dbd488bbf9a165a9d096cee05b",
+            "tag": "1-4",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 27,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ad/6e7e57ae2b8f7fa3a2aa9b3f4bbaf0e854848a.mp3",
+            "message": "♪(^∇^*)棒棒哒~实践出真知，下面我们来做一个小项目。",
+            "sha1Code": "ad6e7e57ae2b8f7fa3a2aa9b3f4bbaf0e854848a"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/83/f171025c0cc37775c6706c6c6ddf59414c292a.mp3",
+            "message": "请你使用重复执行，让角色一直在舞台内行走，每走一步都记录下来。",
+            "sha1Code": "83f171025c0cc37775c6706c6c6ddf59414c292a"
+        },
+        {
+            "action": "好的。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2d/5d2b64ee7653253c164a1de9c340a1bdd713cc.mp3",
+            "chapter": 29,
+            "grow_number": 4,
+            "link": "https://www.cxy61.com/scratch3/build/index.html",
+            "message": "打开Scratch 3.0",
+            "sha1Code": "2d5d2b64ee7653253c164a1de9c340a1bdd713cc",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/6a63f7012e7dd0543b14f1ce7224dcd4_s.png-294x314"
+        },
+        {
+            "action": "是的。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/6e/0a44893f9e9b0a21a44cd7f077d1330c4ec669.mp3",
+            "chapter": 30,
+            "grow_number": 4,
+            "message": "小朋友，你是这样做的吗？",
+            "sha1Code": "6e0a44893f9e9b0a21a44cd7f077d1330c4ec669",
+            "zuan_number": 1
+        },
+        {
+            "action": "做好了。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/f8/e9e9edb16e08732d0f60c3c0f30a4726d56fa3.mp3",
+            "chapter": 31,
+            "grow_number": 4,
+            "message": "好的，继续添加代码，让程序开始，“总数”重新计数。",
+            "sha1Code": "f8e9e9edb16e08732d0f60c3c0f30a4726d56fa3",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/8cd7d156ef76b149af2d1a551db19ef1_q.png-305x348"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/07/d134af2c0b502475f46d6c3298efc2f61aba26.mp3",
+            "message": "如果你做的和老师一样，那我们再增加一点难度。",
+            "sha1Code": "07d134af2c0b502475f46d6c3298efc2f61aba26"
+        },
+        {
+            "action": "完成了。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/17/56555f8e5ffbd795211c5cc09f2df23b83385d.mp3",
+            "chapter": 32,
+            "grow_number": 4,
+            "message": "请让小猫把变量的内容说出来。",
+            "sha1Code": "1756555f8e5ffbd795211c5cc09f2df23b83385d",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/457d72f3fea23cf747292aca5f1e4e10_e.png-699x544"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/5a/0f69c4ab5c5962a3305d8c5ebe7db898b9adaf.mp3",
+            "message": "我们可以用“外观”里的说话模块，将变量拖到框框里就好了。",
+            "sha1Code": "5a0f69c4ab5c5962a3305d8c5ebe7db898b9adaf"
+        },
+        {
+            "action": "是的呢",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/3e/98a60241d0a6f6d95180a50beb5e45cf8c547b.mp3",
+            "chapter": 33,
+            "grow_number": 5,
+            "message": "然后你可以先点击一下这个模块，就会发现小猫说出了变量的内容。",
+            "sha1Code": "3e98a60241d0a6f6d95180a50beb5e45cf8c547b",
+            "zuan_number": 1
+        },
+        {
+            "action": "我想想....",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ee/4675551a7216e75765778888f97e1e120fd846.mp3",
+            "chapter": 34,
+            "grow_number": 3,
+            "message": "那小朋友想想看，我们除了点模块以外，还能怎么控制小猫让他说呢？",
+            "sha1Code": "ee4675551a7216e75765778888f97e1e120fd846",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c5b00cdde91a3e14dbcaaaf2bd754bc8_f.png-636x342"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/32/8420f6cc4f44b3ba27aca503def3b0471d1959.mp3",
+            "message": "在“事件”模块中，选择“当按下空格键”模块，这样只要我们按键盘空格键，小猫就会说出步数。",
+            "sha1Code": "328420f6cc4f44b3ba27aca503def3b0471d1959"
+        },
+        {
+            "action": "我的小猫说出步数了！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/84/6bb8ec738808d485f70f2782c71fc49f23f29a.mp3",
+            "chapter": 35,
+            "grow_number": 4,
+            "message": "快自己动手试试看吧~",
+            "sha1Code": "846bb8ec738808d485f70f2782c71fc49f23f29a",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/4ad4bf768814271ed5fbdbf1d977605a_c.gif-1528x828"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/87/02c484a2c0473d82ccf282037a9d442469adb2.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 37,
+                    "grow_number": 3,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "变量的初始值，可以用哪个模块设置？",
+            "options": [
+                {
+                    "content": "A ",
+                    "imgs": [],
+                    "message": "显示链表"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "将 总数 设定为0"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "将 总数 增加1"
+                }
+            ],
+            "sha1Code": "8702c484a2c0473d82ccf282037a9d442469adb2",
+            "tag": "1-5",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 36,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c4a4d28b4037a9374c4285d5f39f8356_t.png-478x445"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/83/cfe04652d43e0039ec347e89829c3c5479ea2d.mp3",
+            "message": "试着跟老师做一下“小猫拾苹果”的游戏吧~",
+            "sha1Code": "83cfe04652d43e0039ec347e89829c3c5479ea2d"
+        },
+        {
+            "action": "怎么做？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1e/8393ed9f0cac9c60ff971ff87a52533eaf5309.mp3",
+            "chapter": 38,
+            "grow_number": 4,
+            "message": "小猫往前走，碰到苹果并按下空格键，苹果个数增加1。",
+            "sha1Code": "1e8393ed9f0cac9c60ff971ff87a52533eaf5309",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/70b8db5e59cb352c457d202df17ea691_f.png-861x629"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b60f23b5aadb7b2888ffde7f22898538_k.png-373x431"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d6/e5dd832326c55f45d3a06176ea2d519e0a8024.mp3",
+            "chapter": 39,
+            "grow_number": 3,
+            "message": "这个是小猫的模块",
+            "sha1Code": "d6e5dd832326c55f45d3a06176ea2d519e0a8024",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e8/2866b05355bf1cb3dba167094393a93687d540.mp3",
+            "message": "这个是苹果的模块",
+            "sha1Code": "e82866b05355bf1cb3dba167094393a93687d540"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/5e88029ca911041c5983ed5ca7bb9746_v.png-948x637"
+        },
+        {
+            "action": "好的",
+            "chapter": 40,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/a11388d188d00969726c909ab67511de_q.png-748x500",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/a36038ba53a3242b22a389941d4c89b8_i.gif-605x506"
+        },
+        {
+            "action": "哇有意思！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/05/d33f6947d5715b9053f092c3476e317016e981.mp3",
+            "chapter": 41,
+            "grow_number": 3,
+            "message": "这是游戏效果。",
+            "sha1Code": "05d33f6947d5715b9053f092c3476e317016e981",
+            "zuan_number": 1
+        },
+        {
+            "action": "老师再见！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/93/f3c05f9b3324e5c7b5245aefafec82efb8b8e2.mp3",
+            "chapter": 42,
+            "grow_number": 5,
+            "message": "课后作业：完成这个游戏，并思考几分钟，想想其中的每个模块分别都起到了什么作用？老师休息一下，我们下节课见！",
+            "sha1Code": "93f3c05f9b3324e5c7b5245aefafec82efb8b8e2",
+            "zuan_number": 1
+        },
+        {
+            "action": "打卡炫耀下",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4f/243d288a5a93dc38587aa68e36f1120693e960.mp3",
+            "chapter": 43,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "sha1Code": "4f243d288a5a93dc38587aa68e36f1120693e960",
+            "zuan_number": 0
+        }
+    ],
+    "2": [
+        {
+            "img": "https://static1.bcjiaoyu.com/10ceaf7b2a4f6f665926d2e3fa405959_r.jpeg-750x690"
+        },
+        {
+            "action": "老师好！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/70/0e8ddda1bd262357328732b91b40a4c2ce9e49.mp3",
+            "chapter": 1,
+            "grow_number": 3,
+            "message": "(｡･∀･)ﾉﾞ上课啦~",
+            "sha1Code": "700e8ddda1bd262357328732b91b40a4c2ce9e49",
+            "zuan_number": 0
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/58/a900d7ed57f5125a21fd4f02354eaaef12a852.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 3,
+                    "grow_number": 7,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "变量模块在哪个选项中？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "运算符"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "数据"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "侦测"
+                }
+            ],
+            "sha1Code": "58a900d7ed57f5125a21fd4f02354eaaef12a852",
+            "tag": "2-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 2,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": "完成了！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/94/3cba5efd862461cb5ddc2dd7d7a7f9063b46f1.mp3",
+            "chapter": 4,
+            "grow_number": 3,
+            "message": "小朋友上节课留的课后作业做得如何？",
+            "sha1Code": "943cba5efd862461cb5ddc2dd7d7a7f9063b46f1",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/22/8f831e6368a30c9415cf73c8e4e9f36f83862d.mp3",
+            "message": "非常棒！那老师来简单说一下编写游戏的过程吧。",
+            "sha1Code": "228f831e6368a30c9415cf73c8e4e9f36f83862d"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/0ae7b2b57bf02576a8cd276a0d416a82_t.png-591x729"
+        },
+        {
+            "action": "添加角色和背景",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/50/0aad5fb57a65f20000b0680727719076e871a1.mp3",
+            "chapter": 5,
+            "grow_number": 4,
+            "message": "我们首先要......",
+            "sha1Code": "500aad5fb57a65f20000b0680727719076e871a1",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/04/e1fd741da1030c9fab1fb52243af536370a69a.mp3",
+            "message": "答对啦，然后在小猫身上编写代码，然后新建一个变量”苹果个数“",
+            "sha1Code": "04e1fd741da1030c9fab1fb52243af536370a69a"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/7a0318fcb018f8f26196cbefd8c36c22_w.png-314x226"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/84/b25294c9a342ab6459fc84ccc794f3b4307d67.mp3",
+            "chapter": 6,
+            "grow_number": 6,
+            "message": "游戏开始运行，将变量数据初始化，小猫移到起始位置。",
+            "sha1Code": "84b25294c9a342ab6459fc84ccc794f3b4307d67",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b1db5b1fb64bc51789c69487df0d2030_r.png-253x230"
+        },
+        {
+            "action": "按空格键小猫移动",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/be/942eece252077ab33942be700403e75fdbc5f7.mp3",
+            "chapter": 7,
+            "grow_number": 5,
+            "message": "然后我们编写模块来控制小猫。这个你会吧~",
+            "sha1Code": "be942eece252077ab33942be700403e75fdbc5f7",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/93/dd6ed2074ffa383422e70191ac4ac31323ea99.mp3",
+            "message": "对的呢。小猫的模块完成了，开始编写苹果模块。",
+            "sha1Code": "93dd6ed2074ffa383422e70191ac4ac31323ea99"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c80f3af3b777729d644e947d14a30269_k.png-577x362"
+        },
+        {
+            "action": "没错",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/78/b8a29475ffd6042f3cd2e3144a4881b2589ec9.mp3",
+            "chapter": 8,
+            "grow_number": 6,
+            "message": "苹果模块中，我们用到了控制模块中的“如果...那么”。",
+            "sha1Code": "78b8a29475ffd6042f3cd2e3144a4881b2589ec9",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/af/595c00b78ee3c5a0301412ba277db357dc097d.mp3",
+            "message": "然后使用侦测模块，当碰到小猫和按下空格键时，苹果的个数加1，然后隐藏。",
+            "sha1Code": "af595c00b78ee3c5a0301412ba277db357dc097d"
+        },
+        {
+            "action": "这是什么？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/22/a885c2b91dbf8307279b9b1c7ba3b4d2d03b17.mp3",
+            "chapter": 9,
+            "codeQuestion": true,
+            "grow_number": 5,
+            "message": "小朋友观察一下，里面除了用到了变量以外，是不是还有一个“与”模块。",
+            "sha1Code": "22a885c2b91dbf8307279b9b1c7ba3b4d2d03b17",
+            "udid": "eaafecad-0e4c-40f6-9eba-826a85fe1446",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/4cb539be156ee5c96de1c0f9df2fbe3c_v.png-124x129"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/09/45a3e60c1eb4807985fbb4461c11f8399ca49f.mp3",
+            "message": "“与”：当两个条件都是对的，都达到时 ，才能输出结果，不然就不会输出。",
+            "sha1Code": "0945a3e60c1eb4807985fbb4461c11f8399ca49f"
+        },
+        {
+            "action": "有一点点晕",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/fd/e230f75b422f057d70134b27c70f591c7a9817.mp3",
+            "chapter": 10,
+            "grow_number": 5,
+            "message": "“或”：两个条件只要有一个能够达到，结果就可以输出，两个条件都不对，就不能输出。",
+            "sha1Code": "fde230f75b422f057d70134b27c70f591c7a9817",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/24/d5721fd0dfb58bf638538af6fe3e77d6ebb3a9.mp3",
+            "message": "哈哈稍微花一点点耐心再读一次文字，试着理解理解",
+            "sha1Code": "24d5721fd0dfb58bf638538af6fe3e77d6ebb3a9"
+        },
+        {
+            "action": "有点复杂.....",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/47/5bb640f792c3592cc0a677b2fc5b096a980ee7.mp3",
+            "chapter": 11,
+            "grow_number": 6,
+            "message": "最后一个“非”，也叫“__不成立”：就是设置什么条件，结果就输出相反的。",
+            "sha1Code": "475bb640f792c3592cc0a677b2fc5b096a980ee7",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/5d/5453d3a968023b6c3493a28ea8b781fc2e0226.mp3",
+            "message": "没关系~这里你先了解下，后面我们会详细再说。",
+            "sha1Code": "5d5453d3a968023b6c3493a28ea8b781fc2e0226"
+        },
+        {
+            "action": "嗯嗯",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/6b/f0e9860c7af9b5b36aeacf76ea3087e75c0078.mp3",
+            "chapter": 12,
+            "grow_number": 5,
+            "message": "比如我们做的游戏，当苹果“碰到小猫“与“”按下空格键时”这两个条件同时达到时，苹果的个数才增加1。",
+            "sha1Code": "6bf0e9860c7af9b5b36aeacf76ea3087e75c0078",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/ce4f59f4ebd3aa5fe9bfec8519ef83ce_i.gif-605x506"
+        },
+        {
+            "action": "是的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/89/0b3222f7d8b18a9646a27ef10c199e4bf02611.mp3",
+            "chapter": 13,
+            "grow_number": 6,
+            "message": "你观察左上角，当小猫碰到苹果时，只有再按下空格键，苹果才会消失，并且“苹果个数”增加1。对吗？",
+            "sha1Code": "890b3222f7d8b18a9646a27ef10c199e4bf02611",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/d305315c8b964c0abfd8cfd035d24db4_k.png-965x602"
+        },
+        {
+            "action": "理解了！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c7/a5b6b194f96247cfce5b9d9984d56330a12e6a.mp3",
+            "chapter": 14,
+            "grow_number": 4,
+            "message": "这里的“与”逻辑运算符，就是只有两个条件都达到时，结果才能实现。",
+            "sha1Code": "c7a5b6b194f96247cfce5b9d9984d56330a12e6a",
+            "zuan_number": 0
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4d/ed9f07d2816a6cd72dd3c8584bfd55feb32fe7.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 16,
+                    "grow_number": 5,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "我们可以用变量做什么？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "改变程序"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "保存数据"
+                }
+            ],
+            "sha1Code": "4ded9f07d2816a6cd72dd3c8584bfd55feb32fe7",
+            "tag": "2-2",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 15,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/8034b509e759a86143edabb40438a795_m.jpg-431x270"
+        },
+        {
+            "action": "好哒",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/69/2370730f19f56a8cb3282cba62e2c7247d7327.mp3",
+            "chapter": 17,
+            "grow_number": 5,
+            "message": "棒棒哒，下面开始学习新知识~",
+            "sha1Code": "692370730f19f56a8cb3282cba62e2c7247d7327",
+            "zuan_number": 1
+        },
+        {
+            "action": "角色新增好了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/45/8ce7f9178a5f3f62ef2a4edede4805267269bc.mp3",
+            "chapter": 18,
+            "grow_number": 4,
+            "message": "我们做一个小项目，首先删除小猫角色，新增一个小车角色，可以按照自己喜欢的绘制噢",
+            "sha1Code": "458ce7f9178a5f3f62ef2a4edede4805267269bc",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/6e/e5390ec3683c33f76364fec0ae116849d6f048.mp3",
+            "message": "新增背景，也可以按照你喜欢的设置，发挥你的想象力。",
+            "sha1Code": "6ee5390ec3683c33f76364fec0ae116849d6f048"
+        },
+        {
+            "action": "好了",
+            "chapter": 19,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/deadc892e47101f910bd1e66112b7a8b_b.png-1279x874",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/58a11a9f5fe97cc079f5595218a04619_o.gif-862x769"
+        },
+        {
+            "action": "我画的比你好看！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/f4/2ff5881520aa51be7664b3116acdf186ff8931.mp3",
+            "chapter": 20,
+            "grow_number": 5,
+            "message": "可以参考老师的简单画法，但是老师支持你自己创作噢~",
+            "sha1Code": "f42ff5881520aa51be7664b3116acdf186ff8931",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1e/9e5d740f65143f6fa76de899e4cbb175bffdce.mp3",
+            "message": "哈哈厉害了~接着我们想让小车往前行驶，随着距离的增加速度也增加。",
+            "sha1Code": "1e9e5d740f65143f6fa76de899e4cbb175bffdce"
+        },
+        {
+            "action": "好了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a5/6fcc840afdc68bdb9ad4db270e902074fd7f07.mp3",
+            "chapter": 21,
+            "grow_number": 6,
+            "message": "记得在小车上编写模块的时候，可以一边编写一边运行看下效果。",
+            "sha1Code": "a56fcc840afdc68bdb9ad4db270e902074fd7f07",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/48ea4ed1b08fd37770019ce5331d7d85_e.png-413x436"
+        },
+        {
+            "action": "嗯嗯",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/30/0789d4bab3587d244d24c1e93dc5fce0a05837.mp3",
+            "chapter": 22,
+            "grow_number": 7,
+            "message": "看看你和老师的模块一样吗？不一样也没关系，能理解就好。",
+            "sha1Code": "300789d4bab3587d244d24c1e93dc5fce0a05837",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/03/fddd278ef9f56b8fcc0d4b42abb3d7c2ff0527.mp3",
+            "message": "首先我们来新建一个“速度”变量。",
+            "sha1Code": "03fddd278ef9f56b8fcc0d4b42abb3d7c2ff0527"
+        },
+        {
+            "action": "添加好了",
+            "chapter": 23,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/e676e8d65a7ab6d99bd98b37572c7ebb_l.png-313x165",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4f/d0435c189a3a34a85f261871186b53d4058d78.mp3",
+            "message": "然后编小车上的模块，当点击小绿旗游戏开始，将小车移到起始位置，将速度设为0。",
+            "sha1Code": "4fd0435c189a3a34a85f261871186b53d4058d78"
+        },
+        {
+            "action": "完成",
+            "chapter": 24,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/92baf4fb9bea874e977dbe4c23c149b9_q.png-286x214",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d4/384453774b932cb38b5a199cbf5d8dc7b2bef2.mp3",
+            "message": "接下来重复执行模块，每次让速度增加0.5，同时X坐标加上速度。你知道会发生什么了吧",
+            "sha1Code": "d4384453774b932cb38b5a199cbf5d8dc7b2bef2"
+        },
+        {
+            "action": "速度会越来越快！",
+            "chapter": 25,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/11db6d0120e81a2a7f473d05edfa868c_g.png-413x436",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/78/4ddee9ed49ade1ea96b8017bca574907784f27.mp3",
+            "message": "嗯，小车的X坐标，也就是往前行驶的距离，每次都加上速度。",
+            "sha1Code": "784ddee9ed49ade1ea96b8017bca574907784f27"
+        },
+        {
+            "action": "真好玩",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/df/c92b373215947592de9916ef78b347addf9337.mp3",
+            "chapter": 26,
+            "grow_number": 7,
+            "message": "这样小车就会越来越快。直到碰到边缘，停下来。",
+            "sha1Code": "dfc92b373215947592de9916ef78b347addf9337",
+            "zuan_number": 0
+        },
+        {
+            "action": "是的。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e6/c7675158cb90a70c5c3c0ac7dac5e2ac91a3a4.mp3",
+            "chapter": 27,
+            "grow_number": 4,
+            "message": "你也可以观察舞台的左上角显示的速度，一直在增加。",
+            "sha1Code": "e6c7675158cb90a70c5c3c0ac7dac5e2ac91a3a4",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/99/cae300d7b27f7c52aab6d78748f307ed94bb9d.mp3",
+            "message": "我们还可以给小车加上音效，停下来的时候说“到了！”。",
+            "sha1Code": "99cae300d7b27f7c52aab6d78748f307ed94bb9d"
+        },
+        {
+            "action": "就像动画片一样",
+            "chapter": 28,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/f6dba369930c85ae1b8230f179fad94d_h.png-311x416",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/08/86381a88f8a34780b06eb685edf7cdb9c7294b.mp3",
+            "message": "小可爱注意：小车的出发位置不能挨着舞台边噢，不然会动不了。",
+            "sha1Code": "0886381a88f8a34780b06eb685edf7cdb9c7294b"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/a100eea839cad3431c0624ab4f88e00f_m.png-322x167"
+        },
+        {
+            "action": "小可爱知道了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/09/35d3ad147e676da3da24f89197aa5297e94b13.mp3",
+            "chapter": 29,
+            "grow_number": 4,
+            "message": "可以修改坐标来调整小车的初始位置。",
+            "sha1Code": "0935d3ad147e676da3da24f89197aa5297e94b13",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/acca3f0089e2c4a23206c1efedc6a05d_p.jpg-240x240"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/22934b9f9303784673dddfb2fa29072d_c.gif-610x506"
+        },
+        {
+            "action": "一样",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c5/5dd63a016cb7b3206a9c4069cadba12eb46440.mp3",
+            "chapter": 30,
+            "grow_number": 4,
+            "message": "看下和老师运行效果是一样的嘛？",
+            "sha1Code": "c55dd63a016cb7b3206a9c4069cadba12eb46440",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1a/aa2b1790a4b0465cf62a07e4d6dd3bf7477733.mp3",
+            "message": "其实变量的应用很广泛，小朋友记得多开动大脑多做练习。",
+            "sha1Code": "1aaa2b1790a4b0465cf62a07e4d6dd3bf7477733"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a2/127421c6f0b4241f93776ad190ff9eff8f5f03.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 32,
+                    "grow_number": 3,
+                    "message": "答对了",
+                    "zuan_number": 0
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "两个条件都满足程序才能继续执行可以用哪个运算符？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "”或“"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "”与“"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "”不成立”"
+                }
+            ],
+            "sha1Code": "a2127421c6f0b4241f93776ad190ff9eff8f5f03",
+            "tag": "2-3",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 31,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": "好的，老师再见！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/7c/3102ad4c6609cd9a2428eca44bdec4cc3689e0.mp3",
+            "chapter": 33,
+            "grow_number": 7,
+            "message": "这节课就先到这里啦，记得多做练习噢，再见！",
+            "sha1Code": "7c3102ad4c6609cd9a2428eca44bdec4cc3689e0",
+            "zuan_number": 1
+        },
+        {
+            "action": "打卡炫耀下",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4f/243d288a5a93dc38587aa68e36f1120693e960.mp3",
+            "chapter": 34,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "sha1Code": "4f243d288a5a93dc38587aa68e36f1120693e960",
+            "zuan_number": 0
+        }
+    ],
+    "3": [
+        {
+            "action": "等着上课。",
+            "chapter": 1,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/e5987b0f831ae9c5ebe8fc3a31f0ed5c_n.jpg-150x150",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/63/8f883f3e6207c875b50002f29beb7671aef1ca.mp3",
+            "message": "哈哈哈上节我们学习了变量，这节来学习”链表“。",
+            "sha1Code": "638f883f3e6207c875b50002f29beb7671aef1ca"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "A",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ac/1624dac01d371b8809a373dc4a8ce03c76a7f1.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 3,
+                    "grow_number": 5,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "变量在哪个选项中？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "数据"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "侦测"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "运算符"
+                }
+            ],
+            "sha1Code": "ac1624dac01d371b8809a373dc4a8ce03c76a7f1",
+            "tag": "3-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 2,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "action": "有什么相似之处呢？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/9f/98427a52409321b7181116db96dcba722f5d36.mp3",
+            "chapter": 4,
+            "grow_number": 3,
+            "message": "链表和变量都属于“数据”模块，所以他们有相似之处。",
+            "sha1Code": "9f98427a52409321b7181116db96dcba722f5d36",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/b8/7e4816c4eff38d958e2f4b89038e1dfa2b5985.mp3",
+            "message": "链表和变量的作用一样，也是用来存储数据。并且都需要新建一个，自己命名。",
+            "sha1Code": "b87e4816c4eff38d958e2f4b89038e1dfa2b5985"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c7ef81d02808f8e7ae581ac7db3a23dc_i.png-319x275"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e4/5009af381aef3bcfd42d7090b860c1da6999f7.mp3",
+            "chapter": 5,
+            "grow_number": 3,
+            "message": "新建的链表如果把前面的勾去掉，链表只是不显示在舞台区，但还是存在的。",
+            "sha1Code": "e45009af381aef3bcfd42d7090b860c1da6999f7",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/83/e6c90fda579c6e0415916bb7c5541e6ded9c49.mp3",
+            "message": "你可以打开Scratch 3.0找到链表看看~",
+            "sha1Code": "83e6c90fda579c6e0415916bb7c5541e6ded9c49"
+        },
+        {
+            "action": "看到了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2d/5d2b64ee7653253c164a1de9c340a1bdd713cc.mp3",
+            "chapter": 6,
+            "grow_number": 5,
+            "link": "https://www.cxy61.com/scratch3/build/index.html",
+            "message": "打开Scratch 3.0",
+            "sha1Code": "2d5d2b64ee7653253c164a1de9c340a1bdd713cc",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c2a8c3fc2e22ab6867f0ee0dadaabdbe_x.gif-1531x831"
+        },
+        {
+            "action": "和变量有什么区别？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/fd/1e828687ca9bae14c18523f05606c916c280ab.mp3",
+            "chapter": 7,
+            "grow_number": 5,
+            "message": "点击创建链表，然后输入名字，就可以看到出来很多和链表相关的功能模块。",
+            "sha1Code": "fd1e828687ca9bae14c18523f05606c916c280ab",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/0e/bf164a7284e2700a057445a1da53ee2309fc4a.mp3",
+            "message": "变量和链表都可以存储数据，但是变量只能存储一个数据，而链表可以存储很多很多的内容",
+            "sha1Code": "0ebf164a7284e2700a057445a1da53ee2309fc4a"
+        },
+        {
+            "action": "原来如此",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/06/e4c8928aa10ffe4f82530196568033fd3ed2f2.mp3",
+            "chapter": 8,
+            "grow_number": 5,
+            "message": "比如：存储同学的名字，需要新建30个变量。",
+            "sha1Code": "06e4c8928aa10ffe4f82530196568033fd3ed2f2",
+            "zuan_number": 1
+        },
+        {
+            "action": "怎么使用呢？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/26/2e3a4736691ebd5d7150d6ebc4715848c63293.mp3",
+            "chapter": 9,
+            "grow_number": 5,
+            "message": "而链表只需要一个，把每个人的名字输入到链表中就可以了。",
+            "sha1Code": "262e3a4736691ebd5d7150d6ebc4715848c63293",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/31/82526ef7345086986b1c2eb35e13c23349c9b6.mp3",
+            "message": "我们先来认识一下每个模块的功能。",
+            "sha1Code": "3182526ef7345086986b1c2eb35e13c23349c9b6"
+        },
+        {
+            "action": "怎么加？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/40/f27ac75a4fd90fb3ac318871418c08f74447b6.mp3",
+            "chapter": 10,
+            "grow_number": 5,
+            "message": "第一个模块就是将“斌叔”这串字符加入到“测试链表”中。",
+            "sha1Code": "40f27ac75a4fd90fb3ac318871418c08f74447b6",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/03177690a54719f1c484dbfc67ab627c_r.png-1232x793"
+        },
+        {
+            "action": "明白",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/76/b019151d116d9a53d0492578da652c88aa0695.mp3",
+            "chapter": 11,
+            "grow_number": 5,
+            "message": "输入想要添加的任意字符，然后点击一下模块，舞台区左上角就会出现我们输入的字符了。",
+            "sha1Code": "76b019151d116d9a53d0492578da652c88aa0695",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/88dc897c79cfbcc76f28fb5b1a2af966_j.gif-1531x831"
+        },
+        {
+            "action": "要是想删除呢",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/f7/9392e92ef614f45601b8c3c7087dd26851aadc.mp3",
+            "chapter": 12,
+            "grow_number": 3,
+            "message": "可以添加很多这样的字符，拼成一句话。",
+            "sha1Code": "f79392e92ef614f45601b8c3c7087dd26851aadc",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/1af401da564c729683d144da49d2b929_r.png-1358x875"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d5/2f9a4a09e745d3523bef04afd2522cfb9bf928.mp3",
+            "message": "可以使用第二个模块，拖到代码区，点击模块就会执行。",
+            "sha1Code": "d52f9a4a09e745d3523bef04afd2522cfb9bf928"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/23/5e5fa359fc903d5e2602a703f20548fad2f39f.mp3",
+            "chapter": 13,
+            "grow_number": 3,
+            "message": "中间的数字就是链表的第几项记录，比如我输入2，记录”在学校“就被删除了。",
+            "sha1Code": "235e5fa359fc903d5e2602a703f20548fad2f39f",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/8c/34989398328c8776b777a76b24c96f28569e0a.mp3",
+            "message": "第三个模块是在指定链表的指定位置，插入记录。",
+            "sha1Code": "8c34989398328c8776b777a76b24c96f28569e0a"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/e1d2064aafaae60da34ddb113de9599a_v.png-1358x875"
+        },
+        {
+            "action": "我试试",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/39/65a4199d8db01de6bca66224a93b8bd2248aa2.mp3",
+            "chapter": 14,
+            "grow_number": 3,
+            "message": "我们把“在家里”插入到链表中的第2项，就拼成一句新的话“斌叔在公司给学生们上课”。",
+            "sha1Code": "3965a4199d8db01de6bca66224a93b8bd2248aa2",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/db9dd6d89376412f7b2a0d2e1411cc60_g.png-840x840"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/de/7a91601aa890d083269c40d34602538b9eb5e8.mp3",
+            "chapter": 15,
+            "grow_number": 4,
+            "message": "接着来看下第四个模块，是用新内容替换掉就内容。",
+            "sha1Code": "de7a91601aa890d083269c40d34602538b9eb5e8",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/5984a5e86076540ff3d41456303df348_r.png-1358x875"
+        },
+        {
+            "action": "那怎么使用？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4c/738d0f7f94c5ac6efbe45d004a1ccbcbfcd64e.mp3",
+            "chapter": 16,
+            "grow_number": 3,
+            "message": "第五个模块是引用链表中的内容，和其他模块搭配使用，不能单独使用。",
+            "sha1Code": "4c738d0f7f94c5ac6efbe45d004a1ccbcbfcd64e",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/057f775120cc0134f2cf0d2514c11a03_s.png-964x376"
+        },
+        {
+            "action": "真的耶",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/77/6479490a826e8163b54b1ed8de97c3fe7dfc68.mp3",
+            "chapter": 17,
+            "grow_number": 5,
+            "message": "比如和说话搭配在一起，让小猫说出链表中的第三项内容。",
+            "sha1Code": "776479490a826e8163b54b1ed8de97c3fe7dfc68",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2f/b469e4fc43ac1379f24e83a2575616516f1601.mp3",
+            "message": "第六个模块就是可以显示出某个字符在链表得第几项。",
+            "sha1Code": "2fb469e4fc43ac1379f24e83a2575616516f1601"
+        },
+        {
+            "action": "显示2",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/37/9698522e60b588f5cf5a5866cd3ad9614268fa.mp3",
+            "chapter": 18,
+            "grow_number": 5,
+            "message": "比如输入“在公司”拖过去并点击这个模块，看看舞台区会显示什么？",
+            "sha1Code": "379698522e60b588f5cf5a5866cd3ad9614268fa",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/cfe451a4cdf7ccfd6c8080775dd3923a_e.png-951x437"
+        },
+        {
+            "action": "明白了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c8/38c1f8e2583ddaa89e5f824d0a1625b4649d1b.mp3",
+            "chapter": 19,
+            "grow_number": 4,
+            "message": "“2”的意思就是“在公司\"这个字符在链表的第2项。",
+            "sha1Code": "c838c1f8e2583ddaa89e5f824d0a1625b4649d1b",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/29/5b6d21788cce387b8585f787e868d58abc63fc.mp3",
+            "message": "第七个模块小朋友也拖过去点击看看会发生什么呢？",
+            "sha1Code": "295b6d21788cce387b8585f787e868d58abc63fc"
+        },
+        {
+            "action": "和老师一样",
+            "chapter": 20,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/3f413d55ae9bc97e389eb51f86d33ef0_f.png-837x386",
+            "zuan_number": 0
+        },
+        {
+            "action": "对",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/75/027103fca07b741ad9fd6edfdfb72d97289ff2.mp3",
+            "chapter": 21,
+            "grow_number": 4,
+            "message": "第八模块由菱形的外观可以想到，这是一个条件判断模块，对吗",
+            "sha1Code": "75027103fca07b741ad9fd6edfdfb72d97289ff2",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/85/0aa4ddf6005833ca0dbd49f60e8fdf72b5eaf5.mp3",
+            "message": "我们可以把这个模块作为某种条件，比如判断连表里面有没有某个字符。",
+            "sha1Code": "850aa4ddf6005833ca0dbd49f60e8fdf72b5eaf5"
+        },
+        {
+            "action": "原来如此",
+            "chapter": 22,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/04045babaa2876f44996af1a07fe37b1_l.png-968x390",
+            "zuan_number": 0
+        },
+        {
+            "action": "链表好多功能...",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/fa/a4b8e5c15123b56a9a058054b01ce864d538a6.mp3",
+            "chapter": 23,
+            "grow_number": 3,
+            "message": "第九个和第十个老师就不多说啦，和变量中说过的显示以及隐藏一样的用法噢",
+            "sha1Code": "faa4b8e5c15123b56a9a058054b01ce864d538a6",
+            "zuan_number": 0
+        },
+        {
+            "action": "没错....",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/48/b799a6215d588c93e40bfef1a76709aaee3264.mp3",
+            "chapter": 24,
+            "grow_number": 3,
+            "message": "是的，现在想想，数据模块是不是并不简单，反而更有挑战了呢？",
+            "sha1Code": "48b799a6215d588c93e40bfef1a76709aaee3264",
+            "zuan_number": 1
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/fa/fa2f9239ce8c5f9d854a571ca100fbcfd7f2e4.mp3",
+            "chapter": 25,
+            "grow_number": 3,
+            "message": "认识完模块，我们来看下链表在舞台上的显示。",
+            "sha1Code": "fafa2f9239ce8c5f9d854a571ca100fbcfd7f2e4",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/88abd3b9ef76a858f85189eef740f4cb_z.png-527x397"
+        },
+        {
+            "action": "删除了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a7/8a6b8254f5c6b2c7e8e999e97c4469c600ac82.mp3",
+            "chapter": 26,
+            "grow_number": 3,
+            "message": "链表里的项目都会在这里显示，如果我们点击某一个，旁边出来一个X，就可以快捷删除。",
+            "sha1Code": "a78a6b8254f5c6b2c7e8e999e97c4469c600ac82",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/28/0821b24510a4dd91d28b601edd8a54e36752be.mp3",
+            "message": "点击左下角的+号可以快捷的添加项目。",
+            "sha1Code": "280821b24510a4dd91d28b601edd8a54e36752be"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/383ceb1ec8869cbb5ab42b40c7ca2fa7_j.png-180x297"
+        },
+        {
+            "action": "嗯嗯好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e3/a68bad48baa28d671aa62dc3a25462b2357c89.mp3",
+            "chapter": 27,
+            "grow_number": 5,
+            "message": "小朋友试试看噢",
+            "sha1Code": "e3a68bad48baa28d671aa62dc3a25462b2357c89",
+            "zuan_number": 1
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "C",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/65/b7243c5b1a7d3010ac9a3a7a4f2581171ffafb.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 29,
+                    "grow_number": 3,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "链表与变量描述，选择错误的是？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "链表可以存很多的内容 "
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "变量只能保存一个值 "
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "变量和链表都只能保存一个值 "
+                }
+            ],
+            "sha1Code": "65b7243c5b1a7d3010ac9a3a7a4f2581171ffafb",
+            "tag": "3-2",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 28,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/d14a8033565af3d18bc68b54f75098c4_h.jpg-296x300"
+        },
+        {
+            "action": "有，就是没中过...",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/82/31cf7a27313ad400bd62fbca51df2f25bd0b0d.mp3",
+            "chapter": 30,
+            "grow_number": 5,
+            "message": "你平时有没有抽过奖什么的？",
+            "sha1Code": "8231cf7a27313ad400bd62fbca51df2f25bd0b0d",
+            "zuan_number": 0
+        },
+        {
+            "action": "老师还是你指导吧..",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/8f/1d398f57f71ede419bcb772a854879712947a1.mp3",
+            "chapter": 31,
+            "grow_number": 3,
+            "message": "哈哈了解了基础概念后，我们来做一个抽奖的小游戏吧，你要不要先自己试一试。",
+            "sha1Code": "8f1d398f57f71ede419bcb772a854879712947a1",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c3/dd0b5ef5cb739c5bdb1148d17c2a154a3acaae.mp3",
+            "message": "游戏规则：点击绿旗程序开始，按一次空格键，抽取一个奖品，可不断重复抽取，直到按红色停止键，程序结束。",
+            "sha1Code": "c3dd0b5ef5cb739c5bdb1148d17c2a154a3acaae"
+        },
+        {
+            "action": "我试试。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d7/1ae82ea7b45bb3d6d68ad6609b723060b500e9.mp3",
+            "chapter": 32,
+            "grow_number": 5,
+            "message": "抽奖的东西：U盘、保温杯、文具盒、笔筒、毛毯等。",
+            "sha1Code": "d71ae82ea7b45bb3d6d68ad6609b723060b500e9",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/f70c3f3a2342441c900b339de7e404d4_j.jpg-1463x860"
+        },
+        {
+            "action": "模块是挺简单的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/80/7b8f5c0837e8fa425a759e9a2f36a5d692f1d1.mp3",
+            "chapter": 33,
+            "grow_number": 5,
+            "message": "这是老师的模块，你和我一样的吗？是不是很简单呢。",
+            "sha1Code": "807b8f5c0837e8fa425a759e9a2f36a5d692f1d1",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2e/c08149296561fe1707e7a28a96a5675dc629fa.mp3",
+            "message": "首先我们删除小猫角色，设置新女孩角色，添加背景。然后在女孩角色上添加模块。",
+            "sha1Code": "2ec08149296561fe1707e7a28a96a5675dc629fa"
+        },
+        {
+            "action": "设好了",
+            "chapter": 34,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/cedff249ef5d4c6e3fdf81ef7e592b15_x.png-633x296",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/cb/8c66b9f36fbd30fe5bf297c7aa799a562608b9.mp3",
+            "message": "下一步是新建一个链表”奖品“。",
+            "sha1Code": "cb8c66b9f36fbd30fe5bf297c7aa799a562608b9"
+        },
+        {
+            "action": "新建好了",
+            "chapter": 35,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/d57c16c76de600184fa3085160d0dfbf_n.png-327x612",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a4/c4914396784bfbf7274f1914d12a40cf9b9fe5.mp3",
+            "message": "我们为了奖品的神秘性，可以把勾取消。",
+            "sha1Code": "a4c4914396784bfbf7274f1914d12a40cf9b9fe5"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/95/20fbed2a2b62eed353b4f7df04fb3d69ae3296.mp3",
+            "message": "然后就设置，当选小绿旗被点击时，程序开始，将我们的奖品添加到链表中去，一共5项。",
+            "sha1Code": "9520fbed2a2b62eed353b4f7df04fb3d69ae3296"
+        },
+        {
+            "action": "明白",
+            "chapter": 36,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/cda07305744ebbd9005324a560d0b4f1_q.png-325x333",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c3/5f6cfdb1777a1db60d6e94f870ebd8c2809377.mp3",
+            "message": "为了更生动，让女孩的造型有所变化，然后说出本次抽中的奖品。",
+            "sha1Code": "c35f6cfdb1777a1db60d6e94f870ebd8c2809377"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/94f98ba4dbe993fbac8a754f9061cf35_b.png-448x166"
+        },
+        {
+            "action": "明白了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/32/8f653cb1fd2b7d7e989cdf754ca15c7d409ad8.mp3",
+            "chapter": 37,
+            "grow_number": 3,
+            "message": "设置“当按下空格键”开始抽奖时为了方便操作。",
+            "sha1Code": "328f653cb1fd2b7d7e989cdf754ca15c7d409ad8",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/82/9c2c013019661ce6f9b3c32f0789ec44aa1f2f.mp3",
+            "message": "最后让女孩说出链表中的奖品，但是为了抽奖的公平性，就采取了随机数。",
+            "sha1Code": "829c2c013019661ce6f9b3c32f0789ec44aa1f2f"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/4d3af2a04f480e27eab3cfdc2cd2d270_j.gif-596x505"
+        },
+        {
+            "action": "学会了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/f6/a84b4f002391edd23ec6056073434d8fa8cbd8.mp3",
+            "chapter": 38,
+            "grow_number": 4,
+            "message": "小朋友你学会了吗？",
+            "sha1Code": "f6a84b4f002391edd23ec6056073434d8fa8cbd8",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/89029c0dfe5a44cacad70a2fa9daf1ac_f.gif-240x240"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "C",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/39/bf2c1271c6091f9cbd15cfca0c17597a1b12d7.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 40,
+                    "grow_number": 5,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "链表的功能模块中不能单独使用的是？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "添加字符到链表"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "删除链表的记录"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "引用链表的数据"
+                }
+            ],
+            "sha1Code": "39bf2c1271c6091f9cbd15cfca0c17597a1b12d7",
+            "tag": "3-3",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 39,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/b1/6fa69d8eb614b5ab389e94a5d6e5f8347e9556.mp3",
+            "message": "那老师这节课就上到这里了，小朋友下课后一定要多多练习，才能创造出更多好玩的游戏~",
+            "sha1Code": "b16fa69d8eb614b5ab389e94a5d6e5f8347e9556"
+        },
+        {
+            "action": "好的，老师再见！",
+            "chapter": 41,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/b50edf1ce639055ffc5d5ba37d2fe4c1_v.gif-150x140",
+            "zuan_number": 0
+        },
+        {
+            "action": "打卡炫耀下",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4f/243d288a5a93dc38587aa68e36f1120693e960.mp3",
+            "chapter": 42,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "sha1Code": "4f243d288a5a93dc38587aa68e36f1120693e960",
+            "zuan_number": 0
+        }
+    ],
+    "4": [
+        {
+            "img": "https://static1.bcjiaoyu.com/0e1df7278aca0782cf658c8d1fd7d638_h.jpg-300x300"
+        },
+        {
+            "action": "....好正式",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/33/87a4eb9c3b7c4cb5d05a322ff0d835f2b1aedf.mp3",
+            "chapter": 1,
+            "grow_number": 2,
+            "message": "欢迎来到橙旭园儿童编程~",
+            "sha1Code": "3387a4eb9c3b7c4cb5d05a322ff0d835f2b1aedf",
+            "zuan_number": 0
+        },
+        {
+            "action": "老师我走了...",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1a/a6366ef4a42eee64bf6243dfd445718a9cff0c.mp3",
+            "chapter": 2,
+            "grow_number": 3,
+            "message": "咳咳，这节课老师严肃一点，因为我们要学习数学。",
+            "sha1Code": "1aa6366ef4a42eee64bf6243dfd445718a9cff0c",
+            "zuan_number": 0
+        },
+        {
+            "action": "运算符？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/8b/f92c2a149fa52d994dba1fed2dd2da2ca19eb2.mp3",
+            "chapter": 3,
+            "grow_number": 2,
+            "message": "别走~逗你的，我们这节学习的跟加减乘除以及数字有关系噢，这个模块叫做“运算符”。",
+            "sha1Code": "8bf92c2a149fa52d994dba1fed2dd2da2ca19eb2",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c0/36bebcddc13753620462c82ddffd99127fca51.mp3",
+            "message": "对的呢，运算符模块包含三大类，分别是数学运算、逻辑运算、和字符运算。\n",
+            "sha1Code": "c036bebcddc13753620462c82ddffd99127fca51"
+        },
+        {
+            "action": "前面有用过",
+            "chapter": 4,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/d1478ea8d575234fdd56e6adf869a8ff_t.jpg-868x594",
+            "zuan_number": 0
+        },
+        {
+            "action": "这是数学啊",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/03/bda5aaea9b24046673a4262f4e94946484f94b.mp3",
+            "chapter": 5,
+            "grow_number": 2,
+            "message": "是的，数学运算包含一般的加减乘除，还有四舍五入、获取余数  以及获取随机数运算。",
+            "sha1Code": "03bda5aaea9b24046673a4262f4e94946484f94b",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/8b/338321e588acfc2c298c9cd8c421fc2ec016ab.mp3",
+            "message": "是的，小朋友可以去学一下这些数学知识。",
+            "sha1Code": "8b338321e588acfc2c298c9cd8c421fc2ec016ab"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/fc/0f68e3fdb71cb3e675699c15919f2a2712d215.mp3",
+            "chapter": 6,
+            "grow_number": 3,
+            "message": "逻辑运算一般用来条件判断，是大于呢，还是小于呢，还是等于呢、或者成立不成立等。",
+            "sha1Code": "fc0f68e3fdb71cb3e675699c15919f2a2712d215",
+            "zuan_number": 0
+        },
+        {
+            "action": "想起来了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2e/111d140286a0dd05de14cac05f38f58cf7a7a1.mp3",
+            "chapter": 7,
+            "grow_number": 3,
+            "message": "逻辑运算符中，还有三个常用的，还记得老师前面说过”与“”或“”不成立“的概念吗？",
+            "sha1Code": "2e111d140286a0dd05de14cac05f38f58cf7a7a1",
+            "zuan_number": 0
+        },
+        {
+            "action": "老师可以举例说说吗",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2b/6b613bb41e8df8e54c5338ef3a376b76602132.mp3",
+            "chapter": 8,
+            "grow_number": 2,
+            "message": "“与”是同时满足两个条件就可以达成，”或“是只要满足一个条件就达成，”不成立“是达成结果和条件相反。",
+            "sha1Code": "2b6b613bb41e8df8e54c5338ef3a376b76602132",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/29/d04fbe003ac14e79688663398c55620edafc7d.mp3",
+            "message": "举个例子，下面这个小车如果用”与“运算符，在同时按下空格键以及碰到石头时，小车就会停下来说”撞到石头了！“",
+            "sha1Code": "29d04fbe003ac14e79688663398c55620edafc7d"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/774201c9b6a7173a6791c63bba6f3a3c_r.gif-596x505"
+        },
+        {
+            "action": "如果用“或”呢？",
+            "chapter": 9,
+            "grow_number": 2,
+            "img": "https://static1.bcjiaoyu.com/d544e1ccc861836f2dfe74e444e6c52c_n.png-1184x785",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ad/c4e492b85f6c209bc439af31cd6cb05a02c16f.mp3",
+            "message": "如果用“或”的话，只要碰到石头，小车就会停下来。",
+            "sha1Code": "adc4e492b85f6c209bc439af31cd6cb05a02c16f"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/c625062c4e6f38a47766abc8eaa89893_x.gif-596x505"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/8813e06c5f16c4e7d898ffdbe26c0ce0_w.png-1168x725"
+        },
+        {
+            "action": "或就是两个条件只要满足一个对吧",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ef/5a538a18345511cd7e0c8f7b0ecac231308dee.mp3",
+            "chapter": 10,
+            "grow_number": 3,
+            "message": "而且按下空格键，小车也会停下。",
+            "sha1Code": "ef5a538a18345511cd7e0c8f7b0ecac231308dee",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/96/43135d2d652b56d9f5bd557fa88290e7036a19.mp3",
+            "message": "对的对的，真聪明~",
+            "sha1Code": "9643135d2d652b56d9f5bd557fa88290e7036a19"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/ed0f8415c2cd3fdf5435de2d5c86c1de_t.png-1167x736"
+        },
+        {
+            "action": "不是特别明白",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/cf/c8a006ce5e1fc04447c7ae546f54f058ca2b68.mp3",
+            "chapter": 11,
+            "grow_number": 2,
+            "message": "这个是”不成立“运算符举例，意思就是空格键按下这个不成立，那么小车就一直开。",
+            "sha1Code": "cfc8a006ce5e1fc04447c7ae546f54f058ca2b68",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ec/347016901ed35ea175128c3f315c8b6096735e.mp3",
+            "message": "你试试看会有什么效果呢？",
+            "sha1Code": "ec347016901ed35ea175128c3f315c8b6096735e"
+        },
+        {
+            "action": "明白了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/17/8d1db3616e35f5a9de6811c5996ceec0b36af3.mp3",
+            "chapter": 12,
+            "grow_number": 3,
+            "message": "是不是只要我们没有按下空格键，车就会一直开。",
+            "sha1Code": "178d1db3616e35f5a9de6811c5996ceec0b36af3",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/51/ce03f56eb7af96166439798a1ed46a66002a66.mp3",
+            "message": "接着我们来看看字符运算，第一个是可以连接两个字符串，字符串可以是文字也可以是变量。",
+            "sha1Code": "51ce03f56eb7af96166439798a1ed46a66002a66"
+        },
+        {
+            "action": "好的",
+            "chapter": 13,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/ea77439248a8605e0a95556822e8ab95_t.png-225x84",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/d5987fa1bf9bb4287dec6067cbbfcd47_m.png-213x61"
+        },
+        {
+            "action": "嗯嗯",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1a/97864c0d331d04943fbb0bb58260e333977459.mp3",
+            "chapter": 14,
+            "grow_number": 3,
+            "message": "第二个是取出字符串的第几个字符。",
+            "sha1Code": "1a97864c0d331d04943fbb0bb58260e333977459",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/383908db419c33f23cf396cd8200108c_r.png-151x62"
+        },
+        {
+            "action": "好多功能啊",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/44/a031c5591b65167fdac9bd8b7feb6bcc773fc9.mp3",
+            "chapter": 15,
+            "grow_number": 4,
+            "message": "第三个是算出字符串的长度。",
+            "sha1Code": "44a031c5591b65167fdac9bd8b7feb6bcc773fc9",
+            "zuan_number": 0
+        },
+        {
+            "action": "那倒是",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/56/f13cafcb4737b0740f1677effd8da0da89dbfd.mp3",
+            "chapter": 16,
+            "grow_number": 2,
+            "message": "功能越多就说明，我们编写游戏的时候更方便呀，因为提供了这么多模块给我们选择，你说是吗？",
+            "sha1Code": "56f13cafcb4737b0740f1677effd8da0da89dbfd",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/8a/aa88505db847562d80cad36991c08eadce64fa.mp3",
+            "message": "下面我们用小项目来加深这些模块的理解吧~",
+            "sha1Code": "8aaa88505db847562d80cad36991c08eadce64fa"
+        },
+        {
+            "action": "好呀好呀",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/fa/258ed9b79bdeedc486a8e5cf4a409916d5afcb.mp3",
+            "chapter": 17,
+            "grow_number": 4,
+            "message": "来玩一个“猜数字”游戏。",
+            "sha1Code": "fa258ed9b79bdeedc486a8e5cf4a409916d5afcb",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/3e/c889ac41a8580b9b7560643c8df045d6dea22a.mp3",
+            "message": "游戏规则：角色询问并让玩家输入1-10之间的数字，和生成的随机数匹配，是否猜对。",
+            "sha1Code": "3ec889ac41a8580b9b7560643c8df045d6dea22a"
+        },
+        {
+            "action": "询问并等待模块",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c5/fa4011b6d99954cd27cb0d7524439cc6f70c3b.mp3",
+            "chapter": 18,
+            "grow_number": 3,
+            "message": "小朋友， 你知道当点击小绿旗，让玩家输入数字并存储在回答中，需要用哪个模块吗？",
+            "sha1Code": "c5fa4011b6d99954cd27cb0d7524439cc6f70c3b",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1e/84b03e725534192919959dec27897d087f014b.mp3",
+            "message": "是的，那你先添加模块，询问玩家：请输入1-10之间的数字。",
+            "sha1Code": "1e84b03e725534192919959dec27897d087f014b"
+        },
+        {
+            "action": "完成了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2d/5d2b64ee7653253c164a1de9c340a1bdd713cc.mp3",
+            "chapter": 19,
+            "grow_number": 2,
+            "link": "https://www.cxy61.com/scratch3/build/index.html",
+            "message": "打开Scratch 3.0",
+            "sha1Code": "2d5d2b64ee7653253c164a1de9c340a1bdd713cc",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/cd29fc49d6883fbea49b0923412d1f67_o.png-414x194"
+        },
+        {
+            "action": "好的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/98/281cba5641a486c38d2f58b5b2144640e69ad3.mp3",
+            "chapter": 20,
+            "grow_number": 3,
+            "message": "就像这样，玩家输入数字后保存到答案中，然后判断与我们随机生成数字是否一致。",
+            "sha1Code": "98281cba5641a486c38d2f58b5b2144640e69ad3",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b238139749e184a857107477cbe7873a_p.png-362x325"
+        },
+        {
+            "action": "完成",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/13/f1ae741f1ba24fced7ae563307a5c3e59c3389.mp3",
+            "chapter": 21,
+            "grow_number": 4,
+            "message": "剩余的部分，小朋友自己添加完成吧",
+            "sha1Code": "13f1ae741f1ba24fced7ae563307a5c3e59c3389",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/53/ec7aaf81f3521bba5f4713b482cc46f0c08107.mp3",
+            "message": "然后在条件判断里添加条件，在1-10之间生成一个随机数。",
+            "sha1Code": "53ec7aaf81f3521bba5f4713b482cc46f0c08107"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/80/82fa68574f583527c536a4935ec764f13c38aa.mp3",
+            "message": "看随机数等不等于回答里面的数据。",
+            "sha1Code": "8082fa68574f583527c536a4935ec764f13c38aa"
+        },
+        {
+            "action": "完成了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/5a/42598a593d191537d426409829e9e2a81c7153.mp3",
+            "chapter": 22,
+            "grow_number": 4,
+            "message": "如果相等，说“猜对了，真厉害”。不相等，说“很遗憾，猜错了”",
+            "sha1Code": "5a42598a593d191537d426409829e9e2a81c7153",
+            "zuan_number": 0
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/a1d23fee0d301be683d6cd6853d2d48c_b.gif-596x505"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/11262c978589efcfbb4eb83895849e3b_n.png-512x383"
+        },
+        {
+            "action": "是的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/2b/d255b6f2a1b86dd17a29bb3fe84592647314ae.mp3",
+            "chapter": 23,
+            "grow_number": 5,
+            "message": "小朋友你是这样吗？",
+            "sha1Code": "2bd255b6f2a1b86dd17a29bb3fe84592647314ae",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/92/7860c8c15cd594aef0e43d420499f1cc72c03d.mp3",
+            "message": "很棒哦。到这里我们这个游戏就完成了，你可以运行玩一玩，也可以和你朋友分享。",
+            "sha1Code": "927860c8c15cd594aef0e43d420499f1cc72c03d"
+        },
+        {
+            "action": "开心！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/03/40fbf9437167a2a7c9088762fdf730136a7889.mp3",
+            "chapter": 24,
+            "grow_number": 2,
+            "message": "小朋友，你现在可以独立完成一个小游戏了，有没有很开心呀？",
+            "sha1Code": "0340fbf9437167a2a7c9088762fdf730136a7889",
+            "zuan_number": 0
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                }
+            ],
+            "answer": "B",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/3e/2562811d2ad353e7c7f9369a8f07a2976bc6ee.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 26,
+                    "grow_number": 3,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "我们是否可以指定随机数的范围？ ",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "不可以"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "可以"
+                }
+            ],
+            "sha1Code": "3e2562811d2ad353e7c7f9369a8f07a2976bc6ee",
+            "tag": "4-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 25,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/78833851a5b9a1e835b9c60fdad70635_m.jpg-240x240"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/37/a8b4531d21da54befbeadbfad7c224d6432865.mp3",
+            "message": "《猜数字》游戏还有升级版本。",
+            "sha1Code": "37a8b4531d21da54befbeadbfad7c224d6432865"
+        },
+        {
+            "action": "是的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/58/eec6cbe9c9acd191fc1694e59aacfbbe9f3793.mp3",
+            "chapter": 27,
+            "grow_number": 5,
+            "message": "我们只能知道，用户输入数字与随机的不一致，但是不知道随机出来的数字是多少。",
+            "sha1Code": "58eec6cbe9c9acd191fc1694e59aacfbbe9f3793",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d0/9d487896d4522966ea29a646e2a9d732cb5085.mp3",
+            "message": "结合我们刚学的变量知识，可以把随机出来的数字保存在变量中，然后让变量去比较。",
+            "sha1Code": "d09d487896d4522966ea29a646e2a9d732cb5085"
+        },
+        {
+            "action": "来吧模块！",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e7/1926f7ea82cc53f136d4d3fcf64b2c8e25d93b.mp3",
+            "chapter": 28,
+            "grow_number": 3,
+            "message": "小朋友刚开始可能觉得有点难，看看老师的模块，能看懂就可以。",
+            "sha1Code": "e71926f7ea82cc53f136d4d3fcf64b2c8e25d93b",
+            "zuan_number": 1
+        },
+        {
+            "action": "好的我好好看看",
+            "chapter": 29,
+            "grow_number": 5,
+            "img": "https://static1.bcjiaoyu.com/53040244fc427c4223ab954fbb203557_c.png-1079x821",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/85e94691c9cf96a7ce2aeec83d617903_j.jpg-440x440"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ed/50ed13d1b98a8afa28a9877f266f493d2e7420.mp3",
+            "message": "那我们开始下一个咯",
+            "sha1Code": "ed50ed13d1b98a8afa28a9877f266f493d2e7420"
+        },
+        {
+            "action": "偶尔",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ee/e84a5fb22440b380ba74c072345f93a35c4551.mp3",
+            "chapter": 30,
+            "grow_number": 4,
+            "message": "小朋友，平时有用计算器吗？",
+            "sha1Code": "eee84a5fb22440b380ba74c072345f93a35c4551",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4d/08357d9600ce9375452f0adc262c2b41f3d312.mp3",
+            "message": "老师带你做一个小项目，让你对学的知识加深印象。",
+            "sha1Code": "4d08357d9600ce9375452f0adc262c2b41f3d312"
+        },
+        {
+            "action": "会， 比较麻烦",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/bc/6812047dbaf8f994df411e9604df970862a68b.mp3",
+            "chapter": 31,
+            "grow_number": 4,
+            "message": "首先老师问你，当数学计算中，有一些很大的数字相加或者相减，计算起来会不会很费时间啊？",
+            "sha1Code": "bc6812047dbaf8f994df411e9604df970862a68b",
+            "zuan_number": 1
+        },
+        {
+            "action": "真的吗？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/cf/015d01ebf7b259f802f27906f9e7f046171724.mp3",
+            "chapter": 32,
+            "grow_number": 3,
+            "message": "所以我们用程序来解决这些麻烦，制作一个简易计算器。",
+            "sha1Code": "cf015d01ebf7b259f802f27906f9e7f046171724",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e2/ab244f5c7878ca5592971d0b89ec341eff210f.mp3",
+            "message": "当然了，老师什么时候骗过你。我们开始吧。",
+            "sha1Code": "e2ab244f5c7878ca5592971d0b89ec341eff210f"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/b5933702ca79f638fbf9979656bbbde4_f.png-516x730"
+        },
+        {
+            "action": "我可以选我喜欢的吗？",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a0/3e24338c977627ea575f7befab5c58b473ad43.mp3",
+            "chapter": 33,
+            "grow_number": 4,
+            "message": "首先选一下背景和角色，我选了一个舞台和一只鸭子，你呢",
+            "sha1Code": "a03e24338c977627ea575f7befab5c58b473ad43",
+            "zuan_number": 1
+        },
+        {
+            "action": "ok，那我选好了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/60/12c0355386efd3e1a059f50a3127c0bc73080d.mp3",
+            "chapter": 34,
+            "grow_number": 3,
+            "message": "本节课可以的。",
+            "sha1Code": "6012c0355386efd3e1a059f50a3127c0bc73080d",
+            "zuan_number": 1
+        },
+        {
+            "action": "两个数字和运算符",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/66/4c09d3232e9db194ec0ac0a3da1ab9ae9ddb8b.mp3",
+            "chapter": 35,
+            "grow_number": 3,
+            "message": "下面我们进入编程阶段，编程之前先思考，计算器是如何使用的呢？",
+            "sha1Code": "664c09d3232e9db194ec0ac0a3da1ab9ae9ddb8b",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/09/851f54d09d0ea8186bb024b51592fd1ab1a985.mp3",
+            "message": "嗯，非常棒",
+            "sha1Code": "09851f54d09d0ea8186bb024b51592fd1ab1a985"
+        },
+        {
+            "action": "没错",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/cf/b012762762d41e4a397f0060da7242067f376f.mp3",
+            "chapter": 36,
+            "grow_number": 2,
+            "message": "我们使用计算器的时候，要先输入一个数字，再输入一个运算符，然后再输入一个数，这样结果就出来了",
+            "sha1Code": "cfb012762762d41e4a397f0060da7242067f376f",
+            "zuan_number": 0
+        },
+        {
+            "action": "当然不是啊",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a9/93f866050c07b35bc943ecc2b7f53745434fa7.mp3",
+            "chapter": 37,
+            "grow_number": 5,
+            "message": "那么问题来了，我们输入的数字是固定不变的吗？",
+            "sha1Code": "a993f866050c07b35bc943ecc2b7f53745434fa7",
+            "zuan_number": 1
+        },
+        {
+            "action": "变量",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/48/cc78d1bb18870eba759f16c7e1e4dcea37a96e.mp3",
+            "chapter": 38,
+            "grow_number": 5,
+            "message": "没错，我们每次要计算的数字都是会变化的，那么我们该用到一个什么知识呢？",
+            "sha1Code": "48cc78d1bb18870eba759f16c7e1e4dcea37a96e",
+            "zuan_number": 1
+        },
+        {
+            "action": "两个吧",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/86/f57ea823a986721d8d656ad8000a779cc9e741.mp3",
+            "chapter": 39,
+            "grow_number": 4,
+            "message": "对的，变量可以满足这个要求，问题又来了，我们要用到几个变量啊?",
+            "sha1Code": "86f57ea823a986721d8d656ad8000a779cc9e741",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/f0/ca3e9312a7153798517c4ef2c0c13746c7d7a0.mp3",
+            "message": "没错，因为是两个数值来运算，每一个数值都是不确定的，所以要用到两个变量。",
+            "sha1Code": "f0ca3e9312a7153798517c4ef2c0c13746c7d7a0"
+        },
+        {
+            "action": "我也完成了",
+            "chapter": 40,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/4f04f62e1ac027bbe511d061f20e1171_z.png-246x315",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ea/c653a09066924bee21921d476ec980e76c5532.mp3",
+            "message": "接下来用到熟悉的询问模块，可以让我们输入要计算的数字，并保存在答案中。",
+            "sha1Code": "eac653a09066924bee21921d476ec980e76c5532"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/db1801e4165838d9c102860650391a17_r.png-320x307"
+        },
+        {
+            "action": "好的，设置好了。",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/23/fb20da0a965200f03b8bfcd33da6ec99828f6d.mp3",
+            "chapter": 41,
+            "grow_number": 5,
+            "message": "接下来我们将回答设为数字1，也就是说，我们输入的数字是多少，变量数字1 就是多少.",
+            "sha1Code": "23fb20da0a965200f03b8bfcd33da6ec99828f6d",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/43/c6f39874bb286e90c3863396b45a45d013d26d.mp3",
+            "message": "输入完第一个数字之后，接下来就要输入运算符了，我们要再次询问运算符。",
+            "sha1Code": "43c6f39874bb286e90c3863396b45a45d013d26d"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/93/a8b63937b2bc484e2dc7df7480534d6feaf050.mp3",
+            "message": "对于运算符，我们要进行判断，要让计算机判断我们输入的是加法还是减法。",
+            "sha1Code": "93a8b63937b2bc484e2dc7df7480534d6feaf050"
+        },
+        {
+            "action": "判断完之后呢？",
+            "chapter": 42,
+            "grow_number": 4,
+            "img": "https://static1.bcjiaoyu.com/e8eb314a2304e81f0e563f8bcbb43dad_i.png-353x545",
+            "zuan_number": 0
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/8c/121282bd6f85b65105da5839d1fa2dbb41c4a3.mp3",
+            "message": "判断完之后，我们要针对不同的条件，进而做不同的运算。",
+            "sha1Code": "8c121282bd6f85b65105da5839d1fa2dbb41c4a3"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/52/163044bf252ba70930cbab40847aad9254d4df.mp3",
+            "message": "如果是加法的话，我们接下来要询问第二个数字了，然后同理，将变量数字2设为我们的回答。",
+            "sha1Code": "52163044bf252ba70930cbab40847aad9254d4df"
+        },
+        {
+            "action": "这样就结束了吗？",
+            "chapter": 43,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/8dc64c97bbabff01a1fc6bfa84229793_z.png-329x585",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/3f/91585779364e085afa9a70663d71478d5e73ec.mp3",
+            "message": "当然还没有，我们只是进行了设定，接下来我们要让小企鹅把结果说出来，也就是说出数字1加数字2。",
+            "sha1Code": "3f91585779364e085afa9a70663d71478d5e73ec"
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/ea56758f7799a55784654d9dee5699f4_v.png-444x709"
+        },
+        {
+            "action": "那这样就算完成了呗",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/c2/8b5c5aeec94270bf9af7abb0135b93fc0b3dfa.mp3",
+            "chapter": 44,
+            "grow_number": 5,
+            "message": "注意说话模块中，加减法是不同的运算符噢。",
+            "sha1Code": "c28b5c5aeec94270bf9af7abb0135b93fc0b3dfa",
+            "zuan_number": 1
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/26f6fb54a7ed9c5583444faf4980d79c_g.gif-599x500"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/20/394a07d1f428baec951b0a50d7e7dce652d516.mp3",
+            "message": "是的，这样项目就成功了，你可以试一试噢。我们这节课就到这里啦~",
+            "sha1Code": "20394a07d1f428baec951b0a50d7e7dce652d516"
+        },
+        {
+            "action": "老师拜拜",
+            "chapter": 45,
+            "grow_number": 3,
+            "img": "https://static1.bcjiaoyu.com/51c7a453d63fc7c69e00a16014b55e42_i.gif-240x240",
+            "zuan_number": 1
+        },
+        {
+            "action": "打卡炫耀下",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4f/243d288a5a93dc38587aa68e36f1120693e960.mp3",
+            "chapter": 46,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "sha1Code": "4f243d288a5a93dc38587aa68e36f1120693e960",
+            "zuan_number": 0
+        }
+    ],
+    "5": [
+        {
+            "img": "https://static1.bcjiaoyu.com/f156579cc3e87565b875992f1c11b4cf_v.jpg-450x448"
+        },
+        {
+            "action": "好.......萌",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/a7/0340f4e1a81ff1ab163bc9800bf94b90e04119.mp3",
+            "chapter": 1,
+            "grow_number": 9,
+            "message": "老师来啦",
+            "sha1Code": "a70340f4e1a81ff1ab163bc9800bf94b90e04119",
+            "zuan_number": 1
+        },
+        {
+            "action": "谢谢夸奖",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/99/5cd31131c60526a2f69352985f3e91e90ba29f.mp3",
+            "chapter": 2,
+            "grow_number": 8,
+            "message": "哈哈，因为有你这么聪明的学生，老师很开心~",
+            "sha1Code": "995cd31131c60526a2f69352985f3e91e90ba29f",
+            "zuan_number": 2
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/60/4457856f6d6cbe0c59268f2398bfc82fd47c4a.mp3",
+            "message": "今天是我们这个单元的最后一节了，老师带你做一个超级有用的项目。",
+            "sha1Code": "604457856f6d6cbe0c59268f2398bfc82fd47c4a"
+        },
+        {
+            "action": "测什么",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/67/1af7ff2df5cae1ccdf6314fc5345a2b63e8bb8.mp3",
+            "chapter": 3,
+            "grow_number": 9,
+            "message": "完成后别忘了，可以给你爸爸妈妈测一测。",
+            "sha1Code": "671af7ff2df5cae1ccdf6314fc5345a2b63e8bb8",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/ff/06299f675b3d9116ccc1bdc6cabd86b35afd5c.mp3",
+            "message": "测我们的体重指数（BMI），输入身高和体重，就可以算出你的体重是否正常还是超重。",
+            "sha1Code": "ff06299f675b3d9116ccc1bdc6cabd86b35afd5c"
+        },
+        {
+            "action": "好的~",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/13/a0fea45a320ba783ce872840fc8046876bdb43.mp3",
+            "chapter": 4,
+            "grow_number": 12,
+            "message": "科普一下BMI是：体重/身高*身高。这个公式不理解也没关系啦，网上可以查得到。",
+            "sha1Code": "13a0fea45a320ba783ce872840fc8046876bdb43",
+            "zuan_number": 1
+        },
+        {
+            "action": "哇",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/28/ddf433933e746279b1c656706e2cfc3f967579.mp3",
+            "chapter": 5,
+            "grow_number": 7,
+            "message": "需要用到数据链表、运算符、侦测、外观等模块。",
+            "sha1Code": "28ddf433933e746279b1c656706e2cfc3f967579",
+            "zuan_number": 2
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/6a/2812ffefd172ca13b86f123db6ac50736bab4a.mp3",
+            "message": "如果BMI值在18.5~24之间就是标准身材。好了知道这些知识后我们准备开始。",
+            "sha1Code": "6a2812ffefd172ca13b86f123db6ac50736bab4a"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/cc/935176297cc7e12667ca351aee93deea8dafd7.mp3",
+            "message": "首先新建三个变量，分别是“身高”，“体重”，\"BMI\"。",
+            "sha1Code": "cc935176297cc7e12667ca351aee93deea8dafd7"
+        },
+        {
+            "action": "建好了",
+            "chapter": 6,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/ab05660d2089438213d3e51c30e495aa_n.png-266x360",
+            "zuan_number": 1
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/e4/78664215592ea0dec8570994632fc0c3e6f8aa.mp3",
+            "message": "然后删除小猫角色，增加一个女孩角色。",
+            "sha1Code": "e478664215592ea0dec8570994632fc0c3e6f8aa"
+        },
+        {
+            "action": "好了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/25/a7267f7e2a72d221bd6740cb50e044a4659b9e.mp3",
+            "chapter": 7,
+            "grow_number": 14,
+            "link": "https://www.cxy61.com/scratch3/build/index.html",
+            "message": "打开 Scratch 3.0",
+            "sha1Code": "25a7267f7e2a72d221bd6740cb50e044a4659b9e",
+            "zuan_number": 2
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/2b0a6cfd4aab808df4adb5f0b47ce50c_s.png-1534x838"
+        },
+        {
+            "action": "是的是的",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d5/d274badeb289e728ecd3ded7de62f87bfd4e95.mp3",
+            "chapter": 8,
+            "grow_number": 14,
+            "message": "是不是像老师图中这样。",
+            "sha1Code": "d5d274badeb289e728ecd3ded7de62f87bfd4e95",
+            "zuan_number": 2
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/35/f779e811631bf87754905bb7d3158ffb831878.mp3",
+            "message": "接着我们在女孩角色上编写代码。",
+            "sha1Code": "35f779e811631bf87754905bb7d3158ffb831878"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/5f/65cd282bbf219fca60221f578fa86d087c3106.mp3",
+            "message": "用询问模块，将输入回答中的身高和体重添加到对应的变量里。",
+            "sha1Code": "5f65cd282bbf219fca60221f578fa86d087c3106"
+        },
+        {
+            "action": "明白了",
+            "chapter": 9,
+            "grow_number": 7,
+            "img": "https://static1.bcjiaoyu.com/6da0c1ebdfdd850ed204a78e01cc1e32_q.png-379x624",
+            "zuan_number": 2
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/de/7d378014ee65c09ac4a523d91036ff362d7e19.mp3",
+            "message": "因为我们平时体重用厘米比较多，比如160cm。所以用160厘米除以100换成单位米。",
+            "sha1Code": "de7d378014ee65c09ac4a523d91036ff362d7e19"
+        },
+        {
+            "action": "好了",
+            "chapter": 10,
+            "grow_number": 14,
+            "img": "https://static1.bcjiaoyu.com/0359402eeea8b828077ef9d9589c7685_e.png-1091x534",
+            "zuan_number": 2
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/23f988887f331d5526e82d295f1d3b9d_e.jpg-300x300"
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/90/2702a7aaa74108fcc61e5a8d34a6a2cc02acb1.mp3",
+            "message": "接下来看着老师的模块，你跟着做吧",
+            "sha1Code": "902702a7aaa74108fcc61e5a8d34a6a2cc02acb1"
+        },
+        {
+            "action": "做好了",
+            "chapter": 11,
+            "grow_number": 10,
+            "img": "https://static1.bcjiaoyu.com/c359e4afbf0570000a22e8bab6e1921f_a.png-1083x806",
+            "zuan_number": 2
+        },
+        {
+            "action": "看到了",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/1e/608d73bcaf45cbaa648064b929111a3c9f8b2c.mp3",
+            "chapter": 12,
+            "grow_number": 9,
+            "message": "好的，其中我们用到“如果...那么“模块，作为判断条件。",
+            "sha1Code": "1e608d73bcaf45cbaa648064b929111a3c9f8b2c",
+            "zuan_number": 2
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/4fe55a248e1339ee52aacef2734054d3_a.gif-596x505"
+        },
+        {
+            "action": "用了好多运算符",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/d5/0518d43377a4e710da38ec9282564914c59c28.mp3",
+            "chapter": 13,
+            "grow_number": 13,
+            "message": "如果BMI在18.5-24之间，就说“理想体重”和BMI，否则说“需锻炼身体了！”",
+            "sha1Code": "d50518d43377a4e710da38ec9282564914c59c28",
+            "zuan_number": 2
+        },
+        {
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/81/30bb3bc68d7f21272694399507ae1e2148ecb3.mp3",
+            "message": "是的，你自己动手试试，理解下这些运算符的用法。",
+            "sha1Code": "8130bb3bc68d7f21272694399507ae1e2148ecb3"
+        },
+        {
+            "action": [
+                {
+                    "content": "A",
+                    "type": "text"
+                },
+                {
+                    "content": "B",
+                    "type": "text"
+                },
+                {
+                    "content": "C",
+                    "type": "text"
+                }
+            ],
+            "answer": "A",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/65/d7adf8659b749e63e766de398da0f6bf2f19dc.mp3",
+            "correct": [
+                {
+                    "action": "下一条",
+                    "chapter": 15,
+                    "grow_number": 7,
+                    "message": "答对了",
+                    "zuan_number": 1
+                }
+            ],
+            "exercises": true,
+            "imgs": [],
+            "message": "计算4个数字，要使用几个运算模块？",
+            "options": [
+                {
+                    "content": "A",
+                    "imgs": [],
+                    "message": "3"
+                },
+                {
+                    "content": "B",
+                    "imgs": [],
+                    "message": "4"
+                },
+                {
+                    "content": "C",
+                    "imgs": [],
+                    "message": "5"
+                }
+            ],
+            "sha1Code": "65d7adf8659b749e63e766de398da0f6bf2f19dc",
+            "tag": "5-1",
+            "type": "adaptProblem",
+            "wrong": [
+                {
+                    "action": "下一条",
+                    "chapter": 14,
+                    "grow_number": 0,
+                    "message": "答错了",
+                    "zuan_number": 0
+                }
+            ]
+        },
+        {
+            "img": "https://static1.bcjiaoyu.com/87a493e66b83670a28e740da040ed438_s.gif-240x240"
+        },
+        {
+            "action": "老师再见",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/13/3073dd4ec743779c0d5b848672b05260f91a50.mp3",
+            "chapter": 16,
+            "grow_number": 7,
+            "message": "这节课我们就到这里了，小朋友快去和爸爸妈妈分享吧~下节课再见啦",
+            "sha1Code": "133073dd4ec743779c0d5b848672b05260f91a50",
+            "zuan_number": 2
+        },
+        {
+            "action": "打卡炫耀下",
+            "audio": "https://www.cxy61.com/program_girl/media/010/cn/4f/243d288a5a93dc38587aa68e36f1120693e960.mp3",
+            "chapter": 17,
+            "grow_number": 0,
+            "message": "打卡炫耀下",
+            "record": true,
+            "sha1Code": "4f243d288a5a93dc38587aa68e36f1120693e960",
+            "zuan_number": 0
+        }
+    ],
+    "catalogs": [
+        {
+            "title": "新建变量"
+        },
+        {
+            "title": "让主角按照一定的速度和路径运动"
+        },
+        {
+            "title": "链表"
+        },
+        {
+            "title": "运算符与随机数"
+        },
+        {
+            "title": "游戏：理想体重"
+        }
+    ]
+}
