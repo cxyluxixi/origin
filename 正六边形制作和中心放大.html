@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <title>test</title>
+            <link rel="stylesheet" href="E:/web/MYweb/qixi/font/iconfont.css">
+            <style>
+                /* .right{  
+                        display: inline-block;   
+                        width:0px;   
+                        height: 0px;  
+                        margin-left:500px; 
+                        border-top:100px solid rgba(0,0,0,0);
+                        border-right:100px solid  rgba(0,0,0,0);
+                        border-bottom:100px solid  rgba(0,0,0,0);
+                        border-left:100px solid red ;
+                }  */
+                /*css片段*/
+            .six,.b,.c{
+                width: 100px;
+                height: 173.205px;
+                background:palegreen;
+                
+            }
+            .six{
+               
+                margin-left:500px;
+                margin-top: 100px;
+                position: relative;
+                
+            }
+            .b{
+                transform: rotate(-60deg);
+            }
+            .c{
+                transform: rotate(120deg);
+                /* position: absolute; */
+                /* top:0; */
+            }
+            
+            .six:hover,
+            .six:hover >.b,
+            .six:hover >.b>.c{
+                background:goldenrod;
+                transform: scale(1.2);
+            } 
+            .six:hover >.b{
+                transform: scale(1.2);
+                transform: rotate(-60deg);
+            }
+            .six:hover >.b>.c{
+                transform: scale(1.2);
+                transform: rotate(120deg);
+            }
+            
+            a{
+                text-decoration: black;
+                color: black;
+                cursor: default;
+                position: absolute;
+                top:70px;
+                left:30px;
+            }   
+            a:hover{
+                color: black;
+            }
+            </style>
+    </head>
+    <body>         
+        <div class="six">
+            <div class="b">
+                    <div class="c"></div>
+            </div>
+            <a href="" class="百度">百度</a>
+        </div>   
+    </body>
+</html>
