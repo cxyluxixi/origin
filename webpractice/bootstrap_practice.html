@@ -363,57 +363,57 @@
                     </p>
                 </div>
                 <script type="text/javascript ">
-                //按钮点击切换背景图
-                window.onload = initLinks;
-                var mypic = new Array("images/banner002.jpg ", "images/banner003.jpg ",
-                    "images/slide02.jpg ", "images/slide04.jpg ");
-                //定义数组来存放图片地址
-                var thispic = 0;
+                    //按钮点击切换背景图
+                    window.onload = initLinks;
+                    var mypic = new Array("images/banner002.jpg ", "images/banner003.jpg ",
+                        "images/slide02.jpg ", "images/slide04.jpg ");
+                    //定义数组来存放图片地址
+                    var thispic = 0;
 
-                function initLinks() {
-                    document.getElementById('befLink').onclick = turnBef;
-                    document.getElementById('nexLink').onclick = turnNex;
-                }
-
-                function turnBef() {
-                    if (thispic == 0) {
-                        thispic = mypic.length;
+                    function initLinks() {
+                        document.getElementById('befLink').onclick = turnBef;
+                        document.getElementById('nexLink').onclick = turnNex;
                     }
-                    thispic--;
-                    document.getElementById('tplb').style.background = "url( " + mypic[thispic] + ") ";
-                    return false;
-                }
 
-                function turnNex() {
-                    thispic++;
-                    if (thispic == mypic.length) {
-                        thispic = 0;
-                    }
-                    document.getElementById('tplb').style.background = "url( " + mypic[thispic] + ") ";
-                    return false;
-                }
-
-                //鼠标移上图片,简单放大图片
-                var big = document.getElementsByClassName("fit");
-                var natureimg = big.getElementsByTagName("img");
-                for (var i = 0; i < natureimg.length; i++) {
-                    var wid = natureimg[i].width;
-                    var hei = natureimg[i].height;
-
-                    function big() {
-                        natureimg[i].width = wid * 1.2;
-                        natureimg[i].height = hei * 1.2;
+                    function turnBef() {
+                        if (thispic == 0) {
+                            thispic = mypic.length;
+                        }
+                        thispic--;
+                        document.getElementById('tplb').style.background = "url( " + mypic[thispic] + ") ";
                         return false;
                     }
 
-                    function goBack() {
-                        this.width = wid;
-                        this.height = hei;
+                    function turnNex() {
+                        thispic++;
+                        if (thispic == mypic.length) {
+                            thispic = 0;
+                        }
+                        document.getElementById('tplb').style.background = "url( " + mypic[thispic] + ") ";
                         return false;
                     }
-                    natureimg[i].onmouseover = big;
-                    natureimg[i].onmouseout = goBack;
-                }
+
+                    //鼠标移上图片,简单放大图片
+                    var big = document.getElementsByClassName("fit");
+                    var natureimg = big.getElementsByTagName("img");
+                    for (var i = 0; i < natureimg.length; i++) {
+                        var wid = natureimg[i].width;
+                        var hei = natureimg[i].height;
+
+                        function big() {
+                            natureimg[i].width = wid * 1.2;
+                            natureimg[i].height = hei * 1.2;
+                            return false;
+                        }
+
+                        function goBack() {
+                            this.width = wid;
+                            this.height = hei;
+                            return false;
+                        }
+                        natureimg[i].onmouseover = big;
+                        natureimg[i].onmouseout = goBack;
+                    }
                 </script>
 </body>
 

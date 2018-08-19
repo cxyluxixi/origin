@@ -14,99 +14,58 @@
         <input type="button" id="nexLink" value="下一张">
     </div>
     <script type="text/javascript">
-    window.onload = initLinks;
-    var mypic = new Array("https://resource.bcgame-face2face.haorenao.cn/slide02.jpg", "https://resource.bcgame-face2face.haorenao.cn/slide04.jpg",
-        "https://resource.bcgame-face2face.haorenao.cn/bg.jpg",
-        "https://resource.bcgame-face2face.haorenao.cn/slide05.jpg",
-        "https://resource.bcgame-face2face.haorenao.cn/slide03.jpg",
-        "https://resource.bcgame-face2face.haorenao.cn/slide01.jpg");
-    //定义数组来存放图片地址
-    var thispic = 0;
+        window.onload = initLinks;
+        var mypic = new Array("https://resource.bcgame-face2face.haorenao.cn/slide02.jpg", "https://resource.bcgame-face2face.haorenao.cn/slide04.jpg",
+            "https://resource.bcgame-face2face.haorenao.cn/bg.jpg",
+            "https://resource.bcgame-face2face.haorenao.cn/slide05.jpg",
+            "https://resource.bcgame-face2face.haorenao.cn/slide03.jpg",
+            "https://resource.bcgame-face2face.haorenao.cn/slide01.jpg");
+        //定义数组来存放图片地址
+        var thispic = 0;
 
-    function initLinks() {
-        document.getElementById('befLink').onclick = turnBef;
-        document.getElementById('nexLink').onclick = turnNex;
-    }
-
-    function turnBef() {
-        if (thispic == 0) {
-            thispic = mypic.length;
-        }
-        thispic--;
-        document.getElementById('tplbimg').src = mypic[thispic];
-        return false;
-    }
-
-    function turnNex() {
-        thispic++;
-        if (thispic == mypic.length) {
-            thispic = 0;
-        }
-        document.getElementById('tplbimg').src = mypic[thispic];
-        return false;
-    }
-    var big = document.getElementsByClassName("fit");
-    natureimg = big.getElementsByTagName('img');
-    for (var i = 0; i < natureimg.length; i++) {
-        var wid = natureimg[i].width;
-        var hei = natureimg[i].height;
-
-        function big() {
-            this.style.width = wid * 1.2;
-            this.style.height = hei * 1.2;
+        function initLinks() {
+            document.getElementById('befLink').onclick = turnBef;
+            document.getElementById('nexLink').onclick = turnNex;
         }
 
-        function goBack() {
-            this.width = wid;
-            this.height = hei;
-        }
-        natureimg[i].addEventListner('mouseover', big, false);
-        natureimg[i].addEventListner('mouseout', goBack, false);
-
-    }
-    var big = document.getElementsByClassName("fit");
-    var natureimg = big.getElementsByTagName("img");
-    for (var i = 0; i < natureimg.length; i++) {
-        var wid = natureimg[i].width;
-        var hei = natureimg[i].height;
-
-        function big() {
-            natureimg[i].width = wid * 1.2;
-            natureimg[i].height = hei * 1.2;
+        function turnBef() {
+            if (thispic == 0) {
+                thispic = mypic.length;
+            }
+            thispic--;
+            document.getElementById('tplbimg').src = mypic[thispic];
             return false;
         }
 
-        function goBack() {
-            this.width = wid;
-            this.height = hei;
+        function turnNex() {
+            thispic++;
+            if (thispic == mypic.length) {
+                thispic = 0;
+            }
+            document.getElementById('tplbimg').src = mypic[thispic];
             return false;
         }
-        natureimg[i].onmouseover = big;
-        natureimg[i].onmouseout = goBack;
-    }
-    //鼠标移上图片,简单放大图片
-    var big = document.getElementsByClassName("fit");
-    var natureimg = big.getElementsByTagName("img");
-    for (var i = 0; i < natureimg.length; i++) {
-        var wid = natureimg[i].width;
-        var hei = natureimg[i].height;
+        var big = document.getElementsByClassName("fit");
+        natureimg = big.getElementsByTagName('img');
+        for (var i = 0; i < natureimg.length; i++) {
+            var wid = natureimg[i].width;
+            var hei = natureimg[i].height;
 
-        function big() {
-            natureimg[i].width = wid * 1.2;
-            natureimg[i].height = hei * 1.2;
-            return false;
-        }
+            function big() {
+                this.style.width = wid * 1.2;
+                this.style.height = hei * 1.2;
+            }
 
-        function goBack() {
-            this.width = wid;
-            this.height = hei;
-            return false;
+            function goBack() {
+                this.width = wid;
+                this.height = hei;
+            }
+            natureimg[i].addEventListner('mouseover', big, false);
+            natureimg[i].addEventListner('mouseout', goBack, false);
+
         }
-        natureimg[i].onmouseover = big;
-        natureimg[i].onmouseout = goBack;
-    }
-    window.onload = function() {
-        natureimg = document.getElementsByTagName('img');
+        var big = document.getElementsByClassName("fit");
+        var natureimg = big.getElementsByTagName("img");
         for (var i = 0; i < natureimg.length; i++) {
             var wid = natureimg[i].width;
             var hei = natureimg[i].height;
@@ -114,152 +73,193 @@
             function big() {
                 natureimg[i].width = wid * 1.2;
                 natureimg[i].height = hei * 1.2;
+                return false;
             }
 
             function goBack() {
-                natureimg[i].width = wid;
-                natureimg[i].height = hei;
+                this.width = wid;
+                this.height = hei;
+                return false;
             }
-            natureimg[i].addEventListner('mouseover', big, false);
-            natureimg[i].addEventListner('mouseout', goBack, false);
-
+            natureimg[i].onmouseover = big;
+            natureimg[i].onmouseout = goBack;
         }
+        //鼠标移上图片,简单放大图片
+        var big = document.getElementsByClassName("fit");
+        var natureimg = big.getElementsByTagName("img");
+        for (var i = 0; i < natureimg.length; i++) {
+            var wid = natureimg[i].width;
+            var hei = natureimg[i].height;
 
-    }
-    //js最简单的轮播图
-    /*<div class = "side"  id = "lunbo" >
-    <ul ">   
-    <li > < img src = "../images/1.jpg" > < /li>   
-    <li > < img src = "../images/2.jpg" > < /li>   
-    <li > < img src = "../images/3.jpg" > < /li>   
-    </ul>   
-    </div> */
+            function big() {
+                natureimg[i].width = wid * 1.2;
+                natureimg[i].height = hei * 1.2;
+                return false;
+            }
 
-    var li = document.getElementById('lunbo').getElementsByTagName("li");
-    var num = 0;
-    var len = li.length;
+            function goBack() {
+                this.width = wid;
+                this.height = hei;
+                return false;
+            }
+            natureimg[i].onmouseover = big;
+            natureimg[i].onmouseout = goBack;
+        }
+        window.onload = function() {
+                natureimg = document.getElementsByTagName('img');
+                for (var i = 0; i < natureimg.length; i++) {
+                    var wid = natureimg[i].width;
+                    var hei = natureimg[i].height;
 
-    setInterval(function() {
-        li[num].style.display = "none";
-        num = ++num == len ? 0 : num;
-        li[num].style.display = "inline-block";
+                    function big() {
+                        natureimg[i].width = wid * 1.2;
+                        natureimg[i].height = hei * 1.2;
+                    }
 
-    }, 3000); //切换时间
-    //js  try...catch 
-    //js for x in array;,x is an string which means an index
-    //try...catch
-    function message() {
-        try {
-            adddlert("Welcome guest!")
-        } catch (err) {
-            txt = "本页中存在错误。\n\n"
-            txt += "错误描述：" + err.description + "\n\n"
-            txt += "点击“确定”继续。\n\n"
-            //comfirm represents a alert ,which has two buttoms(comfirm and cancel) 
-            if (!confirm(txt)) {
-                document.location.href = "/index.html"
+                    function goBack() {
+                        natureimg[i].width = wid;
+                        natureimg[i].height = hei;
+                    }
+                    natureimg[i].addEventListner('mouseover', big, false);
+                    natureimg[i].addEventListner('mouseout', goBack, false);
+
+                }
+
+            }
+            //js最简单的轮播图
+            /*<div class = "side"  id = "lunbo" >
+            <ul ">   
+            <li > < img src = "../images/1.jpg" > < /li>   
+            <li > < img src = "../images/2.jpg" > < /li>   
+            <li > < img src = "../images/3.jpg" > < /li>   
+            </ul>   
+            </div> */
+
+        var li = document.getElementById('lunbo').getElementsByTagName("li");
+        var num = 0;
+        var len = li.length;
+
+        setInterval(function() {
+            li[num].style.display = "none";
+            num = ++num == len ? 0 : num;
+            li[num].style.display = "inline-block";
+
+        }, 3000); //切换时间
+        //js  try...catch 
+        //js for x in array;,x is an string which means an index
+        //try...catch
+        function message() {
+            try {
+                adddlert("Welcome guest!")
+            } catch (err) {
+                txt = "本页中存在错误。\n\n"
+                txt += "错误描述：" + err.description + "\n\n"
+                txt += "点击“确定”继续。\n\n"
+                    //comfirm represents a alert ,which has two buttoms(comfirm and cancel) 
+                if (!confirm(txt)) {
+                    document.location.href = "/index.html"
+                }
             }
         }
-    }
-    alert(txt)
-
-    //js...throw an error
-    try {
-        if (x > 10)
-            throw "Err1"
-        else if (x < 0)
-            throw "Err2"
-        else if (isNaN(x))
-            throw "Err3"
-    } catch (er) {
-        if (er == "Err1")
-            alert("错误！该值太大！")
-        if (er == "Err2")
-            alert("错误！该值太小！")
-        if (er == "Err3")
-            alert("错误！该值不是数字！")
-    }
-
-    //jsEvent...onerror
-    onerror = handleErr
-    var txt = ""
-
-    function handleErr(msg, url, l) {
-        txt = "本页中存在错误。\n\n";
-        txt += "错误：" + msg + "\n";
-        txt += "URL: " + url + "\n";
-        txt += "行：" + l + "\n\n";
-        txt += "点击“确定”继续。\n\n";
         alert(txt)
-        return true
-    }
 
-    function message() {
-        adddlert("Welcome guest!");
-
-        //js..getNavigatorInformation
-        document.write("<p>浏览器：");
-        document.write(navigator.appName + "</p>");
-
-        document.write("<p>浏览器版本：")
-        document.write(navigator.appVersion + "</p>");
-
-        document.write("<p>代码：")
-        document.write(navigator.appCodeName + "</p>");
-
-        document.write("<p>平台：");
-        document.write(navigator.platform + "</p>");
-
-        document.write("<p>Cookies 启用：");
-        document.write(navigator.cookieEnabled + "</p>");
-
-        document.write("<p>浏览器的用户代理报头：");
-        document.write(navigator.userAgent + "</p>");
-        /*setTimeout,the first parameter 
-            is what you want to do when time out ,
-            the second parameter is the time,5000=5 second*/
-        function timedMsg() {
-            var t = setTimeout("dosometing", 5000);
-        }
-        //Another timeCount,start and stop countingtime 
-        function timedCountTime() {
-            document.getElementById('txt').value = c
-            c = c + 1;
-            t = setTimeout("timedCount()", 1000)
+        //js...throw an error
+        try {
+            if (x > 10)
+                throw "Err1"
+            else if (x < 0)
+                throw "Err2"
+            else if (isNaN(x))
+                throw "Err3"
+        } catch (er) {
+            if (er == "Err1")
+                alert("错误！该值太大！")
+            if (er == "Err2")
+                alert("错误！该值太小！")
+            if (er == "Err3")
+                alert("错误！该值不是数字！")
         }
 
-        function stopCountTime() {
-            document.getElementById('stopbuttom');
-        }
-    }
-    //show your time on website
-    function startTime() {
-        var today = new Date()
-        var h = today.getHours()
-        var m = today.getMinutes()
-        var s = today.getSeconds()
-        //add a zero in front of numbers which are smaller than 10.
-        a = checkTime(a)
-        s = checkTime(c)
-        document.getElementById("showTime ").innerHTML = h + ":" + m + ":" + s;
-        t = setTimeout("startTime", 500);
-    }
+        //jsEvent...onerror
+        onerror = handleErr
+        var txt = ""
 
-    function checkTime(i) {
-        {
-            if (i < 10) {
-                i = "0" + i;
+        function handleErr(msg, url, l) {
+            txt = "本页中存在错误。\n\n";
+            txt += "错误：" + msg + "\n";
+            txt += "URL: " + url + "\n";
+            txt += "行：" + l + "\n\n";
+            txt += "点击“确定”继续。\n\n";
+            alert(txt)
+            return true
+        }
+
+        function message() {
+            adddlert("Welcome guest!");
+
+            //js..getNavigatorInformation
+            document.write("<p>浏览器：");
+            document.write(navigator.appName + "</p>");
+
+            document.write("<p>浏览器版本：")
+            document.write(navigator.appVersion + "</p>");
+
+            document.write("<p>代码：")
+            document.write(navigator.appCodeName + "</p>");
+
+            document.write("<p>平台：");
+            document.write(navigator.platform + "</p>");
+
+            document.write("<p>Cookies 启用：");
+            document.write(navigator.cookieEnabled + "</p>");
+
+            document.write("<p>浏览器的用户代理报头：");
+            document.write(navigator.userAgent + "</p>");
+            /*setTimeout,the first parameter 
+                is what you want to do when time out ,
+                the second parameter is the time,5000=5 second*/
+            function timedMsg() {
+                var t = setTimeout("dosometing", 5000);
             }
-            return i
+            //Another timeCount,start and stop countingtime 
+            function timedCountTime() {
+                document.getElementById('txt').value = c
+                c = c + 1;
+                t = setTimeout("timedCount()", 1000)
+            }
+
+            function stopCountTime() {
+                document.getElementById('stopbuttom');
+            }
         }
-    }
-    //js object构造器
-    function person(firstname,lastname,parametor){
-        this.firstname=firstname
-        this.lastname=firstname
-        this.parametor=parametor
-    }
-    myFather=new person("John","Smith","")
+        //show your time on website
+        function startTime() {
+            var today = new Date()
+            var h = today.getHours()
+            var m = today.getMinutes()
+            var s = today.getSeconds()
+                //add a zero in front of numbers which are smaller than 10.
+            a = checkTime(a)
+            s = checkTime(c)
+            document.getElementById("showTime ").innerHTML = h + ":" + m + ":" + s;
+            t = setTimeout("startTime", 500);
+        }
+
+        function checkTime(i) {
+            {
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i
+            }
+        }
+        //js object构造器
+        function person(firstname, lastname, parametor) {
+            this.firstname = firstname
+            this.lastname = firstname
+            this.parametor = parametor
+        }
+        myFather = new person("John", "Smith", "")
     </script>
 </body>
 
