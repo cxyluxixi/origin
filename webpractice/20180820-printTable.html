@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <style>
+        table {
+            border: 1px black dotted;
+            width: 500px;
+            height: 500px;
+        }
+        
+        tr {
+            border: 1px black dotted;
+            height: 50px;
+            width: 500px;
+        }
+        
+        td {
+            border: 1px black dotted;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="main-box">
+        <!-- <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> -->
+    </table>
+    <script>
+        function td() {
+            var td_10 = "";
+            for (var i = 0; i < 10; i++) {
+                td_10 = td_10 + "<td></td>"
+            }
+            return td_10;
+        }
+        var td = td();
+
+        function tr() {
+            var tr_10 = "";
+            for (var j = 0; j < 10; j++) {
+                tr_10 = tr_10 + "<tr>" + td + "</tr>";
+            }
+            return tr_10;
+        }
+        var tr = tr();
+        var mainrow = "";
+        for (var m = 0; m < 10; m++) {
+            mainrow = mainrow + "<tr>";
+            for (var i = 0; i < 10; i++) {
+                mainrow = mainrow + "<td></td>";
+            }
+            mainrow = mainrow + "</tr>";
+        }
+        var mainbox = document.querySelector("table");
+        mainbox.innerHTML = mainrow;
+        console.log(mainbox);
+    </script>
+</body>
+
+</html>
