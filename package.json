@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^5.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxyluxixi/origin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cxyluxixi/origin/issues"
+  },
+  "homepage": "https://github.com/cxyluxixi/origin#readme",
+  "description": ""
+}
