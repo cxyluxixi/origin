@@ -7,13 +7,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>caculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
 </head>
 
 <body>
     <h3>This is a caculator</h3>
-    <input>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <br/>
+    <button id="add">+</button>
+    <button id="sub">-</button>
+    <button id="mul">*</button>
+    <button id="div">&divide</button>
+    <br/>
+    <p>结果是<i id="result"></i></p>
+    <script>
+        var addBtn = document.getElementById("add");
+        var subBtn = document.getElementById("sub");
+        var mulBtn = document.getElementById("mul");
+        var divBtn = document.getElementById("div");
+
+
+        function add(x, y) {
+            return x + y;
+        }
+
+        function sub(x, y) {
+            return x - y;
+        }
+
+        function mul(x, y) {
+            return x * y;
+        }
+
+        function div(x, y) {
+            if (y == 0) {
+                return "0不能做除数，请重新输入第二个数字"
+            } else {
+                return x / y;
+            }
+        }
+
+        function result(r) {
+            alert(r);
+        }
+        addBtn.onclick = function() {
+            getInputNums();
+            var r = add(num1_num, num2_num);
+            sendResult(r);
+            result(r);
+        }
+        subBtn.onclick = function() {
+            getInputNums();
+            var r = sub(num1_num, num2_num);
+            sendResult(r);
+            result(r);
+        }
+        mulBtn.onclick = function() {
+            getInputNums();
+            var r = mul(num1_num, num2_num);
+            sendResult(r);
+            result(r);
+        }
+        divBtn.onclick = function() {
+            getInputNums();
+            var r = div(num1_num, num2_num);
+            sendResult(r);
+            result(r);
+        }
+
+        function sendResult(r) {
+            var show = document.getElementById("result");
+            show.innerHTML = r;
+        }
+
+        function getInputNums() {
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+            num1_num = parseFloat(num1);
+            num2_num = parseFloat(num2);
+        }
+    </script>
 </body>
 
 </html>
