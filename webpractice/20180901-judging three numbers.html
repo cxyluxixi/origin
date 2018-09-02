@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>please enter your first number</p>
+    <input id="num1" type="text" value="">
+    <p>please enter your second number</p>
+    <input id="num2" type="text" value="">
+    <p>please enter your third number</p>
+    <input id="num3" type="text" value="">
+    <br/>
+    <button id="btn">click me and get your answer!</button>
+    <input id="result" type="text">
+    <script>
+        var btn = document.getElementById("btn");
+        btn.onclick = function() {
+            re();
+        };
+        var num1, num2, num3, sum;
+
+        function getInputNums() {
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+            var num3 = document.getElementById("num3").value;
+            if (num1 == "" || num1 == null || num2 == "" || num2 == null || num3 == "" || num3 == null) {
+                alert("抱歉你未输入足够数量的数字,无法计算");
+            } else if (!isNaN(num1) && !isNaN(num2) && !isNaN(num3)) {
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+                num3 = parseFloat(num3);
+                sum = num1 + num2 + num3;
+                return num1 == num2 && num2 == num3;
+                //为什么传递不了多个变量值，比如return num1,num2,num3
+                //然后在judgeSum里写sum，可是这样得到的sum是NaN，why？？
+            } else {
+                alert("抱歉你输入的不是数字,无法计算")
+            }
+        }
+
+        function judgeSum(boo) {
+            if (boo) {
+                return "这三个数字相等"
+            } else if (sum > 1000) {
+                return "这三个数字的和大于1000。"
+            } else {
+                return "这三个数字的和不大于1000。"
+            }
+        }
+
+        function re() {
+            var result = document.getElementById("result");
+            result.value = judgeSum(getInputNums());
+        }
+    </script>
+</body>
+
+</html>

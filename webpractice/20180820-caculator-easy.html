@@ -14,21 +14,48 @@
 <body>
     <h3>This is a caculator</h3>
     <input type="text" id="num1">
+    <select id="caculate">
+
+        <option id="add" selected="" value="+">+</option>
+        <option id="sub" value="-">-</option>
+        <option id="mul" value="*">*</option>
+        <option id="div" value="/">&divide;</option>
+        
+    </select>
     <input type="text" id="num2">
-    <br/>
-    <button id="add">+</button>
-    <button id="sub">-</button>
-    <button id="mul">*</button>
-    <button id="div">&divide</button>
-    <br/>
-    <p>结果是<i id="result"></i></p>
+    <button type="button" id="equal">=</button>
+    <input type="text" id="result" value="hh">
     <script>
-        var addBtn = document.getElementById("add");
-        var subBtn = document.getElementById("sub");
-        var mulBtn = document.getElementById("mul");
-        var divBtn = document.getElementById("div");
+        // 直接选择被选中的option   var caculate = ocument.querySelector('select[name=flag]');
+
+        //方法二，原生拿id，拿index，拿值
+        var myselect = document.getElementById("caculate");
+        //先拿到select，然后拿到被选中的option的index；
+        var index = myselect.selectedIndex;
+        var optionSelect = myselect.options[index].value;
+        //点击等号，开始运算，并显示结果
+        var equal = document.getElementById("equal");
+        equal.onclick = function() {
+            getInputNums();
+            if (optionSelect == "+") {
+                var r = add(num1_num, num2_num);
+            } else if (optionSelect == "-") {
+                var r = sub(num1_num, num2_num);
+            } else if (optionSelect == "*") {
+                var r = mul(num1_num, num2_num);
+            } else if (optionSelect == "/") {
+                var r = div(num1_num, num2_num);
+            }
+            sendResult(r);
+            result(r);
+        }
 
 
+
+        //get the numbers that user inputs
+        var num1_num;
+        var num2_num;
+        //+ - * /
         function add(x, y) {
             return x + y;
         }
@@ -48,11 +75,11 @@
                 return x / y;
             }
         }
-
+        //return result 
         function result(r) {
             alert(r);
         }
-        addBtn.onclick = function() {
+        /*addBtn.onclick = function() {
             getInputNums();
             var r = add(num1_num, num2_num);
             sendResult(r);
@@ -75,18 +102,31 @@
             var r = div(num1_num, num2_num);
             sendResult(r);
             result(r);
-        }
+        }*/
 
+        //show result 
         function sendResult(r) {
             var show = document.getElementById("result");
-            show.innerHTML = r;
+            show.value = r;
         }
 
+        //get userInput and judge
         function getInputNums() {
             var num1 = document.getElementById("num1").value;
             var num2 = document.getElementById("num2").value;
-            num1_num = parseFloat(num1);
-            num2_num = parseFloat(num2);
+            if (num1 == "" || num1 == null || num2 == "" || num2 == null) {
+                alert("抱歉你未输入任何数字,无法计算");
+                isTure = false;
+                exit();
+            } else if (!isNaN(num1) && !isNaN(num2)) {
+                num1_num = parseFloat(num1);
+                num2_num = parseFloat(num2);
+
+            } else {
+                alert("抱歉你输入的不是数字,无法计算")
+                isTure = false;
+                exit();
+            }
         }
     </script>
 </body>

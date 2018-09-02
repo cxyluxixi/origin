@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "eslint": "^5.4.0",
+    "jshint": "^2.9.6",
     "jslint": "^0.12.0"
   },
   "devDependencies": {},

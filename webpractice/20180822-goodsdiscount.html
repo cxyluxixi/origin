@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Goods Discount caculator</title>
+</head>
+
+<body>
+    <p>Your first good</p>
+    <input type="text" id="price1" value="">
+    <p>Your second good</p>
+    <input type="text" id="price2" value="">
+    <p>优惠后的商品总价</p>
+    <button id="btn">点击查看优惠后的价格</button>
+    <br/>
+    <input type="text" id="result" value="">
+    <script>
+        var btn = document.getElementById("btn");
+        btn.onclick = function() {
+            re();
+        };
+
+        function getInputNums(price1, price2) {
+            var price1 = document.getElementById("price1").value;
+            var price2 = document.getElementById("price2").value;
+            if (price1 == "" || price1 == null || price2 == "" || price2 == null) {
+                alert("抱歉你未输入任何数字,无法计算");
+            } else if (!isNaN(price1) && !isNaN(price2)) {
+                price1 = parseFloat(price1);
+                price2 = parseFloat(price2);
+                return price1 + price2;
+                //通过返回值，在下面的discount函数里直接作为x.value；
+
+            } else {
+                alert("抱歉你输入的不是数字,无法计算")
+            }
+        }
+
+        function discount(x) {
+            if (x < 100) {
+                return x;
+            } else if (100 <= x < 1000) {
+                return x * 0.9;
+            } else if (1000 <= x < 5000) {
+                return x * 0.8;
+            } else if (x > 5000) {
+                return x * 0.7;
+            }
+        }
+
+        //insert the final price to the result-box
+        function re() {
+            var result = document.getElementById("result");
+            result.value = discount(getInputNums());
+        }
+    </script>
+</body>
+
+</html>
