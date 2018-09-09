@@ -45,45 +45,10 @@
             document.getElementById('tplbimg').src = mypic[thispic];
             return false;
         }
-        var big = document.getElementsByClassName("fit");
-        natureimg = big.getElementsByTagName('img');
-        for (var i = 0; i < natureimg.length; i++) {
-            var wid = natureimg[i].width;
-            var hei = natureimg[i].height;
 
-            function big() {
-                this.style.width = wid * 1.2;
-                this.style.height = hei * 1.2;
-            }
 
-            function goBack() {
-                this.width = wid;
-                this.height = hei;
-            }
-            natureimg[i].addEventListner('mouseover', big, false);
-            natureimg[i].addEventListner('mouseout', goBack, false);
 
-        }
-        var big = document.getElementsByClassName("fit");
-        var natureimg = big.getElementsByTagName("img");
-        for (var i = 0; i < natureimg.length; i++) {
-            var wid = natureimg[i].width;
-            var hei = natureimg[i].height;
 
-            function big() {
-                natureimg[i].width = wid * 1.2;
-                natureimg[i].height = hei * 1.2;
-                return false;
-            }
-
-            function goBack() {
-                this.width = wid;
-                this.height = hei;
-                return false;
-            }
-            natureimg[i].onmouseover = big;
-            natureimg[i].onmouseout = goBack;
-        }
         //鼠标移上图片,简单放大图片
         var big = document.getElementsByClassName("fit");
         var natureimg = big.getElementsByTagName("img");
