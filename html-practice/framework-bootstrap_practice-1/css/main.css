@@ -1,0 +1,19 @@
+body{
+	font-family:"Lato",sans-serif;
+	color: black;
+	margin-top: 10px;
+}
+
+.text-muted{
+	color: #BCBBBB;
+}
+.text-blue{
+	color: blue;
+}
+.title-logo{
+	margin-top: 20px;
+}
+.title-biggest{
+	font-size: 50px;
+}
+

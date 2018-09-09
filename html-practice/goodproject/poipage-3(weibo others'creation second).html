@@ -1,0 +1,802 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>root</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet" media="all">
+<link href="css/animate.min.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/time-axis.css">
+<!-- Bootstrap bootstrap-touch-slider Slider Main Style Sheet -->
+<link href="css/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+<link rel="stylesheet" type="text/css" href="css/test.css">
+<link rel="shortcut icon" type="image/x-icon" href="img/r.cov"/>
+<link href='http://cdn.webfont.youziku.com/webfonts/nomal/103314/46865/592eca83f629d809080be904.css' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/about.css">
+
+	<link rel="stylesheet" href="css/reset1.css">
+
+	<link rel="stylesheet" type="text/css" href="css/default1.css">
+	
+	<link rel="stylesheet" href="css/style1.css"> 
+	<script src="js/modernizr.js"></script>
+
+<style type="text/css">
+#aba:link{
+	color: grey;
+	text-decoration: none;
+}
+/*.cd-image-block{
+	margin: 0px 1px 0px 1px;
+}*/
+
+</style>
+
+<style media="screen AND (min-width:1000px)">
+
+
+#pic{
+	text-align:center;
+	/*font-family:'SegoeWPaf4d8ec7d19392';*/
+}
+#content{
+	/*font-family:'SegoeWPaf4d8ec7d19392';*/
+	/*text-align:center;*/
+	margin: auto;
+    /*position: absolute;*/
+   /* left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;*/
+}
+</style>
+
+</head>
+<body>
+<audio src="Wiz Khalifa,Charlie Puth - See You Again.mp3" autoplay="autoplay" loop="loop"></audio>
+<!-- ****************************************** -->
+<nav class="navbar-fixed-top">
+	<div id="menu_button_wrapper">
+		<div id="menu_button">
+			Menu&nbsp;&nbsp;
+			<div id="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	
+	<ul id="menu_list">
+		<li class="current_page"><a href="#">Home</a></li>
+		<li><a href="#time-axis">Time Axis</a></li>
+		<li><a href="#relationship">Relationship</a></li>
+		<li><a href="#something">Something</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
+</nav>
+<script type="text/javascript">
+
+	function addListener(element, type, callback) {
+		if (element.addEventListener) {
+			element.addEventListener(type, callback);
+		} else if (element.attachEvent) {
+			element.attachEvent('on' + type, callback);
+		}
+	}
+
+	addListener(document, 'DOMContentLoaded', function () {
+		
+		var mq = window.matchMedia("(max-width: 760px)");
+		if (mq.matches) {
+			document.getElementById("menu_list").classList.add("hidden");
+		}
+
+		addListener(document.getElementById("menu_button"), 'click', function () {
+			document.getElementById("menu_list").classList.toggle("hidden");
+		});
+		
+		addListener(window, 'resize', function () {
+			var width = window.innerWidth ||
+						document.documentElement.clientWidth ||
+						document.body.clientWidth;
+			
+			if (width > 760) {
+				document.getElementById("menu_list").classList.remove("hidden");
+			} else {
+				document.getElementById("menu_list").classList.add("hidden");
+			}
+		});
+		
+	});
+</script>
+
+<!-- ****************************************** -->
+	<div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+				<li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+				<li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper For Slides -->
+			<div class="carousel-inner" role="listbox">
+
+				<!-- Third Slide -->
+				<div class="item active">
+
+					<!-- Slide Background -->
+					<img src="img/117.1.jpg" alt="Root" title="Root" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+
+					<div class="container">
+						<div class="row">
+							<!-- Slide Text Layer -->
+							<div class="slide-text slide_style_left">
+								<h1 data-animation="animated zoomInRight">Name: Root</h1>
+								<!-- <p data-animation="animated fadeInLeft">killed Powell.</p> -->
+								<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+								<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End of Slide -->
+
+
+				<!-- Third Slide -->
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/123.jpg" alt="Caroline Turing"  title="Caroline Turing" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Caroline Turing</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+				<!-- End of Slide -->
+				
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/202.1.jpg" alt="Samantha Groves"  title="Samantha Groves" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_left">
+						<h1 data-animation="animated zoomInRight">Name: Samantha Groves</h1>
+						<!-- <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
+						<a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a>
+						<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/215.jpg" alt="Ms.May"  title="Ms.May" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Ms.May</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+				
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/301.jpg" alt="Robin Farrow"  title="Robin Farrow" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Robin Farrow</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+
+				<div class="item">
+				<img src="img/317.jpg" alt="Augusta A.King" title="Augusta A. King" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+
+					<div class="container">
+						<div class="row">
+							<!-- Slide Text Layer -->
+							<div class="slide-text slide_style_left">
+								<h1 data-animation="animated zoomInRight">Name: Augusta A. King</h1>
+								<!-- <p data-animation="animated fadeInLeft">killed Powell.</p> -->
+								<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+								<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="item">
+				<img src="img/405.0.jpg" alt="Sara Cook" title="Sara Cook" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+
+					<div class="container">
+						<div class="row">
+							<!-- Slide Text Layer -->
+							<div class="slide-text slide_style_center">
+								<h1 data-animation="animated flipInX">Name: Sara Cook</h1>
+								<!-- <p data-animation="animated fadeInLeft">killed Powell.</p> -->
+								<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+								<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+				<img src="img/405.1.jpg" alt="Karen Iverson" title="Karen Iverson" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+
+					<div class="container">
+						<div class="row">
+							<!-- Slide Text Layer -->
+							<div class="slide-text slide_style_left">
+								<h1 data-animation="animated zoomInRight">Name: Karen Iverson</h1>
+								<!-- <p data-animation="animated fadeInLeft">killed Powell.</p> -->
+								<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+								<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/405.2.jpg" alt="Hannah Karpinski"  title="Hannah Karpinski" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_left">
+						<h1 data-animation="animated zoomInRight">Name: Hannah Karpinski</h1>
+						<!-- <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
+						<a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a>
+						<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+				
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/407.jpg" alt="veronique chereau"  title="veronique chereau" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_center">
+						<h1 data-animation="animated flipInX">Name: Veronique Chereau</h1>
+						<!-- <p data-animation="animated lightSpeedIn">first data</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a> -->
+						<!-- <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+				
+				
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/407.2.jpg" alt="Melinda C.Porter"  title="Melinda C.Porter" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_left">
+						<h1 data-animation="animated zoomInRight">Name: Melinda C.Porter</h1>
+						<!-- <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
+						<a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a>
+						<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/407.3.jpg" alt="Alice Ginsburg"  title="Alice Ginsburg" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_left">
+						<h1 data-animation="animated zoomInRight">Name: Alice Ginsburg</h1>
+						<!-- <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
+						<a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a>
+						<a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/410.jpg" alt="Mr. Berenstain"  title="Mr. Berenstain" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_center">
+						<h1 data-animation="animated flipInX">Name: Mr. Berenstain</h1>
+						<!-- <p data-animation="animated lightSpeedIn">first data</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a> -->
+						<!-- <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/413.jpg" alt="Shannon"  title="Shannon" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Shannon</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+
+				
+				
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/420.jpg" alt="The Bride"  title="The Bride" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_left">
+						<h1 data-animation="animated zoomInRight">Name: The Bride</h1>
+						<!-- <p data-animation="animated lightSpeedIn">first data</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a> -->
+						<!-- <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/421.jpg" alt="Monica Chaney"  title="Monica Chaney" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Monica Chaney</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+
+
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/507.jpg" alt="Constance Ward"  title="Constance Ward" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Constance Ward</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/507.1.jpg" alt="Petrina Durov"  title="Petrina Durov" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Petrina Durov</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+			
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/507.2.jpg" alt="Anna Beyers"  title="Anna Beyers" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated zoomInLeft">Name: Anna Beyers</h1>
+						<!-- <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+						<a href="#" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a> -->
+					</div>
+				</div>
+				
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/507.3.jpg" alt="Rose Franklin"  title="Rose Franklin" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_right">
+						<h1 data-animation="animated flipInX">Name: Rose Franklin</h1>
+						<!-- <p data-animation="animated lightSpeedIn">first data</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a> -->
+						<!-- <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+			<!-- End of Wrapper For Slides -->
+				
+				<div class="item">
+
+					<!-- Slide Background -->
+					<img src="img/507.4.jpg" alt="Jane Martin"  title="Jane Martin" class="slide-image"/>
+					<div class="bs-slider-overlay"></div>
+					<!-- Slide Text Layer -->
+					<div class="slide-text slide_style_left">
+						<h1 data-animation="animated zoomInRight">Name: Jane Martin</h1>
+						<!-- <p data-animation="animated lightSpeedIn">first data</p> -->
+						<!-- <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a> -->
+						<!-- <a href="#" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a> -->
+					</div>
+				</div>
+
+
+			<!-- Left Control -->
+			<a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+
+		</div> <!-- End  bootstrap-touch-slider Slider -->
+			
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/bootstrap-touch-slider.js"></script>
+<script type="text/javascript">
+	$('#bootstrap-touch-slider').bsTouchSlider();
+</script>
+
+
+
+
+<!-- <div style="text-align:center;margin:10px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p> -->
+</div>
+
+<!-- ****************************** -->
+<!-- time axis -->
+<!-- ****************************** -->
+<div id="time-axis">
+<script src="js/jquery.waypoints.min.js"></script>
+<header class="site-header">
+  <div class="wrapper">
+    <h1 class="site-header__title" >Time Axis</h1>
+  </div>
+</header>
+
+<section class="timeline" id="time-axis">
+  <div class="wrapper">
+    <div class="timeline__item timeline__item--0">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Root</h2>
+        <p class="timeline__item__content__description">I WANTED TO ACKNOWLEDGE A WORTHY OPPONENT</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--1">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Caroline Turing</h2>
+        <p class="timeline__item__content__description">So nice to finally meet you, Harold. You can call me Root.</p>
+     </div>
+    </div>
+    <div class="timeline__item timeline__item--2">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Ms.May</h2>
+        <p class="timeline__item__content__description">A good assistant always knows when her boss is lying.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--3">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Samantha Groves</h2>
+        <p class="timeline__item__content__description">We're just bad code.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--4">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Veronica Sinclair</h2>
+        <p class="timeline__item__content__description">I read your file, and I'm kind of a big fan.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--5">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Robin Farrow</h2>
+        <p class="timeline__item__content__description">By the time you figure out what'sreally happening, I'll have transcended this reality. <br>The truth is a vast thing. <br>The truth is, God is 11 years old. </p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--6">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Augusta A.King</h2>
+        <p class="timeline__item__content__description">You forgot to transfer from savings again, Lionel. Your rent check's gonna bounce.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--7">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Sara Cook</h2>
+        <p class="timeline__item__content__description">Secretary general has a thing for redheads.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--8">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Karen Iverson</h2>
+        <p class="timeline__item__content__description">Sometimes, it's better not to know.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--9">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Hannah Karpinski</h2>
+        <p class="timeline__item__content__description">You have to be one person.I have to be 1000.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--10">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Veronique Chereau</h2>
+        <p class="timeline__item__content__description">Though I'm not sure how the parents would feel if they knew how many people I've killed.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--11">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Melinda C.Porter</h2>
+        <p class="timeline__item__content__description">Harold, I'm about to do something you're not gonna like.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--12">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Alice Ginsburg</h2>
+        <p class="timeline__item__content__description">You got a new partner, Columbo.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--13">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Mr. Berenstain</h2>
+        <p class="timeline__item__content__description">Mr. Berenstain was a big hit.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--14">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Shannon</h2>
+        <p class="timeline__item__content__description">Look, I know this sounds insane, but I'm trying to save the world, and your compression algorithm plays a small but crucial part of doing that.</p>
+      </div>
+    </div>
+
+	 <div class="timeline__item timeline__item--13">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">The Bride</h2>
+        <p class="timeline__item__content__description">Don't go buying me that blender just yet, Harry.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--14">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Monica Chaney</h2>
+        <p class="timeline__item__content__description">You admitted me to the funny farm once. Turn about's fair play.</p>
+      </div>
+    </div>
+
+    <div class="timeline__item timeline__item--15">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Constance Ward</h2>
+        <p class="timeline__item__content__description">Guess stumbling on a pile of bodies can ruin your day.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--16">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Petrina Durov</h2>
+        <p class="timeline__item__content__description">I may need something from you soon.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--13">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Anna Beyers</h2>
+        <p class="timeline__item__content__description">We can't stay on our heels forever.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--14">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Rose Franklin</h2>
+        <p class="timeline__item__content__description">You've been infected by Samaritan, haven't you?</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--13">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <h2 class="timeline__item__content__date">Jane Martin</h2>
+        <p class="timeline__item__content__description">Strangely, the lab just experienced a break-inright after an unannounced CDC inspection.The advantages of an open system.</p>
+      </div>
+    </div>
+    <div class="timeline__item timeline__item--14">
+      <div class="timeline__item__station"></div>
+      <div class="timeline__item__content">
+        <!-- <h2 class="timeline__item__content__date">Jane Martin</h2> -->
+        <p class="timeline__item__content__description">To be continued~</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+</div>
+<script>
+function customWayPoint(className, addClassName, customOffset) {
+  var waypoints = $(className).waypoint({
+    handler: function(direction) {
+      if (direction == "down") {
+        $(className).addClass(addClassName);
+      } else {
+        $(className).removeClass(addClassName);
+      }
+    },
+    offset: customOffset
+  });
+}
+
+var defaultOffset = '50%';
+
+for (i = 0; i < 17; i++) {
+  customWayPoint('.timeline__item--' + i, 'timeline__item-bg', defaultOffset);
+}
+</script>
+
+<!-- <div id="time-axis">
+<h1 id="text-center"><strong>
+Time-axis
+</strong>
+</h1>
+
+</div>
+ -->
+
+
+
+<div id="about">
+
+
+	<main>
+		<div class="cd-image-block">
+			<ul class="cd-images-list">
+				<li class="is-selected">
+					<a href="#0" id="aba">
+						<h2>Maybe Someday</h2>
+					</a>
+				</li>
+			</ul> <!-- .cd-images-list -->
+		</div> <!-- .cd-image-block -->
+
+		<div class="cd-content-block">
+			<ul>
+				<li class="is-selected">
+					<div>
+						<!-- <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, illo!</h2> -->
+						<br>
+						<h2>写在最后</h2>
+						我还记得去年6.1的时候，我在电脑前敲代码，坐着等510的时候，还笑嘻嘻的对身边的学长说，等我看完剧去请他吃饭，庆祝一下美好的日子。
+					<br>
+					我以为会是很美好的一集，一边哼着歌，一边打开了微博。
+					<br>
+					在我刷到微博上看见首页上说到E老师离开的时候，我就直接关掉了浏览器。我觉得我隐隐约约看见了有人说阿根离开了。
+					<br>
+					正好当天网速出乎预料的快，我没有看开头，直接就把进度条拉到中间，我最喜欢的小疯子就躺在冰冷冷的板上。目光空洞而涣散。
+					<br>
+					我形容不好当时的心情，失去那时生命中的挚爱是什么感觉呢？
+					<br>
+					矫情一点的说，比较像你躺在病床上，看着自己的血液，顺着细长的针管一点一点被抽走，连难过的力气都被抽走了。
+					<br>
+					<br>
+					偶尔给身边人说起这件事的时候，他们会笑笑亦或者是露出不能理解的表情.
+					<br>
+					只有当你真正的爱上的时候才明白，她在你生命里出现的时候，从来不是一个角色。
+					<br>
+					只是一个调皮可爱，喜欢玩cosplay，喜欢用电击枪，高智商还高颜值的小疯子而已。
+					<br>
+					她可以一边笑得倾人国，再转身掏出一个针管，瞬间放倒一个彪形大汉；她可以是一个喜欢小白兔拖鞋，把自己打扮得漂漂亮亮的杀手兼超级黑客；她可以前一秒还在向你说着乱七八糟的情话，下一秒脸上一脸严峻的随时做好了赴死的准备。
+					<br>
+					幸运的是我曾经见过这么你的这么多模样。
+					<br>
+					<br>
+					感谢这部剧给我教会了我很多东西。
+					<br>
+					遇见了一个可爱的小hacker。
+					<br>
+					遇见了一个我喜欢的女孩子。
+					<br>
+					遇见了一些很好的朋友。
+					<br>
+					<br>
+					网站还没有完善，服务器也会一直运行下去，因为我相信Root就在世界的某个地方，笑嘻嘻的敲着代码，偶尔扭头看看做完任务的Shaw给bear喂好吃的东西，顺便对耳机里的Finch吐槽xx官网的代码是多么难看，漏洞是多么好找。Reese不知道从哪里又搞到一个警察的身份，不时欺负整天吐槽的Focus，突突坏蛋的膝盖。
+					<br>
+					故事从来就不会结束。
+					<br>
+					always
+					<br>
+					不是嘛ヾ(≧▽≦*)o 
+					<br>
+					<br>
+					感谢在我生病的这些天一些朋友对网站搭建的支持
+					<br>
+					<a href="http://weibo.com/u/5035348207?topnav=1&wvr=6&topsug=1" target="_blank">@小Q一只_</a>从我刚入坑就一直陪着我吐槽剧情到现在～(￣▽￣～)(～￣▽￣)～，并提供了所有图片的原图~
+					<br>
+					<a href="http://weibo.com/u/5465704525?refer_flag=1001030101_" target="_blank">@柠檬味的果少年</a>
+					像一个小太阳，在我失落的时候安慰我，一直给予最大的关心，并帮助ps十级残疾的我把图片做了修补处理(≧∀≦)ゞ
+					<br>
+					<a href="http://weibo.com/u/2617917181?is_all=1" target="_blank">@----------不用分组真开心</a>一起搞事一起胡闹(=´∀‘)人(´∀‘=)一个温暖而明媚的小姐姐~
+					<br>
+					还有很多朋友，通过各种方式认识，出现在我生命里。
+					<br>
+					特别开心就是遇见你们ヾ(≧▽≦*)o
+					<br>
+					<br>
+					Relationship这个版块也在完善中~由于还在病中，目前无法尽快完善，网站的一些小的细节处理也有一些瑕疵，还请多多见谅QAQ(其实我也不是专业的前端开发人员)
+					<br>
+					如果哪位小姐姐对<a href="#something">Something</a>版块有比较好的建议，并且欢迎提供各种高清图片(๑•̀ㅂ•́)و✧，拯救一下ps残疾的我，都可以发邮件至：<i style="color:red;">root050313@126.com</i>
+					<br>
+					一定会尽力的及时回复~
+					<br>
+					欢迎各种提议～(~▽~～)
+					<br>
+					<br>
+					2017-6-1 2:05
+				</div> 
+				<!-- <button class="cd-close">Close</button> -->
+			</li>
+		</ul>
+
+			<button class="cd-close">Close</button>
+		</div>  
+
+	</main>	
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+
+</div>
+
+</body>
+</html>
