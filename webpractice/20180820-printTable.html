@@ -57,9 +57,16 @@
             }
             mainrow = mainrow + "</tr>";
         }
-        var mainbox = document.getElementsByClassName("main-box");
-        mainbox[0].innerHTML = mainrow;
-        //quueryselector 和 getElementBy的区别，
+        //第一种方法，用class[0],指明数组第一个元素
+        // var mainbox = document.getElementsByClassName("main-box");
+        // mainbox[0].innerHTML = mainrow;
+
+        //第二种方法，用querySelector(),直接选择对应css选择器的第一个子元素，如果没有
+        //var mainbox = document.querySelector("#mainBox");
+        //mainbox.innerHTML = mainrow;
+        var mainbox = document.getElementById("mainBox");
+        mainbox.innerHTML = mainrow;
+        //queryselector 和 getElementBy的区别，
     </script>
 </body>
 
