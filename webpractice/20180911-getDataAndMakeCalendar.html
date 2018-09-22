@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #calculator {
+            width: 280px;
+            border: 1px solid #000000;
+            margin: 20px auto;
+        }
+        /* #calculator>p {
+            display: flex;
+        }
+        
+        #calculator>h5 {
+            text-align: center;
+        } */
+        
+        #weekTitle {
+            overflow: hidden;
+            list-style: none;
+        }
+        
+        #weekTitle>li {
+            float: left;
+            width: 40px;
+            height: 26px;
+            line-height: 26px;
+            text-align: center;
+        }
+        
+        #date {
+            overflow: hidden;
+            list-style: none;
+        }
+        
+        #date>li {
+            float: left;
+            width: 34px;
+            height: 34px;
+            margin: 1px 1px;
+            border: 2px solid rgba(0, 0, 0, 0);
+            line-height: 34px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        #date>.hover:hover {
+            border: 2px solid red;
+        }
+        
+        .active {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <div id="calculator">
+            <p id="TimeAndDate"> show your time here</p>
+            <h5 id="month">???month</h5>
+            <ul id="weekTitle">
+                <li>Sun&nbsp</li>
+                <li>Mon&nbsp</li>
+                <li>Tue&nbsp</li>
+                <li>Wed&nbsp</li>
+                <li>Thu&nbsp</li>
+                <li>Fri&nbsp</li>
+                <li>Sat&nbsp</li>
+            </ul>
+            <ul id="date"></ul>
+        </div>
+    </div>
+</body>
+<script>
+    window.onload = showComputerTime;
+
+    function showComputerTime() {
+        //get your computer's time at this moment
+        var time = new Date();
+        var year = time.getFullYear();
+        var month = time.getMonth() + 1;
+        var date = time.getDate(); //系统时间月份中的日
+        var day = time.getDay(); //系统时间中的星期值
+        var weeks = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+        var week = weeks[day]; //显示为星期几
+        var hour = time.getHours();
+        var minutes = time.getMinutes();
+        var seconds = time.getSeconds();
+        //if the number is smaller than 10,then add "0" before it.
+        if (month < 10) {
+            month = "0" + month;
+        }
+        if (date < 10) {
+            date = "0" + date;
+        }
+        if (hour < 10) {
+            hour = "0" + hour;
+        }
+        if (minutes < 10) {
+            minutes = "0" + minutes;
+        }
+        if (seconds < 10) {
+            seconds = "0" + seconds;
+        }
+        //use DOM and Id to show the dateTime
+        document.getElementById("TimeAndDate").innerHTML = year + "年" + month + "月" + date + "日" + week + hour + ":" + minutes + ":" + seconds;
+        setTimeout('showComputerTime()', 1000);
+    }
+    var dat = new Date(); //当前时间 
+    var nianD = dat.getFullYear(); //当前年份 
+    var yueD = dat.getMonth(); //当前月 
+    var tianD = dat.getDate(); //当前天 这保存的年月日 是为了 当到达当前日期 有对比 
+
+    function showCalculator() {
+        document.getElementById("date").innerHTML = "";
+        var time = new Date();
+        var year = time.getFullYear(); //系统时间的年份
+        var month = time.getMonth(); //系统时间月份
+        document.getElementById("month").innerText = year + "年" + (month + 1) + "月";
+        var date = time.getDate(); //系统时间月份中的日
+        var day = time.getDay(); //系统时间中的星期值
+        var months1 = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; //平年月份天数 common year
+        var months2 = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; //闰年月份天数 leap year
+        var weeks = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+        var week01 = weeks[day]; //显示为星期几
+        var hour = time.getHours();
+
+        var firstDayOfCurrentMonth = new Date(year, month, 1).getDay(); //本月的第一天是周几
+        var totalNumOfCurrentMonth = new Date(year, month + 1, 0).getDate();
+        /*求当前月一共有多少天
+        new Date(year,month+1,0) ： month+1是下一个月，
+        因为每个月的第一天用的是index=1，
+        \所以the index of the day为0代表的是上一个月的最后一天，
+        即我们所需的当前月的最后一天。*/
+
+        //另一种方法计算当月总共多少天
+        // var currentMonth = isRunNian();
+        // function isRunNian() {
+        //     if ((year % 4 == 0 || year % 400 == 0) && year % 100 != 0)
+        //         return months2[month];
+        //     else
+        //         return months1[month];
+        // };
+
+
+        //添加第一天前面的空白
+        for (var i = 0; i < firstDayOfCurrentMonth; i++) {
+            var li = document.createElement("li");
+            document.getElementById("date").appendChild(li);
+        }
+        //添加并显示当月所有的日期
+        for (var i = 1; i <= totalNumOfCurrentMonth; i++) {
+            var li = document.createElement("li");
+            li.innerText = i; //innerText是不包括html标签的，是只标签内所装填的文本内容
+            if (year == nianD && month == yueD && i == tianD) {
+                li.className = "active";
+            } else {
+                li.className = "hover";
+            }
+            document.getElementById('date').appendChild(li);
+        }
+
+    }
+    showCalculator(); //显示日历
+</script>
+
+</html>
