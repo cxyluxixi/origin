@@ -13,7 +13,7 @@ soup.a.string
 type(soup.a.string)
 soup.a.contents #a节点的所有子节点的全部内容以列表方式返回
 soup.body.children #for child in soup.body.children
-soup.body.descentants
+soup.body.descentants #全部的后代
 soup.a.parents
 soup.a.parent
 soup.a.next_siblings

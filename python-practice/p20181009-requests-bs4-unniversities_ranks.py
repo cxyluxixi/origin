@@ -22,7 +22,9 @@ def fillUnivList(univList, html):
 def printUnivList(univList,num):
     for i in range(num):
         univ = univList[i]
-        print("{:<10}\t{:<6}\t{:<10}\t".format(univ[0],univ[1],univ[2]))
+        print("{:<10}\t{:<10}\t{:<10}".format(univ[0],univ[1],univ[2]))
+        # chr(12288)为utf-8limian的中文空格，一般用来填充，使得表格居中对齐
+        # 例如"{0:<10}\t{1:{3}<10}\t{2:<10}".format(univ[0],univ[1],univ[2],chr(12288))
 
     print("Rank" + str(num))
 

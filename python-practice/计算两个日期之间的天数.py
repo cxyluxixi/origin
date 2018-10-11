@@ -62,8 +62,8 @@ def test():
     for (args, answer) in test_cases:
         result = daysBetweenDates(*args)
         if result != answer:
-            print "Test with data:", args, "failed"
+            print("Test with data:", args, "failed")
         else:
-            print "Test case passed!"
+            print("Test case passed!")
 
 test()
