@@ -14,7 +14,7 @@ for i in range(scale+1):
 import time 
 for i in range(101):
     print("\r{:3}%".format(i))
-    time.spleey(0.1)
+    time.sleep(0.1)
 
 #第三种单行刷新的文本条
 # TextProBarV3.py

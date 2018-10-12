@@ -17,6 +17,7 @@ def parsePage(ls,html):
             price = eval(plt[i].split(":")[1])
             title = eval(tlt[i].split(":")[1])
             ls.append([title,price])
+            
     except:
         print("")
 
@@ -25,7 +26,7 @@ def printGoodsList(ls):
     print("\t{:6}\t{:10}\t{:4}".format("序号","商品名称","价格"))
     count = 0
     for g in ls:
-        count += 1
+        count = count + 1
         print("\t{:4}\t{:10}\t{:4}".format(count,g[0],g[1]))
 
 def main():
