@@ -17,6 +17,9 @@ def parsePage(ls,html):
             price = eval(plt[i].split(":")[1])
             title = eval(tlt[i].split(":")[1])
             ls.append([title,price])
+            # 这里不能使用ls = ls.append(......)
+            # 因为这里append返回NoteType,无法再次赋值
+            # 所以直接使用ls.append就可以了
             
     except:
         print("")

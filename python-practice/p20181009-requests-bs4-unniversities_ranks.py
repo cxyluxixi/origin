@@ -17,7 +17,9 @@ def fillUnivList(univList, html):
         if isinstance(tr, bs4.element.Tag):
             tdList = tr('td')
             univList.append([tdList[0].string,tdList[1].string,tdList[2].string])
-
+            # 这里不能使用univList = univList.append(......)
+            # 因为这里append返回NoteType,无法再次赋值
+            # 所以直接使用univList.append就可以了
     pass
 
 def printUnivList(univList,num):
