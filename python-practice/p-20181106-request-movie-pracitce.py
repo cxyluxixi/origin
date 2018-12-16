@@ -81,4 +81,5 @@ def makeMovieWordCloud(fileName,imageName):
     w.generate(txt)
     w.to_file('movieWordCloud.jpg')
 
-main(5)
+if __name__ == "__main__":
+    main(5)

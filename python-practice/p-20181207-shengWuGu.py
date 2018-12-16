@@ -6,7 +6,7 @@ import random
 import json
 import uuid
 import redis
-
+from lxml import etree
 
 
 small = 6311932  #2018.11.28号最小值5730003
@@ -82,7 +82,7 @@ def getShengWuGuText(eachUrl):
         listArticle = soup.find('div', attrs={'class': 'text3'})
         print(listArticle)
         if len(listArticle):
-            pText = ''
+            # pText = ''
             print("标题：", title)
             print("日期：", dateText)
             print('下面都是正文：')
@@ -95,19 +95,26 @@ def getShengWuGuText(eachUrl):
             #     pText = pText + ppp
             # print(pText)
 
+
+            # 上述方法不行，改用lxml库中的etree
+            context = etree.HTML(html.content.decode('utf-8'))
+            p = context.xpath('string(//*[@class="text3"])')
+            print(p) 
+
             # 添加字段到字典
             eachDic['id'] = str(idUrl)
             eachDic['标题'] = title
             eachDic['日期'] = dateText
-            eachDic['正文'] = pText
+            eachDic['正文'] = p
 
 
             # 将每个网页解析后的字典信息保存到文件里
             fileName = 'shengWuGuText-' + fileUrl + '.txt'
-            path = '/Users/luxixi/Downloads/huimeiyijian/'
+            path = '/Users/luxixi/Downloads/'
             print(fileName)
             with open(path + fileName,"w") as f:
                 f.write(json.dumps(eachDic,ensure_ascii=False))
+                # json.dump(eachDic,open(path + fileName,"w"),ensure_ascii=False)
             # r.set(str(uuid.uuid3(uuid.NAMESPACE_DNS, eachUrl)), eachUrl)
         else:
             print('没有正文，只添加uuid，并不保存文本文件，跳过') 
@@ -117,5 +124,3 @@ def getShengWuGuText(eachUrl):
 
 if __name__ == '__main__':
     main()
-
-

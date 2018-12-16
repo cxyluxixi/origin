@@ -9,14 +9,14 @@ import codecs
 now = datetime.now()             #开始计时
 print(now)
 
-txtfile = codecs.open("top250.txt",'w','utf-8')
+txtfile = codecs.open("/Users/luxixi/Downloads/douban/top250.txt",'w','utf-8')
 url = "http://book.douban.com/top250?"
 
 header = { "User-Agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.13 Safari/537.36",
            "Referer": "http://book.douban.com/"
            }
 
-image_dir = "/Users/luxixi/Downloads/douban/"
+image_dir = "/Users/luxixi/Downloads/douban/image/"
 #下载图片
 def download_img(imageurl,imageName = "xxx.jpg"):
     rsp = requests.get(imageurl, stream=True)
@@ -42,7 +42,9 @@ for i in range(0,250,25):
     print("Now to get " + geturl)
     postData = {"start":i}                                #post数据
     res = s.post(url,data = postData,headers = header)    #post
-    soup = BeautifulSoup(res.content.decode(),"html.parser")       #BeautifulSoup解析
+    
+    #BeautifulSoup解析
+    soup = BeautifulSoup(res.content.decode(),"html.parser")       
     table = soup.findAll('table',{"width":"100%"})        #找到所有图书信息的table
     sz = len(table)                                       #sz = 25,每页列出25篇文章
     for j in range(1,sz+1):                               #j = 1~25
@@ -67,7 +69,7 @@ for i in range(0,250,25):
         rating = str(sp.find('span',{"class":"rating_nums"}).string)    #抓取平分数据
         nums = sp.find('span',{"class":"pl"}).string                    #抓取评分人数
         nums = nums.replace('(','').replace(')','').replace('\n','').strip()
-        nums = re.findall('(\d+)人评价',nums)[0]
+        nums = re.findall(r'(\d+)人评价',nums)[0]
         #print(type(rating),rating)
         #print(type(nums),nums)
         download_img(imageurl,bookName)                     #下载图片
@@ -84,6 +86,7 @@ for i in range(0,250,25):
         if tag == "":              #如果标签为空，置"无"
             tag = "None"
         
+        # 写入Excel文件
         writelist=[i+j,bookName,nickname,float(rating),int(nums),imageurl,bookurl,notion,tag]
         for k in range(0,9):
             if(k == 5):
