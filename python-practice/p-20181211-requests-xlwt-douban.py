@@ -5,9 +5,16 @@ import xlwt
 from bs4 import BeautifulSoup
 from datetime import datetime
 import codecs
+import os
+
 
 now = datetime.now()             #开始计时
 print(now)
+
+# 创建文件目录
+image_dir = "/Users/luxixi/Downloads/douban/image/"
+if not os.path.exists(image_dir):
+    os.makedirs('/Users/luxixi/Downloads/douban/image/')
 
 txtfile = codecs.open("/Users/luxixi/Downloads/douban/top250.txt",'w','utf-8')
 url = "http://book.douban.com/top250?"
@@ -15,8 +22,7 @@ url = "http://book.douban.com/top250?"
 header = { "User-Agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.13 Safari/537.36",
            "Referer": "http://book.douban.com/"
            }
-
-image_dir = "/Users/luxixi/Downloads/douban/image/"
+    
 #下载图片
 def download_img(imageurl,imageName = "xxx.jpg"):
     rsp = requests.get(imageurl, stream=True)
