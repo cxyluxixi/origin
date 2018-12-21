@@ -42,7 +42,7 @@ def is_login():
     response = session.get("https://www.zhihu.com/inbox", headers=header, allow_redirects=False)
     if response.status_code != 200:
         print('还未登陆')
-        zhihu_login("632137620@qq.com", "hsh199131")
+        zhihu_login("123123", "123123")
     else:
         print("你已经登陆了")
 
