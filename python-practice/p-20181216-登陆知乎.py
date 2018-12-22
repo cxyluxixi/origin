@@ -59,6 +59,7 @@ def get_signature(time_str):
     source = 'com.zhihu.web'
     now = time_str
     h.update((grant_type + client_id + source + now).encode('utf-8'))
+    print(h.hexdigest())
     return h.hexdigest()
 
 
@@ -114,7 +115,7 @@ def zhihu_login(account, password):
         'captcha': get_identifying_code(header)
     }
 
-    response = session.post(post_url, data=post_data, headers=header, cookies=session.cookies)
+    response = session.post(post_url, data=post_data, headers=header,cookie = session.cookies)
     print(response.status_code)
     if response.status_code == 201:
         # 保存cookie，下次直接读取保存的cookie，不用再次登录

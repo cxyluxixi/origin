@@ -2,8 +2,10 @@ import requests
 import re 
 from bs4 import BeautifulSoup
 
-# 为什么单独运行，可以打印出xsrf，但是放入p-20181216-爬虫知乎登陆.py 报错
+# 1。为什么单独运行，可以打印出xsrf，但是放入p-20181216-爬虫知乎登陆.py 报错
 # 错误为KeyError  没有key xsrf
+
+# 2. 为什么response，get两次，就无法正确请求，报错KeyError，如果只get response一次，就不报错
 
 
 # 利用session保持链接
@@ -17,6 +19,7 @@ header = {
     'Connection': 'keep-alive'
 }
 
+response = session.get("https://www.zhihu.com/signup", headers=header)
 response = session.get("https://www.zhihu.com/signup", headers=header)
 m_dict =  response.cookies.get_dict()
 print(m_dict['_xsrf'])
