@@ -139,3 +139,111 @@ for i in range(0, 30):
     b = '' # 将b还原，重新进入循环产生下一项
     c.append(a)
 print(len(a))
+
+
+# eleven
+# http://www.pythonchallenge.com/pc/return/5808.html
+# odd even  奇偶,split the image by odd/even??
+
+from io import BytesIO
+from PIL import Image
+import requests
+img = Image.open('将图片下载保存，这里放入绝对路径')
+(w, h) = img.size
+
+w = img.width
+h = img.height
+
+# 生成奇偶两张画布
+odd = Image.new('RGB',(w,h))
+even = Image.new('RGB',(w,h))
+
+# split the image by odd/even
+for i in range(w):
+    for i in range(h):
+        # 获取每个坐标点的像素(r,g,b,a)
+        p = img.getpixel(i,j)
+
+        # 横纵坐标和，奇数/偶数
+        if(i+j)%2 == 1:
+            odd.putpixel((i,j),p)
+        else:
+            even.putpixel((i,j),p)
+
+even.save('even.jpg')
+odd.save('odd.jpg')
+
+
+# twelve
+# http://www.pythonchallenge.com/pc/return/evil.html
+# dealing evil
+# image = evil1.jpg
+# try evil2.jpg
+# try evil2.gfx
+# 下载保存这个文件，evil2.gfx
+data = open("/Users/luxixi/Downloads/evil2.gfx",'rb').read()
+for i in range(5):
+    # 将数据分成五份，保存为图片
+    open('%d.jpg' % i,'wb').write(data[i::5])  
+    # 五张图片显示为disproportional
+
+
+
+
+# thirdteen
+# http://www.pythonchallenge.com/pc/return/disproportional.html
+# phone the evil
+# 在上一关，evil4.jpg 里e代码显示 Bert is evil,
+# 在本关，电话图片中“5”可以点击，点击之后的url为http://www.pythonchallenge.com/pc/phonebook.php
+# 这个url里显示了一段代码
+# 搜索了一下这段代码，需要用xmlrpc来运行获取其中的信息
+import xmlrpc.client 
+conn = xmlrpc.client.ServerProxy('http://www.pythonchallenge.com/pc/phonebook.php')
+conn.system.listMethods() # ['phone', 'system.listMethods', 'system.methodHelp', 'system.methodSignature', 'system.multicall', 'system.getCapabilities']
+conn.system.methodHelp('phone')
+conn.system.methodSignature('phone')
+print(conn.phone('Bert')) #555-ITALY
+
+
+
+
+# fourteen
+# http://www.pythonchallenge.com/pc/return/italy.html 
+# 网页代码里有注释
+# <!-- remember: 100*100 = (100+99+99+98) + (...  -->
+# 括号为一组，表示四个方向的坐标。从大到小，按照大图（面包螺旋的方向）（右下左上）
+# 按照括号的数组长度，一圈一圈的螺旋往中间点画
+# 查看下面的小图，发现图的原始大小为 10000*1=100*100
+from PIL import Image 
+im = Image.open('http://www.pythonchallenge.com/pc/return/wire.jpg')
+out = Image.new('RGB',[100,100])
+
+# 画图指针，四个方向箭头，每画一个点，换下一个方向，画一个点 
+delta =[(1,0),(0,1),(-1,0),(0,-1)]
+x,y,p = -1,0,0
+
+d = 200
+# 后面用于获得边长，s = d//2
+# 获得类似（100+99+99+98)的数组，每次整除以2，
+# 得到的即为（100 99 99 98），（98 97 97 96）
+# 一圈四条边，每次画一条边（100，99，99，98）
+while d/2>0:
+    for v in delta:
+        ss = d // 2
+        for s in range(ss):
+            x = x+v[0]
+            y = y+v[1]
+            z = im.getpixel(p,0)
+            out.putpixel((x,y),z)
+            p+=1
+        d -=1
+out.save('Pchallenge14.jpg')
+# cat
+
+
+
+# fifteen
+# 
+
+
+

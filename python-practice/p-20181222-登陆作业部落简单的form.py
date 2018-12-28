@@ -75,7 +75,7 @@ datas = {
 }
 mm = s.post('https://www.zybuluo.com/login', data=datas)
 print(mm.status_code)
-r = re.findall('luxixi',mm.text)
+r = re.findall('luxixi123456',mm.text)
 print(r[0])
 
 
