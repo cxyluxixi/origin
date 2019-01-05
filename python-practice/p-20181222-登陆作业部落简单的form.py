@@ -68,14 +68,14 @@ response = s.get(url)
 header = response.headers
 
 datas = {
-    'login': '632137620@qq.com',
-    'password': 'hsh199131',
+    'login': 'MMMMMM',
+    'password': 'MMMM',
     'human':'',
     'form.submit': ''
 }
 mm = s.post('https://www.zybuluo.com/login', data=datas)
 print(mm.status_code)
-r = re.findall('luxixi123456',mm.text)
+r = re.findall('username',mm.text)
 print(r[0])
 
 
