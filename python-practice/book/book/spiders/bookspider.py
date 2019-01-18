@@ -2,6 +2,9 @@
 import scrapy
 from book.items import BookItem
 
+
+
+# scrapy 教程 https://www.xncoding.com/tags/scrapy/ 
 # 创建project  scrapy startproject spidername
 # cd切换目录到爬虫目录，编写items.py， 设置数据表中需要有哪些指标，如：name=spider.Field()
 # 开始编写spider文件，parse()写解析式，提取上一步需要的那些items，相当于requests中bs4的find，find_all表达式
