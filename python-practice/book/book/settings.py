@@ -54,10 +54,11 @@ ROBOTSTXT_OBEY = True
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 # 将在中间件文件中写的代理ip类，导入进来，也就是我们middlwares.py 中的class my_proxy()
-#DOWNLOADER_MIDDLEWARES = {
+DOWNLOADER_MIDDLEWARES = {
 #    'book.middlewares.BookDownloaderMiddleware': 543,
-#    'book.middlewares.my_proxy':数字越小，优先级越高,
-#}
+#    'book.middlewares.my_proxy':'数字越小，优先级越高',
+#    'book.middlewares.my_user_agent':'数字越小，优先级越高‘,
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
