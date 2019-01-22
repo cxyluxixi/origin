@@ -8,16 +8,12 @@
 import scrapy
 
 
-class BookItem(scrapy.Item):
+class WeatherItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-
-    # 书籍名称
-    name = scrapy.Field()
-    # 书籍价格
-    price = scrapy.Field()
-    # 书籍名称
-    title = scrapy.Field()
-    # 书籍图片地址
-    imgUrl = scrapy.Field()
-    
+    date = scrapy.Field()
+    weekday = scrapy.Field()
+    weather = scrapy.Field()
+    temperature = scrapy.Field()
+    wind = scrapy.Field()
+    pass
