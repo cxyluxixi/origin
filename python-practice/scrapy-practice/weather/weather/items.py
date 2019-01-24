@@ -14,6 +14,6 @@ class WeatherItem(scrapy.Item):
     date = scrapy.Field()
     weekday = scrapy.Field()
     weather = scrapy.Field()
-    temperature = scrapy.Field()
+    tempHigh = scrapy.Field()
     wind = scrapy.Field()
     pass

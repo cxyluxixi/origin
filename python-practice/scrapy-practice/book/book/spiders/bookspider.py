@@ -106,7 +106,8 @@ class xxxspider(scrapy.Spider):
         '''比如我们要爬取淘宝上的商品，我们在第一层爬取时候获得了标题(title)和价格(price)，
         但是还想获得商品的图片，就是那些点进去的大图片，假设点进去的链接是上述代码的url，
         利用scrpy.Request请求url后生成一个Request对象，通过meta参数，把item这个字典赋值给meta字典的'item'键，
-        即meta={'item':item}，这个meta参数会被放在Request对象里一起发送给parse2()函数。'''
+        即meta={'item':item}，这个meta参数会被放在Request对象里一起发送给parse2()函数。
+        '''
     def parse_page2(self,response):
         item = response.meta['item']
         for product in response.css('......').extract():

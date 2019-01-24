@@ -40,8 +40,8 @@ class JsonWritePipeline(object):
         self.file = open('items.json','w')
         
     def process_item(self,item,spider):
-        line = json.dumps(dict(item)) + '\n'
-        self.file.write(line)
+        line = json.dumps(dict(item),ensure_ascii=False)+',' +'\n'
+        json.dump(line,self.file)
         return item
 
     
