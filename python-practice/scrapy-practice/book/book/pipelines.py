@@ -43,7 +43,6 @@ class JsonWritePipeline(object):
         line = json.dumps(dict(item),ensure_ascii=False)+',' +'\n'
         json.dump(line,self.file)
         return item   
-
     
 # 保存图片，写入文件，wb二进制
 class ImageWritePipeline(object):
