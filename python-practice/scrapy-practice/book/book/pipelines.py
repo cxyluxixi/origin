@@ -42,7 +42,7 @@ class JsonWritePipeline(object):
     def process_item(self,item,spider):
         line = json.dumps(dict(item),ensure_ascii=False)+',' +'\n'
         json.dump(line,self.file)
-        return item  
+        return item   
 
     
 # 保存图片，写入文件，wb二进制
