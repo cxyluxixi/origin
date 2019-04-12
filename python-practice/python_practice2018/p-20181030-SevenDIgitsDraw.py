@@ -46,4 +46,7 @@ def main():
     drawDate(time.strftime('%Y-%m=%d+',time.gmtime()))
     turtle.hideturtle()
     turtle.done()
-main()
+
+
+if __name__ == "__main__":
+    main()
