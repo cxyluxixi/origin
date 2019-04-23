@@ -37,17 +37,23 @@ def eachPage(ulist,url):
     keyWord = soup1.find('h1',attrs={'class':'keyword'}).text.strip()
     soundsDiv = soup1.find('div',attrs={'class':'base-speak'})
     sounds = ''
+
+    # 去掉div中间的所有标签<>
     for i in soundsDiv.children:
         p = str(i)
         pp = re.sub(r'<[^>]+>',"",p)
         ppp = re.sub(r'\n|\r','',pp)
         sounds = sounds +' '+ ppp
+
+
     # meaningsUl = soup1.find('ul',{'class':'base-list'})
+    # 单词意思的文本，全部找出来，形成一个列表meanings
     meanings = soup2.xpath('//li[@class="clearfix"]//span/text()')
     print(type(meanings))
     meaning = ''
     for j in meanings:
-        m = re.match('[a-zA-Z.,]+',j)
+        m = re.match('[a-zA-Z.,]+',j) 
+        #对每一项进行判断是否含有字母（表示词性），如果有，则换行没有则合并
         if m:
             meaning = meaning + '\n'+ j
         else:

@@ -1,23 +1,3 @@
-def a(lst):
-	def b():
-		def c(x,y):
-			return x+y
-		return map(c,lst)
-	return b
-
-# m = a([2,4,5])
-# print m()
-# 13
-mm = a([2,4,5])
-print (mm)
-
-f = open("dataFileName.txt","w")
-ls = [[],[],[]]
-for item in ls:
-	f.write(",".join(item)+ '/n')
-
-f.close()
-
 #GovRptWordCloudv1.py
 import jieba
 import wordcloud

@@ -2,19 +2,6 @@
 import jieba 
 import json
 import matplotlib
-
-# #获取每个文件的内容
-def getWordDetail(filename):
-    with open(filename,'r') as f:
-        job = json.load(f)
-        details = job['details'].lower()
-        details = details.replace(' ','')
-        details = details.replace('\xa0', '')
-        return details
-# text = getWordDetail('s数据文件绝对路径')
-# fc = jieba.lcut(text)
-# print('/'.join(fc))
-
 import os
 
 text = '''
@@ -56,17 +43,6 @@ warnings.warn('Selenium support for PhantomJS has been deprecated, please use he
 这里推荐我们使用谷歌或者火狐的浏览器，所以我们在后面将以谷歌浏览器结合Selenium来示例。
 最后就是一个我们使用浏览器经常会使用的一个动作了，拖动滚动条。具体操作见下面这个示例。
 '''
-# # 将所有文件的内容合并
-# files = os.listdir('数据文件目录')
-# text = ''
-# jobCount = 0
-# for n in range(0, 1000):
-#     if not files[n].find('.json')==-1:
-#         details = getWordDetail('数据文件目录' + files[n])
-#         if details.find('python') != -1 or details.find('tensorflow') != -1:
-#             jobCount += 1
-#             text += details
-# print('>>Got jobs:', jobCount)
 
 
 

@@ -33,3 +33,14 @@ class KrystalPipeline(ImagesPipeline):
     # def file_path(self,request,response=None,info=None):
     #    filename = request.meta['image_name']
     #    return filename
+
+    # # 将图片转移至以 post_id 为名的子目录中
+    # for (dest, src) in image_paths.items():
+        # dir = settings.IMAGES_STORE
+        # newdir = dir + os.path.dirname(src) + '/' + item['post_id'] + '/'
+        # if not os.path.exists(newdir):
+            # os.makedirs(newdir)
+        # os.rename(dir + src, newdir + dest)
+    # 将保存路径保存于 item 中（image_paths 需要在 items.py 中定义）
+    # item['image_paths'] = image_paths
+    # return item
