@@ -29,7 +29,7 @@ class MusicSpider(scrapy.Spider):
     def start_requests(self):
         for id in self.ids:
             for initial  in self.initials:
-                each_url = '{url}/discover/artist/cat?id={id}&initial={initial}'.format(url=self.base_url,id=id,initial=initial)
+                each_url = '{url}/#/discover/artist/cat?id={id}&initial={initial}'.format(url=self.base_url,id=id,initial=initial)
 
                 yield scrapy.Request(each_url,callback = self.parse_artists_url)
 
@@ -38,7 +38,7 @@ class MusicSpider(scrapy.Spider):
         artists_url = response.xpath('//*[@class="sml"]/a[1]/@href').extract()
         for artist_url in artists_url:
             # artist_url 长这样"/artist?id=961075"
-            artist_url = self.base_url +'artist/album?'+artist_url[8:]
+            artist_url = self.base_url +'/#/artist/album?'+artist_url[8:]
             yield scrapy.Request(artist_url, callback=self.parse_artist_albums)
 
 
