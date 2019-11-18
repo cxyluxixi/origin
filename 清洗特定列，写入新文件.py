@@ -2,7 +2,9 @@
 # coding: utf-8
 
 
+
 # 清洗excel特定的行，判断价格列是否为数字，判断国条码是否为空
+import re
 import xlrd
 import pandas as pd
 from pandas import DataFrame
@@ -94,34 +96,9 @@ def read_excel_intoDataFrame(old_file):
     return df_Excel_Data
 
 
-# 判断是否为数字，开始清洗特定的列的数据,两个参数
-def washYourDataFrame(df,col_index_list,bool_choice):
-#     sum_all_cols_NA_null = df.isnull().sum().sort_values(ascending=False)
-    
-#     去除该列数据的前后空格
-#     df[col_index] = df[col_index].str.lstrip()
-    error_loc_list = []
-#     使用正则判断是不是数字或空白，是则pass，不是则反馈坐标，用户选择是否替换为空
-    for col_index in col_index_list:
-        print(df[col_index])
-        
-######### 从第几行开始，就把3改为几，注意保护表头
-        for i in range(3,len(df[col_index])):
-            if (pd.isnull(df[col_index][i])) or (df[col_index][i] == '') or (pd.isna(df[col_index][i])):
-                pass
-            else:
-                try:
-                    float(df[col_index][i])
-                    pass
-                except:
-                    if bool_choice == True:
-                        df[col_index][i] = ''
-                    else:
-                        error_loc_list.append([i,col_index,df[col_index][i]]) #抛出非数字的异常值及其坐标，形成一个列表
-    return df,error_loc_list
 
 
-#判断有无国条码,或编码
+#判断特定列有无，国条码列有无编码，无填充为"xxx"
 def wash_sku_id(df,id_col_index_list,replace_string_list):
 #     print(id_col_index_list,replace_string_list)
     for i in id_col_index_list:
@@ -132,21 +109,47 @@ def wash_sku_id(df,id_col_index_list,replace_string_list):
                 print(df[i][n])
                 
     return df
+
+
+# 判断列的值是否是数字格式，开始清洗特定的列的数据,两个参数， 想要清洗的列的索引，和异常值是否替换为空，两个参数
+def washYourDataFrame(df,col_index_list,start_row_index,bool_choice):
+#     sum_all_cols_NA_null = df.isnull().sum().sort_values(ascending=False)
     
+#     去除该列数据的前后空格
+#     df[col_index] = df[col_index].str.lstrip()
+    error_loc_list = []
+#     使用正则判断是不是数字或空白，是则pass，不是则反馈坐标，用户选择是否替换为空
+    for col_index in col_index_list:
+#         print(df[col_index])  
+        # 从第几行开始start_row_index，注意保护表头
+        for i in range(start_row_index,len(df[col_index])):
+            if (pd.isnull(df[col_index][i])) or (df[col_index][i] == '') or (pd.isna(df[col_index][i])):
+                pass
+            else:
+                try:
+                    float(df[col_index][i])
+                    pass
+                except:
+                    if bool_choice == True:
+                        df[col_index][i] = ''
+                        error_loc_list.append([i,col_index,df[col_index][i]])
+                    else:
+                        error_loc_list.append([i,col_index,df[col_index][i]]) #抛出非数字的异常值及其坐标，形成一个列表
+    return df,error_loc_list    
 
 # pandas处理过的数据写入新的文件
 def write_df_into_excel(data,new_file_address):
     writer = pd.ExcelWriter(new_file_address) 
     data.to_excel(writer,'清洗69码和每一列的格式')  #第二个参数为sheet的命名
     writer.save()
-    return writer 
+    return writer
  
     
 
 
 if __name__=='__main__':
 ################# 想清洗的文件列表，list
-    file_address = ["D:\商采-绩效分析-供应链\比价-进价-跟进\\dicai第二轮43周明细.xlsx"] 
+    file_address = ["D:\商采-绩效分析-供应链\比价-进价-跟进\python第一轮地采汇总xxx.xlsx"] 
     datavalue = []
     rvalue = getAllSheetsData(file_address) #返回一个包含所有表所有行的data，二维list,所有值变成str
 
@@ -155,14 +158,14 @@ if __name__=='__main__':
     df_Excel_Data = pd.DataFrame(rvalue)
     print(df_Excel_Data.head())
     df_Excel_Data = wash_sku_id(df_Excel_Data,[5],['xxx'])
-    print(df_Excel_Data)
-    df_Excel_Data,error_loc_list = washYourDataFrame(df_Excel_Data,[21,24,25],False) #21是谈判后进价，24是谈判前返利，25是谈判后返利
+#     print(df_Excel_Data)
+    df_Excel_Data,error_loc_list = washYourDataFrame(df_Excel_Data,[21,24,25],3,False) #21是谈判后进价，24是谈判前返利，25是谈判后返利
     # 将异常值及其坐标写入新文件
     if error_loc_list == []:
         pass
     else:
-        error_file = write_into_new_file(error_loc_list,'D:\商采-绩效分析-供应链\比价-进价-跟进\非数字的异常值-坐标.xlsx')        
+        error_file = write_into_new_file(error_loc_list,'D:\商采-绩效分析-供应链\比价-进价-跟进\地采异常值-坐标-44周.xlsx')        
     ############## 处理之后的df_Excel_Data写入文件时，会增加列index，和行index，最左上角增加一行一列
 #         print(error_file)
-    file_e = write_df_into_excel(df_Excel_Data,'D:\商采-绩效分析-供应链\比价-进价-跟进\df_Excel_data_xx周.xlsx')
+    file_e = write_df_into_excel(df_Excel_Data,'D:\商采-绩效分析-供应链\比价-进价-跟进\第一轮地采明细汇总_44周.xlsx')
     
