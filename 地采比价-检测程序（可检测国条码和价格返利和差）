@@ -152,30 +152,33 @@ def washYourDataFrame(df,col_index_list,start_row_index,bool_choice,jinjiafanli_
     fanli_2 =jinjiafanli_list[3]
 #     print(jinjia_1)
     for m in range(start_row_index,len(df[jinjia_1])):
-        if (pd.isnull(df[jinjia_2][m])) or (df[jinjia_2][m] == '') or (pd.isna(df[jinjia_2][m]))or (pd.isnull(df[fanli_2][m])) or (df[fanli_2][m] == '') or (pd.isna(df[fanli_2][m]))or(pd.isnull(df[fanli_1][m])) or (df[fanli_1][m] == '') or (pd.isna(df[fanli_1][m])):
-            pass
-        else:
-            try:
-                df[jinjia_1][m]=float(df[jinjia_1][m])
-                df[jinjia_2][m]=float(df[jinjia_2][m])
-                df[fanli_1][m] =float(df[fanli_1][m])
-                df[fanli_2][m] =float(df[fanli_2][m])
-                
-                if((df[jinjia_1][m]-df[jinjia_2][m])>df[jinjia_2][m]):
-                    print("价格差过大")
-                    error_loc_list.append([m,jinjia_2,"价格差过大",df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
-                elif((df[fanli_2][m]-df[fanli_1][m])>df[jinjia_2][m]):
-                    print("返利差过大")
-                    error_loc_list.append([m,fanli_2,"返利差过大",df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
+        if ((pd.isna(df[jinjia_2][m]))or pd.isnull(df[jinjia_2][m])or (df[jinjia_2][m]=='')):
+            df[jinjia_2][m]=df[jinjia_1][m]
+        if ((pd.isna(df[fanli_2][m])) or (df[fanli_2][m] == '') or (pd.isnull(df[fanli_2][m]))):
+            df[fanli_2][m]=0
+        if((pd.isna(df[fanli_1][m])) or (df[fanli_1][m] == '') or (pd.isnull(df[fanli_1][m]))):    
+            df[fanli_1][m]=0
+        try:
+            df[jinjia_1][m]=float(df[jinjia_1][m])
+            df[jinjia_2][m]=float(df[jinjia_2][m])
+            df[fanli_1][m] =float(df[fanli_1][m])
+            df[fanli_2][m] =float(df[fanli_2][m])
+
+            if((df[jinjia_1][m]-df[jinjia_2][m])>df[jinjia_2][m]):
+                print("价格差过大")
+                error_loc_list.append([m,jinjia_2,"价格差过大",df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
+            elif((df[fanli_2][m]-df[fanli_1][m])>df[jinjia_2][m]):
+                print("返利差过大")
+                error_loc_list.append([m,fanli_2,"返利差过大",df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
 #                 elif(df[jinjia_2][m]>df[jinjia_1][m]):
 #                     print("谈判后新进价大于清单原始进价")
 #                     error_loc_list.append([m,jinjia_2,"谈判后新进价大于清单原始进价",df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
-                elif(df[fanli_2][m]>=df[jinjia_2][m]or df[fanli_1][m]>=df[jinjia_1][m] ):
-                    print("返利大于进价")
-                    error_loc_list.append([m,jinjia_2,"返利大于进价",df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
-            except:
-                print('该行进价返利列，不符合填写要求')
-                error_loc_list.append([m,m,'该行进价返利列，不符合填写要求',df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
+            elif(df[fanli_2][m]>=df[jinjia_2][m]or df[fanli_1][m]>=df[jinjia_1][m] ):
+                print("返利大于进价")
+                error_loc_list.append([m,jinjia_2,"返利大于进价",df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
+        except:
+            print('该行进价返利列，不符合填写要求')
+            error_loc_list.append([m,m,'该行进价返利列，不符合填写要求',df.iloc[m,0],df.iloc[m,1],df.iloc[m,2],df.iloc[m,5]])
                 
 
     return df,error_loc_list
@@ -187,13 +190,14 @@ def write_df_into_excel(data,new_file_address):
     writer = pd.ExcelWriter(new_file_address) 
     data.to_excel(writer,'清洗69码和每一列的格式')  #第二个参数为sheet的命名
     writer.save()
+    print(new_file_address+"已直接合并写入文件")
     return writer
  
 
 
 if __name__=='__main__':
 ################# 想清洗的文件列表，list
-    file_address = ["D:\商采-绩效分析-供应链\比价-进价-跟进\dicai43周明细-第一轮地采汇总xxx.xlsx"] 
+    file_address = ["D:\商采-绩效分析-供应链\比价-进价-跟进\python第三轮地采汇总xxx.xlsx"] 
     datavalue = []
     rvalue = getAllSheetsData(file_address) #返回一个包含所有表所有行的data，二维list,所有值变成str
 
@@ -203,13 +207,12 @@ if __name__=='__main__':
 #     print(df_Excel_Data.head())
     df_Excel_Data = wash_sku_id(df_Excel_Data,[5],['xxx'])
 #     print(df_Excel_Data)
-    df_Excel_Data,error_loc_list = washYourDataFrame(df_Excel_Data,[21,24,25],3,False,jinjiafanli_list=[11,21,24,25]) #21是谈判后进价，24是谈判前返利，25是谈判后返利
+    file_e = write_df_into_excel(df_Excel_Data,'D:\商采-绩效分析-供应链\比价-进价-跟进\第三轮地采明细汇总_46周.xlsx')
+    df_Excel_Data_new,error_loc_list = washYourDataFrame(df_Excel_Data,[21,24,25],3,False,jinjiafanli_list=[11,21,24,25]) #21是谈判后进价，24是谈判前返利，25是谈判后返利
     # 将异常值及其坐标写入新文件
     if error_loc_list == []:
         pass
     else:
-        error_file = write_into_new_file(error_loc_list,'D:\商采-绩效分析-供应链\比价-进价-跟进\地采异常值-坐标-44周.xlsx')        
+        error_file = write_into_new_file(error_loc_list,'D:\商采-绩效分析-供应链\比价-进价-跟进\地采异常值-坐标-46周.xlsx')        
     ############## 处理之后的df_Excel_Data写入文件时，会增加列index，和行index，最左上角增加一行一列
-
-    file_e = write_df_into_excel(df_Excel_Data,'D:\商采-绩效分析-供应链\比价-进价-跟进\第一轮地采明细汇总_44周.xlsx')
     
