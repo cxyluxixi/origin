@@ -152,11 +152,18 @@ if __name__=='__main__':
     file_address = ["D:\商采-绩效分析-供应链\比价-进价-跟进\python第一轮地采汇总xxx.xlsx"] 
     datavalue = []
     rvalue = getAllSheetsData(file_address) #返回一个包含所有表所有行的data，二维list,所有值变成str
-
-################## 想清洗数据的特定列，本文件只判断是否为数字
-     # washYourDataFrame 三个参数(1想清洗的数据源; 2.想清洗的列的index_list; 3是否替换为空，是替换，否抛出异常值坐标记录为文件）
+    
+    
+    #去掉list转df时的第一行，重命名列名
     df_Excel_Data = pd.DataFrame(rvalue)
-    print(df_Excel_Data.head())
+#     print(df_Excel_Data.head())
+    df_Excel_Data = df_Excel_Data.drop("Unnamed: 0",axis=1)
+    col_names = df_Excel_Data.iloc[0,:]
+    df_Excel_Data = df_Excel_Data.rename(columns=col_names)
+    
+    
+    ################## 想清洗数据的特定列，本文件只判断是否为数字
+     # washYourDataFrame 三个参数(1想清洗的数据源; 2.想清洗的列的index_list; 3是否替换为空，是替换，否抛出异常值坐标记录为文件）
     df_Excel_Data = wash_sku_id(df_Excel_Data,[5],['xxx'])
 #     print(df_Excel_Data)
     df_Excel_Data,error_loc_list = washYourDataFrame(df_Excel_Data,[21,24,25],3,False) #21是谈判后进价，24是谈判前返利，25是谈判后返利
