@@ -201,7 +201,9 @@ def write_df_into_excel(data,new_file_address):
 
 if __name__=='__main__':
 ################# 想清洗的文件列表，list
-    file_address = ["D:\商采-绩效分析-供应链\比价-进价-跟进\python第三轮地采汇总xxx.xlsx"] 
+    lunshu= 1
+    zhoushu = 48
+    file_address = ["D:\商采-绩效分析-供应链\比价-进价-跟进\python第{}轮地采汇总xxx.xlsx".format(lunshu)] 
     datavalue = []
     rvalue = getAllSheetsData(file_address) #返回一个包含所有表所有行的data，二维list,所有值变成str
     
@@ -217,12 +219,13 @@ if __name__=='__main__':
      # washYourDataFrame 三个参数(1想清洗的数据源; 2.想清洗的列的index_list; 3是否替换为空，是替换，否抛出异常值坐标记录为文件）
     df_Excel_Data = wash_sku_id(df_Excel_Data,[5],['xxx'])
 #     print(df_Excel_Data)
-    file_e = write_df_into_excel(df_Excel_Data,'D:\商采-绩效分析-供应链\比价-进价-跟进\第三轮地采明细汇总_47周.xlsx')
+    file_e = write_df_into_excel(df_Excel_Data,'D:\商采-绩效分析-供应链\比价-进价-跟进\第{0}轮地采明细汇总_{1}周.xlsx'.format(lunshu,zhoushu))
+#     df_Excel_Data.to_excel('D:\商采-绩效分析-供应链\比价-进价-跟进\第{0}轮地采明细汇总_{1}周.xlsx'.format(lunshu,zhoushu),sheet_name = "第{0}轮核算明细".format(lunshu))
     df_Excel_Data_new,error_loc_list = washYourDataFrame(df_Excel_Data,[21,24,25],3,False,jinjiafanli_list=[11,21,24,25]) #21是谈判后进价，24是谈判前返利，25是谈判后返利
     # 将异常值及其坐标写入新文件
     if error_loc_list == []:
         pass
     else:
-        error_file = write_into_new_file(error_loc_list,'D:\商采-绩效分析-供应链\比价-进价-跟进\地采异常值-坐标-47周.xlsx')        
+        error_file = write_into_new_file(error_loc_list,'D:\商采-绩效分析-供应链\比价-进价-跟进\地采异常值-坐标-第{0轮-{1}周.xlsx'.format(lunshu,zhoushu))        
     ############## 处理之后的df_Excel_Data写入文件时，会增加列index，和行index，最左上角增加一行一列
     
