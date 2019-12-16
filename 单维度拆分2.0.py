@@ -1,4 +1,5 @@
 import pandas as pd 
+import time
 
 def split_test(wait_splitFile_address,split_col_1,split_col_2):
     xls_file = wait_splitFile_address
@@ -113,7 +114,7 @@ def split_test(wait_splitFile_address,split_col_1,split_col_2):
 if __name__ == '__main__':
 #     第一个参数是需要拆分的目标文件，第二参数是按照哪一些拆分，第三个是所有要填入第二个参数的列的行
     since = time.time()
-    split_test("D:\商采-绩效分析-供应链\比价-进价-跟进\第四轮清单平台汇总.xlsx",'平台','平台')
+    split_test(r"D:\商采-绩效分析-供应链\比价-进价-跟进\第四轮清单平台汇总.xlsx",'平台','平台')
     # 程序执行部分
     ...
     ...
