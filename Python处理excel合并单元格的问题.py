@@ -44,7 +44,7 @@ def read(file_list,):
                 # 当前列的内容
                 col = sheet.col_values(curr_col_num)
                 # 遍历当前列的所有选项
-                for index in range(len(col))
+                for index in range(len(col)):
                     # 当前列第index的内容
                     value = col[index]
                     # 在写入的sheet的行号上，加入上一个表写到的位置行号，继续向后追加内容

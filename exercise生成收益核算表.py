@@ -58,7 +58,6 @@ def eachSKU_gross_profit_rate(Molecular,denominator):
 
 def evaluate_new_columns(file_address):
     xls_file = file_address
-    xl = pd.ExcelFile(xls_file)
     df = pd.read_excel(xls_file,index_cols=0)
     print(df.columns)
     df['合并码'] = df.apply(lambda df: df['企业']+str(df['国条码']),axis = 1)
