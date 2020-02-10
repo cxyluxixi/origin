@@ -91,7 +91,7 @@ def write_sheet_into_new_file(data,newFileName):
    
 # pandas读取excel，生成df数据，开始准备清洗;
 def read_excel_intoDataFrame(old_file):
-    df_Excel_Data = pd.read_excel(file)
+    df_Excel_Data = pd.read_excel(old_file)
     print(df_Excel_Data.head())
     return df_Excel_Data
 
@@ -103,7 +103,7 @@ def wash_sku_id(df,id_col_index_list,replace_string_list):
 #     print(id_col_index_list,replace_string_list)
     for i in id_col_index_list:
         for n in range(3,len(df[i])):
-            if(pd.isnull(df[i][n])) or (pd.isna(df[i][n])) or df[i][n]=='':
+            if(pd.isnull(df[i][n])) or df[i][n]=='':
                 df[i][n] = replace_string_list[0]
             else:
 #                 print(df[i][n])
@@ -126,7 +126,7 @@ def washYourDataFrame(df,col_index_list,start_row_index,bool_choice,jinjiafanli_
 #         print(df[col_index])  
         # 从第几行开始start_row_index，注意保护表头
         for i in range(start_row_index,len(df[col_index])):
-            if (pd.isnull(df[col_index][i])) or (df[col_index][i] == '') or (pd.isna(df[col_index][i])):
+            if (pd.isnull(df[col_index][i])) or (df[col_index][i] == ''):
                 pass
             else:
                 try:
@@ -152,14 +152,13 @@ def washYourDataFrame(df,col_index_list,start_row_index,bool_choice,jinjiafanli_
     fanli_2 =jinjiafanli_list[3]
 #     print(jinjia_1)
     for m in range(start_row_index,len(df[jinjia_1])):
-        if ((pd.isna(df[jinjia_2][m]))or pd.isnull(df[jinjia_2][m])or (df[jinjia_2][m]=='')):
+        if (pd.isnull(df[jinjia_2][m]))or (df[jinjia_2][m]==''):
             df[jinjia_2][m]=df[jinjia_1][m]
             pass
-
-        if ((pd.isna(df[fanli_2][m])) or (df[fanli_2][m] == '') or (pd.isnull(df[fanli_2][m]))):
+        if (df[fanli_2][m] == '') or (pd.isnull(df[fanli_2][m]))):
             df[fanli_2][m]=0
             pass
-        if((pd.isna(df[fanli_1][m])) or (df[fanli_1][m] == '') or (pd.isnull(df[fanli_1][m]))):    
+        if (df[fanli_1][m] == '') or (pd.isnull(df[fanli_1][m]))):    
             df[fanli_1][m]=0
             pass
         try:
