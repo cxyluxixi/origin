@@ -11,39 +11,39 @@ def split_test(wait_splitFile_address,split_col_1,split_col_2):
         department_list = [] #平台列表
         company_list = []
         for i in range(rows):
-            temp = data[split_col_1][i]
+            stage = data[split_col_1][i]
             company = data[split_col_2][i]
             if company not in company_list:  
                 company_list.append(company)
-                if temp not in department_list:
-                    department_list.append(temp)# 将分类存在一个列表中
-                    department_dict[temp] = [company]  # 建立分类字典
+                if stage not in department_list:
+                    department_list.append(stage)# 将分类存在一个列表中
+                    department_dict[stage] = [company]  # 建立分类字典
                 else:
                     # 分类字典添加数据
-                    key_list = department_dict[temp]
+                    key_list = department_dict[stage]
                     key_list.append(company)
-                    department_dict[temp] = key_list
+                    department_dict[stage] = key_list
             else:
-                if temp not in department_list:
-                    department_list.append(temp)# 将分类存在一个列表中
-                    department_dict[temp] = [company]  # 建立分类字典
+                if stage not in department_list:
+                    department_list.append(stage)# 将分类存在一个列表中
+                    department_dict[stage] = [company]  # 建立分类字典
                 else:
                     pass
     #                 # 分类字典添加数据
-    #                 key_list = department_dict[temp]
+    #                 key_list = department_dict[stage]
     #                 key_list.append(company)
-    #                 department_dict[temp] = key_list
+    #                 department_dict[stage] = key_list
         print(company_list)
         print(department_dict)
 
 
         ret_data =  {'list': department_list, 'dict': department_dict}
         split_work = {"xls_file": wait_splitFile_address, "xls_fld1": split_col_2,"xls_fld2":split_col_1, "file_head": u"拆分", "dir": "D:\商采-绩效分析-供应链\比价-进价-跟进"}
-        split_work['dict_list'] = ret_data['dict']
+        split_work['dict_list'] = ret_data['dict'] #平台：企业
         split_work['file_list'] = ret_data['list'] #平台
 
         xls_file = split_work['xls_file']
-        fld_key = split_work['xls_fld1']
+        # fld_key = split_work['xls_fld1']
 
         # 工作表数量
         xl = pd.ExcelFile(xls_file)
@@ -62,7 +62,7 @@ def split_test(wait_splitFile_address,split_col_1,split_col_2):
             comp_drop = department_dict[department]
             for company in department_dict[department]:
                 print(company)
-                file_name = u"{0}\{1}{2}{3}.xlsx".format(split_work['dir'], split_work['file_head'],department,company)
+                file_name = u"{0}/{1}{2}{3}.xlsx".format(split_work['dir'], split_work['file_head'],department,company)
                 work_item = [department, file_name]
                 xls_save_file = pd.ExcelWriter(file_name)
 
