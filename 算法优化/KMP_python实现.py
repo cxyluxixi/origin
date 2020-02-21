@@ -1,9 +1,10 @@
 def same_start_end(s):
     """最长前后缀相同的字符位数"""
     n = len(s) #整个字符串长度
-    j = 0 # 前缀匹配指向
-    i = 1 # 后缀匹配指向
+    j = 0 # 移动的自己，作为尺子——s[j]
+    i = 1 # 固定的自己，作为靶子——s[i]
     result_list=[0]*n
+    # result_list[0]=0,靶子从i=1，尺子从j=0开始
     while i < n:
         if j == 0 and s[j] != s[i]:  #　比较不相等并且此时比较的已经是第一个字符了
             result_list[i] = 0    # 值为０

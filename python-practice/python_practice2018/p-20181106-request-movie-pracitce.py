@@ -8,7 +8,7 @@ from scipy.misc import imread
 
 
 # 创建保存爬取数据的数组Movie
-Movie =  [['name','movie categories','year','nation'],]
+Movie =  [['name','year','movie categories','brief'],]
 
 # 爬取目标网站的单独一个网页
 def getHTMLText(url,code='urf-8'):
@@ -25,23 +25,28 @@ def getHTMLText(url,code='urf-8'):
 def getMovieList(MovieUrl):
     html = getHTMLText(MovieUrl,'utf-8')
     soup = BeautifulSoup(html,'html.parser')
-    MovieList = soup.find('ul',attrs={"class":'movie-list'})
-    MovieLinkList = MovieList.find_all('h2')
-    
-    for i in range(len(MovieLinkList)):
-                val = MovieLinkList[i].text
-                # print(val)
-                val = val.replace('】','【')
-                val = val.split('【')
-                if len(val) != 9:
-                    pass
-                else:
-                    movieName = val[0]
-                    movieAttr = val[5]
-                    movieYear = val[3]  
-                    movieNation = val[7]
-                    Movie.append([movieName,movieAttr,movieYear,movieNation])
-            
+    MovieList = soup.find('div',attrs={"class":'pure-u-1 pure-u-md-16-24'})
+    MovieLinkList = MovieList.find_all('h1')
+    MovieTagList = MovieList.find_all('div',{'class':'tags'})
+    MovieBriefList = MovieList.find_all('p',{'class':'l-des'})
+    print(len(MovieBriefList))
+    for i in range(4,len(MovieLinkList)):
+        val = MovieLinkList[i].text
+        brief = MovieBriefList[i-1].text
+        tag = MovieTagList[i].text
+        # print(val,tag,brief)
+        val = val.replace(')','')
+        val = val.split('(')
+        tag = tag.replace('标签：','')
+        if len(val) != 2:
+            pass
+        else:
+            movieName = val[0]
+            movieYear = val[1]
+            movieAttr = tag  
+            movieBrief = brief
+            Movie.append([movieName,movieYear,movieAttr,movieBrief])
+    print(Movie)
 
     return Movie
 
@@ -51,18 +56,18 @@ def writeFile(content):
     f = open('movielist.txt','r+')
     for i in range(len(content)):
         for m in range(len(content[i])):
-            f.write(str(content[i][m]))
+            f.write(str(content[i][m])+';')
         f.write('\n')
     
     f.close()
 
 #主程序，设置爬取总网页数，调用函数爬取 
 def main(page_num):
-    urls = ['http://www.dysfz.vip/{}?o=2'.format(str(i))for i in range(1,page_num+1)]
+    urls = ['http://www.wuhaozhan.net/?p={}'.format(str(i))for i in range(1,page_num+1)]
     for url in urls :
         getMovieList(url)
         writeFile(Movie)
-    makeMovieWordCloud('movielist.txt','q.jpg')
+    makeMovieWordCloud('movielist.txt','ai-mask.png')
     # for item in Movie:
     #     print(item)
     

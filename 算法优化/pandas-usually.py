@@ -23,7 +23,7 @@ value_counts(), unique(),mean(),plot()
 
 # df 列重命名：
 df1.columns = df1.columns.str.replace('xx', 'xxx')
-pd.read_csv('data', names = new_cols_names, header=0)
+pd.read_csv('data', names = 'new_cols_names', header=0)
 df1.rename(columns = {"old1": "new1", "old2":"new2"},  inplace=True) 
 #inplace参数表示，是否替换原df，还是保存赋值给新变量
 
@@ -47,11 +47,11 @@ df1.sort_values(['column1','column2',])
 
 
 # 字符串操作
-df1.column.str.upper/contains/replace/strip/rstrip/lstrip
+df1.column.str.upper() # /contains/replace/strip/rstrip/lstrip
 
 
 
 
 # 变更数据类型
 df1.column.astype('newtype')
-pd.read_csv('data',dtype={'column_name':newtype})
+pd.read_csv('data',dtype={'column_name':'newtype'})
