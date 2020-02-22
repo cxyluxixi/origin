@@ -2,27 +2,6 @@
 import scrapy
 from book.items import BookItem
 
-
-
-# scrapy 教程 https://www.xncoding.com/tags/scrapy/ 
-# 创建project  scrapy startproject spidername
-# cd切换目录到爬虫目录，编写items.py， 设置数据表中需要有哪些指标，如：name=spider.Field()
-# scrapy genspider spidername url domain 
-# 开始编写spider文件，parse()写解析式，提取items.py中需求的数据，也就是那些spider.Field()需要的那些items，相当于requests中bs4的find，find_all表达式
-# 写中间件，爬虫伪装，设置代理ip，my_proxy 服务器等
-# 写pipielines.py,一般是关于数据储存，判断清洗等爬下来之后的处理。
-# 设置settings.py， 一般是关于连接服务器和爬虫伪装的一些设置：开启管道,  user_agent,  headers,
-#DOWNLOADER_MIDDLEWARES = {
-#    'book.middlewares.BookDownloaderMiddleware': 543,
-#    'book.middlewares.my_proxy':数字越小，优先级越高,
-#
-# 运行scrapy   scrapy crawl spidername 
-# 这里看22行，是bookspider，那么就是 scrapy crawl bookspiders
-
-
-# 暂停爬虫进程， “scrapy crawl 爬虫名称 -s JOBDIR=保存进程的文件夹目录”
-# 比如 “scrapy crawl jobbole -s JOBDIR=job_info/001”
-# 再次重启爬虫进程，下次需要重启的时候，上一步相同的命令 “scrapy crawl jobbole -s JOBDIR=job_info/001”
 class BookspiderSpider(scrapy.Spider):
     name = 'bookspider'
     allowed_domains = ['books.toscrape.com']
