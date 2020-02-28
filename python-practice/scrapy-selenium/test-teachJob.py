@@ -27,5 +27,6 @@ for page in pages:
         # f.write(mm['id'])
             line = json.dumps(dict(data),ensure_ascii=False) +','+'\n'
             f.write(line)
+            # json.dump(dict(data),f)
         f.close()
 driver.close()
