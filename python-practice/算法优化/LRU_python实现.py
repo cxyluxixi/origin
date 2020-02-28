@@ -1,33 +1,4 @@
 #基于普通dict和list实现
-class LRUCache(object):
-    def __init__(self, size = 5):
-        self.size = size
-        self.cache = dict()
-        self.key = []
- 
-    def get(self, key):
-        if key in self.cache.keys():
-            self.key.remove(key)
-            self.key.insert(0,key)
-            return self.cache[key]
-        else:
-            return None
- 
-    def set(self, key, value):
-        if key in self.cache.keys():
-            self.cache.pop(key)
-            self.cache[key] = value
-            self.key.remove(key)
-            self.key.insert(0,key)
-        elif len(self.cache) == self.size:
-            old_key = self.key.pop()
-            self.cache.pop(old_key)
-            self.key.insert(0,key)
-            self.cache[key] = value
-        else:
-            self.cache[key] = value
-            self.key.insert(0,key)
-
 class LRU_object(object):
     def __init__(self,size=3):
         self.size = size
