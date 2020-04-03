@@ -77,7 +77,8 @@ print("{}kb".format(query_limited_result.total_bytes_processed))
 
 # 3
 # DATAOFWEEK 是一个内置函数，可以直接从日期数据类型的数据中计算出星期几，并返回
-# SQL 中having 跟在group by 后面，并且直接使用重命名之前的公式或者列名，比如COUNT(column_1)
+# SQL 中having 跟在group by 后面相当于excel透视表里的筛选条件，
+# 并且直接使用重命名之前的公式或者列名，比如COUNT(column_1)
 query3 = """
         SELECT COUNT(consecutive_number) AS num_accidents, 
             EXTRACT(DAYOFWEEK FROM timestamp_of_crash) AS day_of_week

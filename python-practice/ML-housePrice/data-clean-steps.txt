@@ -1,0 +1,11 @@
+Step1 : read csv
+Step2 : preview data
+Step3: check null value for every column
+Step4: complete null value
+Step5: feature engineering
+Step 5.1: delete some features
+Step 5.2: create new feature
+Step6: encode for categories columns
+Step 6.1: Sklearn LabelEncode
+Step 6.2: Pandas get_dummies
+Step 7: check for data cleaning
